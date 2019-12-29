@@ -47,7 +47,7 @@
 ## Podcasts :
 
 - [Geeks Blabla](https://geeksblabla.com/)
-- [Pantium](https://pentium.live/)
+- [Pentium](https://pentium.live/)
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
 
 ## Open Source Projects
@@ -56,6 +56,9 @@
 - [reactjs-popup](https://github.com/yjose/reactjs-popup) - A react popup component by [@yjose](https://github.com/yjose)
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
 - [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
+- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework)
+- [react-flex-ready](https://github.com/smakosh/react-flex-ready)
+- [Gatsby Portfolio theme & starter for developers](https://github.com/smakosh/gatsby-portfolio-dev)
 
 ## Books
 
