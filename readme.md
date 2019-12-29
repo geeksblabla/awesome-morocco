@@ -65,6 +65,9 @@
 - [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
 - [LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel. by [@rashidlaasri](https://github.com/rashidlaasri)
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
+- [v-odometer](https://github.com/JefferyHus/v-odometer) - Vue.js component to smoothly transition numbers with ease. by [@jefferyhus](https://github.com/JefferyHus)
+- [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
+
 
 ## Books
 
