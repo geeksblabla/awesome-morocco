@@ -56,9 +56,9 @@
 - [reactjs-popup](https://github.com/yjose/reactjs-popup) - A react popup component by [@yjose](https://github.com/yjose)
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
 - [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
-- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework
-- [react-flex-ready](https://github.com/smakosh/react-flex-ready) - Flex grid system
-- [gatsby-portfolio-dev](https://github.com/smakosh/gatsby-portfolio-dev) - Gatsby Portfolio theme & starter for developers
+- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
+- [react-flex-ready](https://github.com/smakosh/react-flex-ready) - Flex grid system by [@smakosh](https://github.com/smakosh)
+- [gatsby-portfolio-dev](https://github.com/smakosh/gatsby-portfolio-dev) - Gatsby Portfolio theme & starter for developers by [@smakosh](https://github.com/smakosh)
 - [v-odometer](https://github.com/JefferyHus/v-odometer) - Vue.js component to smoothly transition numbers with ease. by [@jefferyhus](https://github.com/JefferyHus)
 - [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
 
