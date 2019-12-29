@@ -59,6 +59,12 @@
 - [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
 - [react-flex-ready](https://github.com/smakosh/react-flex-ready) - Flex grid system by [@smakosh](https://github.com/smakosh)
 - [gatsby-portfolio-dev](https://github.com/smakosh/gatsby-portfolio-dev) - Gatsby Portfolio theme & starter for developers by [@smakosh](https://github.com/smakosh)
+- [eureca.io](https://github.com/Ezelia/eureca.io) - a nodejs bidirectional RPC that can use WebSocket, WebRTC or XHR fallback as transport layers.
+- [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
+- [Fancybuttons](https://github.com/medyo/Fancybuttons) - Icons, Borders, Radius ... for Android buttons. by [@medyo](https://github.com/medyo)
+- [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
+- [LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel. by [@rashidlaasri](https://github.com/rashidlaasri)
+- [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 
 ## Books
 
