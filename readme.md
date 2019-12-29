@@ -22,7 +22,7 @@
 
 - [Facebook Developers Circle: Casablanca ](https://www.facebook.com/groups/DevC.Casablanca/) - Collaborate, ask and meet other developers from Casablanca.
 - [Facebook Developers Circle: Rabat ](https://web.facebook.com/groups/DevCRabat) - Collaborate, ask and meet other developers from Rabat.
-- [Facebook Developers Circle: Marrakech ](https://web.facebook.com/groups/DevC.Marrakech) - Collaborate, ask and meet other developers from Rabat.
+- [Facebook Developers Circle: Marrakech ](https://web.facebook.com/groups/DevC.Marrakech) - Collaborate, ask and meet other developers from Marrakech.
 - [Google Developers Group Casablanca](https://gdgcasablanca.com/) - Google Developer Groups of Casablanca City.
 - [Rabat.js](https://twitter.com/RabatJS) - The Rbati community of JavaScript enthusiasts and professionals.
 
@@ -67,7 +67,6 @@
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 - [v-odometer](https://github.com/JefferyHus/v-odometer) - Vue.js component to smoothly transition numbers with ease. by [@jefferyhus](https://github.com/JefferyHus)
 - [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
-
 
 ## Books
 
