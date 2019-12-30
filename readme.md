@@ -79,6 +79,7 @@
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
+- [react-basic-items-pagination](https://github.com/elmehdibm/react-basic-items-pagination) - A react component helper to render set of items. by [@elmehdibm](https://github.com/elmehdibm)
 
 ## Books
 
