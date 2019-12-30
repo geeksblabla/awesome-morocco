@@ -78,6 +78,7 @@
 - [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
+- [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
 
 ## Books
 
