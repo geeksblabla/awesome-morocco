@@ -75,8 +75,8 @@
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 - [v-odometer](https://github.com/JefferyHus/v-odometer) - Vue.js component to smoothly transition numbers with ease. by [@jefferyhus](https://github.com/JefferyHus)
 - [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
-- [vue-dropify](https://www.npmjs.com/package/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
-- [kh-popover](https://www.npmjs.com/package/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
+- [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
+- [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 
 ## Books
 
