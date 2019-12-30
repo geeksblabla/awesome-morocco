@@ -25,10 +25,15 @@
 - [Facebook Developers Circle: Marrakech ](https://web.facebook.com/groups/DevC.Marrakech) - Collaborate, ask and meet other developers from Marrakech.
 - [Google Developers Group Casablanca](https://gdgcasablanca.com/) - Google Developer Groups of Casablanca City.
 - [Rabat.js](https://twitter.com/RabatJS) - The Rbati community of JavaScript enthusiasts and professionals.
+- [MorrocoJUG](https://www.facebook.com/groups/moroccojug/) -  Morocco Java User Group
+- [Moroccan Gamedev Community](https://www.facebook.com/groups/670735856666271/) - Everything related to games dev
+- [Docker Morocco](https://events.docker.com/casablanca/) - Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker.
+- [Devops Morocco](https://www.meetup.com/devops-in-morocco/) - a group of both Developers & Operations professionals (managers, engineers & hackers).
 
 ## Events :
 
 - [Devoxx Morocco](https://devoxx.ma/)
+- [ForLoop Morocco](https://twitter.com/forloopmorocco)
 
 ## Blogs :
 
@@ -50,6 +55,7 @@
 - [Geeks Blabla](https://geeksblabla.com/)
 - [Pentium](https://pentium.live/)
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
+- [Business B nab](https://www.facebook.com/BiznessBNab/)
 
 ## Open Source Projects
 
@@ -71,7 +77,7 @@
 
 ## Books
 
--
+- [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
 
 # 🧐 Want to contribute ?
 
