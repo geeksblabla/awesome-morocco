@@ -52,7 +52,7 @@
   - [Meriem Zaid](https://imeriem.com/) - Javascript, Python, React ....
   - [Othmane](https://othmane.io/) - Bootstrapping, Indie Making, SaaS
   - [Awaiting Bits](https://blog.zhaytam.com) - C#, .NET Core, Python, Data Science, ...
-  
+
 ## Podcasts :
 
 - [Geeks Blabla](https://geeksblabla.com/)
@@ -62,11 +62,6 @@
 
 ## Open Source Projects
 
-#### AI
-- [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
-
-#### CSS
-- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
 
 #### JAVASCRIPT
 - [Redux-saga](https://github.com/redux-saga/redux-saga) - An alternative side effect model for Redux apps by [@yelouafi](https://github.com/yelouafi)
@@ -79,6 +74,8 @@
 - [v-odometer](https://github.com/JefferyHus/v-odometer) - Vue.js component to smoothly transition numbers with ease. by [@jefferyhus](https://github.com/JefferyHus)
 - [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
+- [Vuejs Suglify](https://github.com/simoebenhida/vuejs-suglify) - A Vue component that slugify your v-model inputs. By [@simoebenhida](https://github.com/simoebenhida)
+- [Vuejs Tags](https://github.com/simoebenhida/vue-tags) - A Flexible Vue.js 2 input Tag component where you can edit wathever you like related to HTML/CSS. By [@simoebenhida](https://github.com/simoebenhida)
 
 #### JAVA
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
@@ -90,10 +87,23 @@
 #### PHP
 - [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel. by [@rashidlaasri](https://github.com/rashidlaasri)
+- [larapoll](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
+- [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
+- [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
+
+#### CSS
+- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
+- [Tailwindcss Starter](https://github.com/simoebenhida/tailwindcss-starter) - A tailwindcss boilerplate. By [@simoebenhida](https://github.com/simoebenhida)
+- [Tailwindcss Twitter Page](https://github.com/simoebenhida/tailwindcss-twitter-page) - A twitter profile made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
+- [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
+
+#### AI
+- [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
 
 #### Others
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
 - [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
+- [Geeks Blabla](https://github.com/akiyamaSM/geeksblabla) - GeeksBlala NuxtJS version
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 
 ## Books
