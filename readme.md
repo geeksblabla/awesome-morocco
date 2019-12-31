@@ -66,6 +66,7 @@
 - [reactjs-popup](https://github.com/yjose/reactjs-popup) - A react popup component by [@yjose](https://github.com/yjose)
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
 - [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
+- [Geeks Blabla](https://github.com/akiyamaSM/geeksblabla) - GeeksBlala NuxtJS version
 - [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
 - [react-flex-ready](https://github.com/smakosh/react-flex-ready) - Flex grid system by [@smakosh](https://github.com/smakosh)
 - [gatsby-portfolio-dev](https://github.com/smakosh/gatsby-portfolio-dev) - Gatsby Portfolio theme & starter for developers by [@smakosh](https://github.com/smakosh)
@@ -80,6 +81,7 @@
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
+- [chibi](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [react-basic-items-pagination](https://github.com/elmehdibm/react-basic-items-pagination) - A react component helper to render set of items. by [@elmehdibm](https://github.com/elmehdibm)
 - [SmartBreadcrumbs](https://github.com/zHaytam/SmartBreadcrumbs) - A utility library for ASP.NET Core websites to manage breadcrumbs. By [@zHaytam](https://github.com/zHaytam)
 
