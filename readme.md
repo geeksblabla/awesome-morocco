@@ -52,7 +52,7 @@
   - [Meriem Zaid](https://imeriem.com/) - Javascript, Python, React ....
   - [Othmane](https://othmane.io/) - Bootstrapping, Indie Making, SaaS
   - [Awaiting Bits](https://blog.zhaytam.com) - C#, .NET Core, Python, Data Science, ...
-  
+
 ## Podcasts :
 
 - [Geeks Blabla](https://geeksblabla.com/)
@@ -84,6 +84,13 @@
 - [larapoll](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [react-basic-items-pagination](https://github.com/elmehdibm/react-basic-items-pagination) - A react component helper to render set of items. by [@elmehdibm](https://github.com/elmehdibm)
 - [SmartBreadcrumbs](https://github.com/zHaytam/SmartBreadcrumbs) - A utility library for ASP.NET Core websites to manage breadcrumbs. By [@zHaytam](https://github.com/zHaytam)
+- [Vuejs Suglify](https://github.com/simoebenhida/vuejs-suglify) - A Vue component that slugify your v-model inputs. By [@simoebenhida](https://github.com/simoebenhida)
+- [Vuejs Tags](https://github.com/simoebenhida/vue-tags) - A Flexible Vue.js 2 input Tag component where you can edit wathever you like related to HTML/CSS. By [@simoebenhida](https://github.com/simoebenhida)
+- [Tailwindcss Starter](https://github.com/simoebenhida/tailwindcss-starter) - A tailwindcss boilerplate. By [@simoebenhida](https://github.com/simoebenhida)
+- [Tailwindcss Twitter Page](https://github.com/simoebenhida/tailwindcss-twitter-page) - A twitter profile made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
+- [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
+- [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
+- [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
 
 ## Books
 
