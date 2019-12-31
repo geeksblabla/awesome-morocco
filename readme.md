@@ -29,11 +29,15 @@
 - [Moroccan Gamedev Community](https://www.facebook.com/groups/670735856666271/) - Everything related to games dev
 - [Docker Morocco](https://events.docker.com/casablanca/) - Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker.
 - [Devops Morocco](https://www.meetup.com/devops-in-morocco/) - a group of both Developers & Operations professionals (managers, engineers & hackers).
+- [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
+
 
 ## Events :
 
 - [Devoxx Morocco](https://devoxx.ma/)
 - [ForLoop Morocco](https://twitter.com/forloopmorocco)
+- [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com/Event)
+
 
 ## Blogs :
 
