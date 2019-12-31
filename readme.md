@@ -62,26 +62,39 @@
 
 ## Open Source Projects
 
+#### AI
+- [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
+
+#### CSS
+- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
+
+#### JAVASCRIPT
 - [Redux-saga](https://github.com/redux-saga/redux-saga) - An alternative side effect model for Redux apps by [@yelouafi](https://github.com/yelouafi)
 - [reactjs-popup](https://github.com/yjose/reactjs-popup) - A react popup component by [@yjose](https://github.com/yjose)
-- [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
-- [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
-- [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
 - [react-flex-ready](https://github.com/smakosh/react-flex-ready) - Flex grid system by [@smakosh](https://github.com/smakosh)
 - [gatsby-portfolio-dev](https://github.com/smakosh/gatsby-portfolio-dev) - Gatsby Portfolio theme & starter for developers by [@smakosh](https://github.com/smakosh)
 - [eureca.io](https://github.com/Ezelia/eureca.io) - a nodejs bidirectional RPC that can use WebSocket, WebRTC or XHR fallback as transport layers.
-- [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
-- [Fancybuttons](https://github.com/medyo/Fancybuttons) - Icons, Borders, Radius ... for Android buttons. by [@medyo](https://github.com/medyo)
-- [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
-- [LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel. by [@rashidlaasri](https://github.com/rashidlaasri)
-- [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
+- [react-basic-items-pagination](https://github.com/elmehdibm/react-basic-items-pagination) - A react component helper to render set of items. by [@elmehdibm](https://github.com/elmehdibm)
+- [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [v-odometer](https://github.com/JefferyHus/v-odometer) - Vue.js component to smoothly transition numbers with ease. by [@jefferyhus](https://github.com/JefferyHus)
 - [es6-crawler-detect](https://github.com/JefferyHus/es6-crawler-detect) - ES6 module to help you detected and block bots, crawlers and spiders. by [@jefferyhus](https://github.com/JefferyHus)
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
-- [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
-- [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
-- [react-basic-items-pagination](https://github.com/elmehdibm/react-basic-items-pagination) - A react component helper to render set of items. by [@elmehdibm](https://github.com/elmehdibm)
+
+#### JAVA
+- [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
+- [Fancybuttons](https://github.com/medyo/Fancybuttons) - Icons, Borders, Radius ... for Android buttons. by [@medyo](https://github.com/medyo)
+
+#### ASP.NET
 - [SmartBreadcrumbs](https://github.com/zHaytam/SmartBreadcrumbs) - A utility library for ASP.NET Core websites to manage breadcrumbs. By [@zHaytam](https://github.com/zHaytam)
+
+#### PHP
+- [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
+- [LaravelInstaller](https://github.com/rashidlaasri/LaravelInstaller) - A web installer for Laravel. by [@rashidlaasri](https://github.com/rashidlaasri)
+
+#### Others
+- [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
+- [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
+- [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 
 ## Books
 
