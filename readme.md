@@ -94,6 +94,7 @@
 - [larapoll](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
 - [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
+- [Larabye](https://github.com/mouadziani/Larabye) - A mini PHP starter / framework. by [@mouadziani](https://github.com/mouadziani)
 
 #### CSS
 - [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
@@ -109,6 +110,7 @@
 - [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
 - [Geeks Blabla](https://github.com/akiyamaSM/geeksblabla) - GeeksBlala NuxtJS version
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
+- [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
 
 ## Books
 
