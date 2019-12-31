@@ -81,7 +81,7 @@
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [kh-popover](https://github.com/khofaai/kh-popover) - Popover build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [chibi](https://github.com/akiyamaSM/chibi) - A mini PHP framework. by [@akiyamaSM](https://github.com/akiyamaSM)
-- [chibi](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
+- [larapoll](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [react-basic-items-pagination](https://github.com/elmehdibm/react-basic-items-pagination) - A react component helper to render set of items. by [@elmehdibm](https://github.com/elmehdibm)
 - [SmartBreadcrumbs](https://github.com/zHaytam/SmartBreadcrumbs) - A utility library for ASP.NET Core websites to manage breadcrumbs. By [@zHaytam](https://github.com/zHaytam)
 
