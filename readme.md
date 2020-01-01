@@ -23,7 +23,8 @@
 - [Facebook Developers Circle: Casablanca ](https://www.facebook.com/groups/DevC.Casablanca/) - Collaborate, ask and meet other developers from Casablanca.
 - [Facebook Developers Circle: Rabat ](https://web.facebook.com/groups/DevCRabat) - Collaborate, ask and meet other developers from Rabat.
 - [Facebook Developers Circle: Marrakech ](https://web.facebook.com/groups/DevC.Marrakech) - Collaborate, ask and meet other developers from Marrakech.
-- [Google Developers Group Casablanca](https://gdgcasablanca.com/) - Google Developer Groups of Casablanca City.
+- [Google Developers Group Casablanca](https://gdgcasablanca.com/) - Google Developers Group of Casablanca City.
+- [Google Developers Group Agadir](https://www.meetup.com/GDGAgadir/) - Google Developers Group of Agadir City.
 - [Rabat.js](https://twitter.com/RabatJS) - The Rbati community of JavaScript enthusiasts and professionals.
 - [MorrocoJUG](https://www.facebook.com/groups/moroccojug/) -  Morocco Java User Group
 - [Moroccan Gamedev Community](https://www.facebook.com/groups/670735856666271/) - Everything related to games dev
