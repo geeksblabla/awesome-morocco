@@ -111,6 +111,7 @@
 - [Geeks Blabla](https://github.com/akiyamaSM/geeksblabla) - GeeksBlala NuxtJS version
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 - [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
+- [power-my-vscode](https://github.com/melbarch/power-my-vscode) - Make your VS Code great again! by [@melbarch](https://github.com/melbarch)
 
 ## Books
 
