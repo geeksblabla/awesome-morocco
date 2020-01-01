@@ -112,6 +112,9 @@
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 - [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
 
+## Articles
+- [7 things to consider for a successful Moroccan/MENA Mobile App](https://medium.com/@medyo80/7-things-to-consider-for-a-successful-moroccan-mena-mobile-app-3309c0234137) by [@medyo](https://github.com/medyo)
+
 ## Books
 
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
