@@ -31,6 +31,7 @@
 - [Docker Morocco](https://events.docker.com/casablanca/) - Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker.
 - [Devops Morocco](https://www.meetup.com/devops-in-morocco/) - a group of both Developers & Operations professionals (managers, engineers & hackers).
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
+- [Angular Community](https://www.meetup.com/fr-FR/ngMorocco/)
 
 
 ## Events :
