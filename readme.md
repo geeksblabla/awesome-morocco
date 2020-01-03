@@ -18,6 +18,8 @@
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
 
+---
+
 ### Communities
 
 - [Facebook Developers Circle: Casablanca](https://www.facebook.com/groups/DevC.Casablanca) - Collaborate, ask and meet other developers from Casablanca.
@@ -33,6 +35,7 @@
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco) - The Moroccan Angular Developer Community.
 
+---
 
 ### Events
 
@@ -40,6 +43,7 @@
 - [ForLoop Morocco](https://twitter.com/forloopmorocco)
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com/Event)
 
+---
 
 ### Blogs
 
@@ -60,12 +64,16 @@
   - [Othmane](https://othmane.io/) - Bootstrapping, Indie Making, SaaS
   - [Awaiting Bits](https://blog.zhaytam.com/) - C#, .NET Core, Python, Data Science, ...
 
+---
+
 ### Podcasts
 
 - [Geeks Blabla](https://geeksblabla.com/)
 - [Pentium](https://pentium.live/)
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
 - [Business B nab](https://www.facebook.com/BiznessBNab)
+
+---
 
 ### Open Source Projects
 
@@ -122,9 +130,13 @@
 - [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
 - [power-my-vscode](https://github.com/melbarch/power-my-vscode) - Make your VS Code great again! by [@melbarch](https://github.com/melbarch)
 
+---
+
 ### Books
 
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
+
+---
 
 ### 🧐 Want to contribute ?
 
@@ -136,6 +148,8 @@ You'll need a GitHub account!
 2. Click on the readme.md file and click the edit icon.
 3. You can start editing the text of the file in the in-browser editor. Make sure your awesome thing is in the right section.
 4. submit a PR.
+
+---
 
 ### Licensing
 
