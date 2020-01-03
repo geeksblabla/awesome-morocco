@@ -82,6 +82,9 @@
 - [vue-dropify](https://github.com/khofaai/vue-dropify) - Dropify build for vuejs framework. by [@khofaai](https://github.com/khofaai)
 - [Vuejs Suglify](https://github.com/simoebenhida/vuejs-suglify) - A Vue component that slugify your v-model inputs. By [@simoebenhida](https://github.com/simoebenhida)
 - [Vuejs Tags](https://github.com/simoebenhida/vue-tags) - A Flexible Vue.js 2 input Tag component where you can edit wathever you like related to HTML/CSS. By [@simoebenhida](https://github.com/simoebenhida)
+- [HIBP JS](https://github.com/mehdibo/hibp-js) - Library to check your password against haveibeenpwned
+- [Ckeditor-uploadfile](https://github.com/mehdibo/ckeditor-uploadfile) - CKEditor plugin to upload files
+- [Jquery-imgedit](https://github.com/mehdibo/jquery-imgedit) - Small jQuery plugin to edit an inline image 
 
 #### JAVA
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
@@ -97,6 +100,11 @@
 - [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
 - [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
 - [Larabye](https://github.com/mouadziani/Larabye) - A mini PHP starter / framework. by [@mouadziani](https://github.com/mouadziani)
+- [SlackBatch](https://github.com/mehdibo/SlackBatch) - A CLI tool made with PHP to send Slack invitations
+- [Codeigniter-recaptcha](https://github.com/mehdibo/Codeigniter-recaptcha) - A CodeIgniter library to use Google's recaptcha
+- [Codeigniter-sslhook](https://github.com/mehdibo/Codeigniter-SSLHook) - A tool to set appropriate headers/redirection for SSL websites
+- [PHPForms](https://github.com/mehdibo/PHPForms) - A set of of tools to help you create forms and export data as fast as possible
+- [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
 
 #### CSS
 - [Unnamed CSS](https://github.com/smakosh/unnamed-css-framework) - Micro colorful CSS framework by [@smakosh](https://github.com/smakosh)
@@ -114,6 +122,7 @@
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 - [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
 - [power-my-vscode](https://github.com/melbarch/power-my-vscode) - Make your VS Code great again! by [@melbarch](https://github.com/melbarch)
+- [phpslim-dev](https://github.com/mehdibo/phpslim-dev) - Docker image for PHP Slim framework Development
 
 ## Books
 
