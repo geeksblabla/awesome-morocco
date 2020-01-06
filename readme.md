@@ -94,6 +94,8 @@
 - [HIBP JS](https://github.com/mehdibo/hibp-js) - Library to check your password against haveibeenpwned
 - [Ckeditor-uploadfile](https://github.com/mehdibo/ckeditor-uploadfile) - CKEditor plugin to upload files
 - [Jquery-imgedit](https://github.com/mehdibo/jquery-imgedit) - Small jQuery plugin to edit an inline image 
+- [Salat-api](https://github.com/Kafiil/salat-api) - A simple public rest api to get the prayers times for cities in Morocco based on the official data form the Moroccan Ministry. By [@kafiil](https://github.com/Kafiil)
+- [Salat](https://github.com/Kafiil/salat) - A small web app to get prayers time in cities of Morocco. By [@kafiil](https://github.com/Kafiil)
 
 #### JAVA
 
