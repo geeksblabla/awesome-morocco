@@ -42,7 +42,6 @@
 
 - [Devoxx Morocco](https://devoxx.ma/)
 - [ForLoop Morocco](https://twitter.com/forloopmorocco)
-- [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com/Event)
 
 ---
 
