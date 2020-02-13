@@ -146,6 +146,7 @@
 ### Books
 
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
+- [Eloquent JavaScript](https://eloquentjavascript.net)
 
 ---
 
