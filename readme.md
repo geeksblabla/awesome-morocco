@@ -141,7 +141,7 @@
 - [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
 - [power-my-vscode](https://github.com/melbarch/power-my-vscode) - Make your VS Code great again! by [@melbarch](https://github.com/melbarch)
 - [phpslim-dev](https://github.com/mehdibo/phpslim-dev) - Docker image for PHP Slim framework Development
-- [oronapy-cli](https://github.com/mehdibo/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH]
+- [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
 
 ---
 
