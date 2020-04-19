@@ -64,6 +64,7 @@
   - [Othmane](https://othmane.io/) - Bootstrapping, Indie Making, SaaS
   - [Awaiting Bits](https://blog.zhaytam.com/) - C#, .NET Core, Python, Data Science, ...
   - [OffBy2](https://offby2.com) - C#, .NET, Docker and other random things
+  - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
 
 ---
 
