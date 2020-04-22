@@ -52,7 +52,8 @@
   - [xHub Blog](https://xlog.x-hub.io/)
   - [Obytes Blog](https://obytes.com/blog)
   - [United Remote](https://dev.to/unitedremote)
-
+  - [Remote.ma](https://remote.ma/)
+  
 - Developers
 
   - [Mohammed Aboullaite ](https://aboullaite.me/) - Java , Docker...
@@ -66,16 +67,17 @@
   - [OffBy2](https://offby2.com) - C#, .NET, Docker and other random things
   - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
   - [Mohamed Elbahja](https://elbahja.me) - PHP, Golang, Vue.js, Sysadmin...
-
+  - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship 
+  
 ---
 
 ### Podcasts
 
-- [Geeks Blabla](https://geeksblabla.com/)
+- [GeeksBlabla](https://geeksblabla.com/)
 - [Pentium](https://pentium.live/)
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
 - [Business B nab](https://www.facebook.com/BiznessBNab)
-
+- [DevCast](https://www.devcast.ma/)
 ---
 
 ### Open Source Projects
@@ -144,8 +146,8 @@
 #### Others
 
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
-- [Geeks Blabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
-- [Geeks Blabla](https://github.com/akiyamaSM/geeksblabla) - GeeksBlala NuxtJS version
+- [GeeksBlabla](https://github.com/DevC-Casa/geeksblabla.com) - GeeksBlala website source code
+- [GeeksBlabla](https://github.com/akiyamaSM/geeksblabla) - GeeksBlala NuxtJS version
 - [daktilo](https://github.com/kronik3r/daktilo) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r)
 - [saferwall](https://github.com/saferwall/saferwall) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy)
 - [power-my-vscode](https://github.com/melbarch/power-my-vscode) - Make your VS Code great again! by [@melbarch](https://github.com/melbarch)
