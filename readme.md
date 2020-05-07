@@ -68,6 +68,7 @@
   - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
   - [Mohamed Elbahja](https://elbahja.me) - PHP, Golang, Vue.js, Sysadmin...
   - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship 
+  - [Younes Eramzi](https://eramzi.com/blog/) - wordpress, Digital branding, Web
   
 ---
 
