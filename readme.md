@@ -127,6 +127,7 @@
 - [Codeigniter-sslhook](https://github.com/mehdibo/Codeigniter-SSLHook) - A tool to set appropriate headers/redirection for SSL websites
 - [PHPForms](https://github.com/mehdibo/PHPForms) - A set of of tools to help you create forms and export data as fast as possible
 - [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
+- [Bulksms-notifier](https://github.com/mehdibo/bulksms-notifier) - A Symfony Notifier bridge for bulksms.ma
 
 #### Go/Golang
 
