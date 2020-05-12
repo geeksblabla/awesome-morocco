@@ -72,7 +72,7 @@
   - [Meriam Kharbat](https://medium.com/@MeriamKharbat) - software, startup
   - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
   - [Hamza Belmellouki](https://medium.com/@hamzabelmellouki123) - Java, Spring...
-
+  - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
 ---
 
 ### Podcasts
@@ -106,6 +106,8 @@
 - [Salat-api](https://github.com/Kafiil/salat-api) - A simple public rest api to get the prayers times for cities in Morocco based on the official data form the Moroccan Ministry. By [@kafiil](https://github.com/Kafiil)
 - [Salat](https://github.com/Kafiil/salat) - A small web app to get prayers time in cities of Morocco. By [@kafiil](https://github.com/Kafiil)
 - [Corona-wash-reminder](https://github.com/akiyamaSM/corona-wash-reminder) - A small A mobile app to remind you to wash your hands. By [@akiyamaSM](https://github.com/akiyamaSM)
+- [Graf-it](https://github.com/akramsaouri/graf-it) - Generate a mock GraphQL API without writing a single line of code.
+- [Pastify](https://github.com/akramsaouri/pastify) - Quickly create Spotify playlists.
 
 #### JAVA
 
