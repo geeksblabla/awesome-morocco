@@ -108,6 +108,7 @@
 - [Corona-wash-reminder](https://github.com/akiyamaSM/corona-wash-reminder) - A small A mobile app to remind you to wash your hands. By [@akiyamaSM](https://github.com/akiyamaSM)
 - [Graf-it](https://github.com/akramsaouri/graf-it) - Generate a mock GraphQL API without writing a single line of code.
 - [Pastify](https://github.com/akramsaouri/pastify) - Quickly create Spotify playlists.
+- [xorq](https://github.com/ezzarghili/xorq) - A minimalistic xhr javascript library. by [@ezzarghili](https://github.com/ezzarghili)
 
 #### JAVA
 
@@ -135,7 +136,7 @@
 
 #### Go/Golang
 
-- [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili]
+- [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
 
