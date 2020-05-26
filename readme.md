@@ -71,7 +71,7 @@
   - [Younes Eramzi](https://eramzi.com/blog/) - wordpress, Digital branding, Web
   - [Meriam Kharbat](https://medium.com/@MeriamKharbat) - software, startup
   - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
-  - [Hamza Belmellouki](https://medium.com/@hamzabelmellouki123) - Java, Spring...
+  - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
 ---
 
