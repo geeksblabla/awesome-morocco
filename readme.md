@@ -109,6 +109,8 @@
 - [Graf-it](https://github.com/akramsaouri/graf-it) - Generate a mock GraphQL API without writing a single line of code.
 - [Pastify](https://github.com/akramsaouri/pastify) - Quickly create Spotify playlists.
 - [xorq](https://github.com/ezzarghili/xorq) - A minimalistic xhr javascript library. by [@ezzarghili](https://github.com/ezzarghili)
+- [FireAdmin](https://github.com/AXeL-dev/FireAdmin) - A minimalistic headless CMS around Angular & Firebase. by [@AXeL](https://github.com/AXeL-dev)
+- [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
 
 #### JAVA
 
