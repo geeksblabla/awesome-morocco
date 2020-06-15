@@ -17,7 +17,6 @@
 - [Podcasts](#podcasts)
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
-- [Channels](#channels)
 ---
 
 ### Communities
@@ -82,11 +81,9 @@
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
----
-### Channels
-
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
 ---
+
 ### Open Source Projects
 
 #### JAVASCRIPT
