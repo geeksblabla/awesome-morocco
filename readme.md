@@ -17,7 +17,7 @@
 - [Podcasts](#podcasts)
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
-- [Channels](#channels]
+- [Channels](#channels)
 ---
 
 ### Communities
