@@ -86,7 +86,7 @@
 ### Channels
 
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
-
+---
 ### Open Source Projects
 
 #### JAVASCRIPT
