@@ -82,6 +82,9 @@
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
+- [DevRev Morocco](https://www.facebook.com/devrevmorocco/)
+- [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
+
 ---
 
 ### Open Source Projects
