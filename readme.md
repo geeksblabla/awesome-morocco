@@ -52,7 +52,8 @@
   - [Obytes Blog](https://obytes.com/blog)
   - [United Remote](https://dev.to/unitedremote)
   - [Remote.ma](https://remote.ma/)
-  
+  - [Nimble Ways](https://blog.nimbleways.com/)
+
 - Developers
 
   - [Mohammed Aboullaite ](https://aboullaite.me/) - Java , Docker...
@@ -66,7 +67,7 @@
   - [OffBy2](https://offby2.com) - C#, .NET, Docker and other random things
   - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
   - [Mohamed Elbahja](https://elbahja.me) - PHP, Golang, Vue.js, Sysadmin...
-  - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship 
+  - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship
   - [Younes Eramzi](https://eramzi.com/blog/) - wordpress, Digital branding, Web
   - [Meriam Kharbat](https://medium.com/@MeriamKharbat) - software, startup
   - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
@@ -82,6 +83,8 @@
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
+- [DevRev](https://www.facebook.com/devrevmorocco/)
+- [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
 ---
 
 ### Open Source Projects
@@ -102,7 +105,7 @@
 - [Vuejs Tags](https://github.com/simoebenhida/vue-tags) - A Flexible Vue.js 2 input Tag component where you can edit wathever you like related to HTML/CSS. By [@simoebenhida](https://github.com/simoebenhida)
 - [HIBP JS](https://github.com/mehdibo/hibp-js) - Library to check your password against haveibeenpwned
 - [Ckeditor-uploadfile](https://github.com/mehdibo/ckeditor-uploadfile) - CKEditor plugin to upload files
-- [Jquery-imgedit](https://github.com/mehdibo/jquery-imgedit) - Small jQuery plugin to edit an inline image 
+- [Jquery-imgedit](https://github.com/mehdibo/jquery-imgedit) - Small jQuery plugin to edit an inline image
 - [Salat-api](https://github.com/Kafiil/salat-api) - A simple public rest api to get the prayers times for cities in Morocco based on the official data form the Moroccan Ministry. By [@kafiil](https://github.com/Kafiil)
 - [Salat](https://github.com/Kafiil/salat) - A small web app to get prayers time in cities of Morocco. By [@kafiil](https://github.com/Kafiil)
 - [Corona-wash-reminder](https://github.com/akiyamaSM/corona-wash-reminder) - A small A mobile app to remind you to wash your hands. By [@akiyamaSM](https://github.com/akiyamaSM)
