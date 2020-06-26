@@ -73,6 +73,7 @@
   - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
   - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
+  - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
 ---
 
 ### Podcasts
