@@ -138,6 +138,7 @@
 - [PHPForms](https://github.com/mehdibo/PHPForms) - A set of of tools to help you create forms and export data as fast as possible
 - [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
 - [Bulksms-notifier](https://github.com/mehdibo/bulksms-notifier) - A Symfony Notifier bridge for bulksms.ma
+- [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package  for localbitcoins Api 
 
 #### Go/Golang
 
