@@ -74,6 +74,7 @@
   - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
   - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
+  - [LAGHRAOUI El Mehdi] (http://www.laghraoui.com/) - Java, Spring, ...
 ---
 
 ### Podcasts
