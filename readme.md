@@ -50,7 +50,7 @@
 
   - [xHub Blog](https://xlog.x-hub.io/)
   - [Obytes Blog](https://obytes.com/blog)
-  - [United Remote](https://dev.to/unitedremote)
+  - [Gemography](https://dev.to/gemography)
   - [Remote.ma](https://remote.ma/)
   - [Nimble Ways](https://blog.nimbleways.com/)
 
