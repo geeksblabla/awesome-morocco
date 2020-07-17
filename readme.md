@@ -50,7 +50,7 @@
 
   - [xHub Blog](https://xlog.x-hub.io/)
   - [Obytes Blog](https://obytes.com/blog)
-  - [United Remote](https://dev.to/unitedremote)
+  - [Gemography](https://dev.to/gemography)
   - [Remote.ma](https://remote.ma/)
   - [Nimble Ways](https://blog.nimbleways.com/)
 
@@ -75,6 +75,11 @@
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
   - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
   - [LAGHRAOUI El Mehdi] (http://www.laghraoui.com/) - Java, Spring, ...
+  - [Ismail_Elazizi](https://ismailelazizi.com/blog) - Design, UX/UI, Design tips ...
+  - [KAOUSSI Souhail](https://medium.com/@artisoft) - Javascript - Vue ...
+  - [Mehdi Cheracher](https://chermehdi.com) - Java, Performance...
+  - [Anas Mazouni](https://blog.anasmazouni.dev/) - Programming, Robotics and other random stuff ...
+  - [Youssef Lghoumaigui](https://lghou.com/) - C#, Vue js...
 ---
 
 ### Podcasts
@@ -85,6 +90,7 @@
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
+- [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
 - [DevRev](https://www.facebook.com/devrevmorocco/)
 - [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
 ---
@@ -141,12 +147,19 @@
 - [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
 - [Bulksms-notifier](https://github.com/mehdibo/bulksms-notifier) - A Symfony Notifier bridge for bulksms.ma
 - [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package  for localbitcoins Api 
+- [Kickstart](https://github.com/Stormix/kickstart) - A very opinionated Laravel SPA boilerplate using Laravel 7.x / Typescript / Vue / TailwindCSS + Pest & Cypress for testing by [@Stormix](https://github.com/Stormix)
+- [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
+
+#### Python
+ - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
+ - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
 
 #### Go/Golang
 
 - [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
+- [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
 
 #### CSS
 
