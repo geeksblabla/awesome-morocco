@@ -50,9 +50,10 @@
 
   - [xHub Blog](https://xlog.x-hub.io/)
   - [Obytes Blog](https://obytes.com/blog)
-  - [United Remote](https://dev.to/unitedremote)
+  - [Gemography](https://dev.to/gemography)
   - [Remote.ma](https://remote.ma/)
-  
+  - [Nimble Ways](https://blog.nimbleways.com/)
+
 - Developers
 
   - [Mohammed Aboullaite ](https://aboullaite.me/) - Java , Docker...
@@ -66,12 +67,19 @@
   - [OffBy2](https://offby2.com) - C#, .NET, Docker and other random things
   - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
   - [Mohamed Elbahja](https://elbahja.me) - PHP, Golang, Vue.js, Sysadmin...
-  - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship 
+  - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship
   - [Younes Eramzi](https://eramzi.com/blog/) - wordpress, Digital branding, Web
   - [Meriam Kharbat](https://medium.com/@MeriamKharbat) - software, startup
   - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
   - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
+  - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
+  - [Ismail_Elazizi](https://ismailelazizi.com/blog) - Design, UX/UI, Design tips ...
+  - [KAOUSSI Souhail](https://medium.com/@artisoft) - Javascript - Vue ...
+  - [Mehdi Cheracher](https://chermehdi.com) - Java, Performance...
+  - [Anas Mazouni](https://blog.anasmazouni.dev/) - Programming, Robotics and other random stuff ...
+  - [Youssef Lghoumaigui](https://lghou.com/) - C#, Vue js...
+
 ---
 
 ### Podcasts
@@ -83,6 +91,8 @@
 - [DevCast](https://www.devcast.ma/)
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
 - [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
+- [DevRev](https://www.facebook.com/devrevmorocco/)
+- [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
 ---
 
 ### Open Source Projects
@@ -103,7 +113,7 @@
 - [Vuejs Tags](https://github.com/simoebenhida/vue-tags) - A Flexible Vue.js 2 input Tag component where you can edit wathever you like related to HTML/CSS. By [@simoebenhida](https://github.com/simoebenhida)
 - [HIBP JS](https://github.com/mehdibo/hibp-js) - Library to check your password against haveibeenpwned
 - [Ckeditor-uploadfile](https://github.com/mehdibo/ckeditor-uploadfile) - CKEditor plugin to upload files
-- [Jquery-imgedit](https://github.com/mehdibo/jquery-imgedit) - Small jQuery plugin to edit an inline image 
+- [Jquery-imgedit](https://github.com/mehdibo/jquery-imgedit) - Small jQuery plugin to edit an inline image
 - [Salat-api](https://github.com/Kafiil/salat-api) - A simple public rest api to get the prayers times for cities in Morocco based on the official data form the Moroccan Ministry. By [@kafiil](https://github.com/Kafiil)
 - [Salat](https://github.com/Kafiil/salat) - A small web app to get prayers time in cities of Morocco. By [@kafiil](https://github.com/Kafiil)
 - [Corona-wash-reminder](https://github.com/akiyamaSM/corona-wash-reminder) - A small A mobile app to remind you to wash your hands. By [@akiyamaSM](https://github.com/akiyamaSM)
@@ -136,12 +146,20 @@
 - [PHPForms](https://github.com/mehdibo/PHPForms) - A set of of tools to help you create forms and export data as fast as possible
 - [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
 - [Bulksms-notifier](https://github.com/mehdibo/bulksms-notifier) - A Symfony Notifier bridge for bulksms.ma
+- [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package  for localbitcoins Api 
+- [Kickstart](https://github.com/Stormix/kickstart) - A very opinionated Laravel SPA boilerplate using Laravel 7.x / Typescript / Vue / TailwindCSS + Pest & Cypress for testing by [@Stormix](https://github.com/Stormix)
+- [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
+
+#### Python
+ - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
+ - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
 
 #### Go/Golang
 
 - [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
+- [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
 
 #### CSS
 
