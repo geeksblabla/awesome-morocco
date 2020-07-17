@@ -82,6 +82,7 @@
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
+- [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
 ---
 
 ### Open Source Projects
