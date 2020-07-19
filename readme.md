@@ -93,6 +93,7 @@
 - [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
 - [DevRev](https://www.facebook.com/devrevmorocco/)
 - [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
+- [Goosip-IT](https://www.facebook.com/gossipinit)
 ---
 
 ### Open Source Projects
