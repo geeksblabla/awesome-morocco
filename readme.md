@@ -34,7 +34,7 @@
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco/) - The Moroccan Angular Developer Community.
 - [Software Craftmanship Morroco ](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
-
+- [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers
 ---
 
 ### Events
@@ -81,6 +81,7 @@
   - [Anas Mazouni](https://blog.anasmazouni.dev/) - Programming, Robotics and other random stuff ...
   - [Youssef Lghoumaigui](https://lghou.com/) - C#, Vue js...
   - [Rachid CHAMI](https://medium.com/@chamirachid) - Blockchain, Cryptography, Docker...
+  - [Ayoub Sousali](https://www.ayoubsousali.com/) - JavaScript, React, React Native, PHP, Python, ...
 ---
 
 ### Podcasts
