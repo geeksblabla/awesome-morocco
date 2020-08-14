@@ -152,6 +152,7 @@
 - [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package  for localbitcoins Api 
 - [Kickstart](https://github.com/Stormix/kickstart) - A very opinionated Laravel SPA boilerplate using Laravel 7.x / Typescript / Vue / TailwindCSS + Pest & Cypress for testing by [@Stormix](https://github.com/Stormix)
 - [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
+- [laravel-intellisense](https://marketplace.visualstudio.com/items?itemName=mohamedbenhida.laravel-intellisense) - Visual Studio Code extension for Laravel Framework. By [@simoebenhida](https://github.com/simoebenhida)
 
 #### Python
  - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
