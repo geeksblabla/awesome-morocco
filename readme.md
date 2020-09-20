@@ -127,6 +127,8 @@
 - [FireAdmin](https://github.com/AXeL-dev/FireAdmin) - A minimalistic headless CMS around Angular & Firebase. by [@AXeL](https://github.com/AXeL-dev)
 - [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
 
+- [Web-merge](https://github.com/AbderrahimSoubaiElidrissi/web-merge) - Declarative client-side web fragments merger for micro-frontend architectures. by [@soub4i](https://github.com/AbderrahimSoubaiElidrissi)
+
 #### JAVA
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
