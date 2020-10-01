@@ -192,6 +192,7 @@
 - [phpslim-dev](https://github.com/mehdibo/phpslim-dev) - Docker image for PHP Slim framework Development
 - [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
+- [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
 
 ---
 
