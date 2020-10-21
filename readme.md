@@ -129,6 +129,9 @@
 - [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
 
 - [Web-merge](https://github.com/AbderrahimSoubaiElidrissi/web-merge) - Declarative client-side web fragments merger for micro-frontend architectures. by [@soub4i](https://github.com/AbderrahimSoubaiElidrissi)
+- [Before-Effect-Slider](https://github.com/aminejafur/before-effect-slider.js) - A fully customizable before and after comparison plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
+- [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
+- [Pure dots and boxes](https://github.com/aminejafur/puredotsandboxes) - A pure HTML, CSS and JS Dots and Boxes game in Morocco 90's schools style. by [@aminejafur](https://github.com/aminejafur)
 
 #### JAVA
 
@@ -177,9 +180,13 @@
 - [Tailwindcss Twitter Page](https://github.com/simoebenhida/tailwindcss-twitter-page) - A twitter profile made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 - [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 
+#### FLUTTER
+- [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
+
 #### AI
 
 - [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
+- [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
 
 #### Others
 
