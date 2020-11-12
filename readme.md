@@ -34,7 +34,7 @@
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco/) - The Moroccan Angular Developer Community.
 - [Software Craftmanship Morroco ](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
-
+- [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers
 ---
 
 ### Events
@@ -50,7 +50,7 @@
 
   - [xHub Blog](https://xlog.x-hub.io/)
   - [Obytes Blog](https://obytes.com/blog)
-  - [United Remote](https://dev.to/unitedremote)
+  - [Gemography](https://dev.to/gemography)
   - [Remote.ma](https://remote.ma/)
   - [Nimble Ways](https://blog.nimbleways.com/)
 
@@ -73,6 +73,17 @@
   - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
   - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
+  - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
+  - [LAGHRAOUI El Mehdi](http://www.laghraoui.com/) - Java, Spring, ...
+  - [Ismail_Elazizi](https://ismailelazizi.com/blog) - Design, UX/UI, Design tips ...
+  - [KAOUSSI Souhail](https://medium.com/@artisoft) - Javascript - Vue ...
+  - [Mehdi Cheracher](https://chermehdi.com) - Java, Performance...
+  - [Anas Mazouni](https://blog.anasmazouni.dev/) - Programming, Robotics and other random stuff ...
+  - [Youssef Lghoumaigui](https://lghou.com/) - C#, Vue js...
+  - [Rachid CHAMI](https://medium.com/@chamirachid) - Blockchain, Cryptography, Docker...
+  - [Ayoub Sousali](https://www.ayoubsousali.com/) - JavaScript, React, React Native, PHP, Python, ...
+  - [Nadia Laasri](https://nadialaasri.me/blog/) - CSS, CSS ART, Javascript, ...
+  - [Aymane Mimouni](https://aymanemx.com/posts/) - Python, Django, ...
 ---
 
 ### Podcasts
@@ -83,8 +94,10 @@
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
+- [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
 - [DevRev](https://www.facebook.com/devrevmorocco/)
 - [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
+- [Goosip-IT](https://www.facebook.com/gossipinit)
 ---
 
 ### Open Source Projects
@@ -115,6 +128,11 @@
 - [FireAdmin](https://github.com/AXeL-dev/FireAdmin) - A minimalistic headless CMS around Angular & Firebase. by [@AXeL](https://github.com/AXeL-dev)
 - [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
 
+- [Web-merge](https://github.com/AbderrahimSoubaiElidrissi/web-merge) - Declarative client-side web fragments merger for micro-frontend architectures. by [@soub4i](https://github.com/AbderrahimSoubaiElidrissi)
+- [Before-Effect-Slider](https://github.com/aminejafur/before-effect-slider.js) - A fully customizable before and after comparison plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
+- [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
+- [Pure dots and boxes](https://github.com/aminejafur/puredotsandboxes) - A pure HTML, CSS and JS Dots and Boxes game in Morocco 90's schools style. by [@aminejafur](https://github.com/aminejafur)
+
 #### JAVA
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
@@ -138,12 +156,22 @@
 - [PHPForms](https://github.com/mehdibo/PHPForms) - A set of of tools to help you create forms and export data as fast as possible
 - [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
 - [Bulksms-notifier](https://github.com/mehdibo/bulksms-notifier) - A Symfony Notifier bridge for bulksms.ma
+- [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package  for localbitcoins Api
+- [Kickstart](https://github.com/Stormix/kickstart) - A very opinionated Laravel SPA boilerplate using Laravel 7.x / Typescript / Vue / TailwindCSS + Pest & Cypress for testing by [@Stormix](https://github.com/Stormix)
+- [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
+- [laravel-intellisense](https://marketplace.visualstudio.com/items?itemName=mohamedbenhida.laravel-intellisense) - Visual Studio Code extension for Laravel Framework. By [@simoebenhida](https://github.com/simoebenhida)
+
+#### Python
+ - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
+ - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
+ - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
 
 #### Go/Golang
 
 - [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
+- [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
 
 #### CSS
 
@@ -152,9 +180,13 @@
 - [Tailwindcss Twitter Page](https://github.com/simoebenhida/tailwindcss-twitter-page) - A twitter profile made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 - [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 
+#### FLUTTER
+- [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
+
 #### AI
 
 - [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
+- [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
 
 #### Others
 
@@ -166,6 +198,8 @@
 - [power-my-vscode](https://github.com/melbarch/power-my-vscode) - Make your VS Code great again! by [@melbarch](https://github.com/melbarch)
 - [phpslim-dev](https://github.com/mehdibo/phpslim-dev) - Docker image for PHP Slim framework Development
 - [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
+- [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
+- [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
 
 ---
 
