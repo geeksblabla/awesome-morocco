@@ -17,6 +17,8 @@
 - [Podcasts](#podcasts)
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
+- [Network](#network)
+
 ---
 
 ### Communities
@@ -207,6 +209,12 @@
 ### Books
 
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
+
+---
+
+### Network
+[@MaDrasaTech](https://twitter.com/MaDrasaTech)
+[KHALID KATKOUT](https://www.youtube.com/c/TechniquesdesR%C3%A9seauxInformatiques/featured)
 
 ---
 
