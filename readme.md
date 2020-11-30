@@ -63,6 +63,7 @@
   - [Abderrahim SOUBAI-ELIDRISI](https://www.soubai.me/) - Javascript, Node.js , Angular ....
   - [Meriem Zaid](https://imeriem.com/) - Javascript, Python, React ....
   - [Othmane](https://othmane.io/) - Bootstrapping, Indie Making, SaaS
+  - [Oussama Essamadi](https://eoussama.com) - Javascript, Go, Docker, Everything ....
   - [Awaiting Bits](https://blog.zhaytam.com/) - C#, .NET Core, Python, Data Science, ...
   - [OffBy2](https://offby2.com) - C#, .NET, Docker and other random things
   - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
@@ -128,7 +129,9 @@
 - [xorq](https://github.com/ezzarghili/xorq) - A minimalistic xhr javascript library. by [@ezzarghili](https://github.com/ezzarghili)
 - [FireAdmin](https://github.com/AXeL-dev/FireAdmin) - A minimalistic headless CMS around Angular & Firebase. by [@AXeL](https://github.com/AXeL-dev)
 - [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
-
+- [Temme](https://github.com/EOussama/temmejs) - JSON mapped DOM manipulation. by [@EOussama](https://github.com/Eoussama)
+- [eo-translatorjs](https://github.com/EOussama/eo-translatorjs) - Lightweight translation library for the web. by [@EOussama](https://github.com/Eoussama)
+- [typewriterjs](https://github.com/EOussama/typewriterjs) - Typewriting animator. by [@EOussama](https://github.com/Eoussama)
 - [Web-merge](https://github.com/AbderrahimSoubaiElidrissi/web-merge) - Declarative client-side web fragments merger for micro-frontend architectures. by [@soub4i](https://github.com/AbderrahimSoubaiElidrissi)
 - [Before-Effect-Slider](https://github.com/aminejafur/before-effect-slider.js) - A fully customizable before and after comparison plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
@@ -173,6 +176,7 @@
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
 - [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
+- [Anusic-API](https://github.com/EOussama/anusic-api) - Anime themes API. by [@EOussama](https://github.com/Eoussama)
 
 #### CSS
 
@@ -201,6 +205,7 @@
 - [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
+- [EO Los Santos Cops and Robbers](https://github.com/EOussama/EO-Los-Santos-Cops-and-Robbers) - Starter Gamemode for GTA:SA-MP. by [@EOussama](https://github.com/Eoussama)
 
 ---
 
