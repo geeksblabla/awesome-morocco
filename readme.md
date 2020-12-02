@@ -128,7 +128,9 @@
 - [xorq](https://github.com/ezzarghili/xorq) - A minimalistic xhr javascript library. by [@ezzarghili](https://github.com/ezzarghili)
 - [FireAdmin](https://github.com/AXeL-dev/FireAdmin) - A minimalistic headless CMS around Angular & Firebase. by [@AXeL](https://github.com/AXeL-dev)
 - [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
-
+- [Temme](https://github.com/EOussama/temmejs) - JSON mapped DOM manipulation. by [@EOussama](https://github.com/Eoussama)
+- [eo-translatorjs](https://github.com/EOussama/eo-translatorjs) - Lightweight translation library for the web. by [@EOussama](https://github.com/Eoussama)
+- [typewriterjs](https://github.com/EOussama/typewriterjs) - Typewriting animator. by [@EOussama](https://github.com/Eoussama)
 - [Web-merge](https://github.com/AbderrahimSoubaiElidrissi/web-merge) - Declarative client-side web fragments merger for micro-frontend architectures. by [@soub4i](https://github.com/AbderrahimSoubaiElidrissi)
 - [Before-Effect-Slider](https://github.com/aminejafur/before-effect-slider.js) - A fully customizable before and after comparison plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
@@ -173,6 +175,7 @@
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
 - [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
+- [Anusic-API](https://github.com/EOussama/anusic-api) - Anime themes API. by [@EOussama](https://github.com/Eoussama)
 
 #### CSS
 
