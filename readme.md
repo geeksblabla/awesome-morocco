@@ -135,6 +135,7 @@
 - [Before-Effect-Slider](https://github.com/aminejafur/before-effect-slider.js) - A fully customizable before and after comparison plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Pure dots and boxes](https://github.com/aminejafur/puredotsandboxes) - A pure HTML, CSS and JS Dots and Boxes game in Morocco 90's schools style. by [@aminejafur](https://github.com/aminejafur)
+- [Data Structures](https://github.com/Riad-ENNAIM/data-structures) - Some Data Structures implementation using JavaScript. by [@Riad-ENNAIM](https://github.com/Riad-ENNAIM)
 
 #### JAVA
 
