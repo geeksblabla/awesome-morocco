@@ -169,6 +169,7 @@
  - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
  - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
  - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
+ - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
 
 #### Go/Golang
 
@@ -192,6 +193,7 @@
 
 - [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
 - [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
+- [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 
 #### Others
 
