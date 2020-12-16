@@ -136,6 +136,8 @@
 - [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Pure dots and boxes](https://github.com/aminejafur/puredotsandboxes) - A pure HTML, CSS and JS Dots and Boxes game in Morocco 90's schools style. by [@aminejafur](https://github.com/aminejafur)
 - [Data Structures](https://github.com/Riad-ENNAIM/data-structures) - Some Data Structures implementation using JavaScript. by [@Riad-ENNAIM](https://github.com/Riad-ENNAIM)
+- [CRA boilerplate](https://github.com/smakosh/CRA-boilerplate) - A CRA boilerplate for large projects in JavaScript and TypeScript. By [@smakosh](https://github.com/smakosh)
+- [A Gatsby i18n starter](https://github.com/smakosh/gatsby-starter-i18n) - A Gatsby starter with i18n configured using `react-intl` and Context API. By [@smakosh](https://github.com/smakosh)
 
 #### JAVA
 
