@@ -143,6 +143,7 @@
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
 - [Fancybuttons](https://github.com/medyo/Fancybuttons) - Icons, Borders, Radius ... for Android buttons. by [@medyo](https://github.com/medyo)
+- [maven-demo-web-batch] (https://github.com/FouadElayachi/maven-demo-web-batch) - A beginner friendly tutorial in order to elaborate the main concepts of maven software by using a Multitier architecture. by [@FouadElayachi](https://github.com/FouadElayachi)
 
 #### ASP.NET
 
