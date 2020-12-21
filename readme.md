@@ -72,7 +72,7 @@
   - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship
   - [Younes Eramzi](https://eramzi.com/blog/) - wordpress, Digital branding, Web
   - [Meriam Kharbat](https://medium.com/@MeriamKharbat) - software, startup
-  - [Hassan Azi](https://pingfrommorocco.blogspot.com/) - Programming, retrogaming, hacking and computer stuff
+  - [Hassan Azi](https://blog.pingfrommorocco.com/) - Programming, retrogaming, hacking and computer stuff
   - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
   - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
@@ -130,11 +130,16 @@
 - [xorq](https://github.com/ezzarghili/xorq) - A minimalistic xhr javascript library. by [@ezzarghili](https://github.com/ezzarghili)
 - [FireAdmin](https://github.com/AXeL-dev/FireAdmin) - A minimalistic headless CMS around Angular & Firebase. by [@AXeL](https://github.com/AXeL-dev)
 - [Firestore Manager](https://github.com/AXeL-dev/firestore-manager) - Manage your firestore databases in ease. by [@AXeL](https://github.com/AXeL-dev)
-
+- [Temme](https://github.com/EOussama/temmejs) - JSON mapped DOM manipulation. by [@EOussama](https://github.com/Eoussama)
+- [eo-translatorjs](https://github.com/EOussama/eo-translatorjs) - Lightweight translation library for the web. by [@EOussama](https://github.com/Eoussama)
+- [typewriterjs](https://github.com/EOussama/typewriterjs) - Typewriting animator. by [@EOussama](https://github.com/Eoussama)
 - [Web-merge](https://github.com/AbderrahimSoubaiElidrissi/web-merge) - Declarative client-side web fragments merger for micro-frontend architectures. by [@soub4i](https://github.com/AbderrahimSoubaiElidrissi)
 - [Before-Effect-Slider](https://github.com/aminejafur/before-effect-slider.js) - A fully customizable before and after comparison plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Native-Window](https://github.com/aminejafur/native-window.js) - Take your modals to next level using a powerful & fully customizable window modal plugin in pure JavaScript. by [@aminejafur](https://github.com/aminejafur)
 - [Pure dots and boxes](https://github.com/aminejafur/puredotsandboxes) - A pure HTML, CSS and JS Dots and Boxes game in Morocco 90's schools style. by [@aminejafur](https://github.com/aminejafur)
+- [Data Structures](https://github.com/Riad-ENNAIM/data-structures) - Some Data Structures implementation using JavaScript. by [@Riad-ENNAIM](https://github.com/Riad-ENNAIM)
+- [CRA boilerplate](https://github.com/smakosh/CRA-boilerplate) - A CRA boilerplate for large projects in JavaScript and TypeScript. By [@smakosh](https://github.com/smakosh)
+- [A Gatsby i18n starter](https://github.com/smakosh/gatsby-starter-i18n) - A Gatsby starter with i18n configured using `react-intl` and Context API. By [@smakosh](https://github.com/smakosh)
 
 #### JAVA
 
@@ -168,6 +173,8 @@
  - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
  - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
  - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
+ - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
+ - [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 
 #### Go/Golang
 
@@ -175,6 +182,7 @@
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
 - [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
 - [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
+- [Anusic-API](https://github.com/EOussama/anusic-api) - Anime themes API. by [@EOussama](https://github.com/Eoussama)
 
 #### CSS
 
@@ -190,6 +198,7 @@
 
 - [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
 - [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
+- [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 
 #### Others
 
