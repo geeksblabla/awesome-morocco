@@ -103,6 +103,7 @@
 - [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
 - [Goosip-IT](https://www.facebook.com/gossipinit)
 - [Génération Kairos](https://www.generationkairos.com/)
+- [S7aba Podcast](https://linktr.ee/s7aba)
 
 ---
 
