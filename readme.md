@@ -15,9 +15,10 @@
 - [Events](#events)
 - [Blogs](#blogs)
 - [Podcasts](#podcasts)
+- [Youtube Channels](#youtube-channels)
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
-- [Network](#network)
+
 
 ---
 
@@ -36,7 +37,9 @@
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco/) - The Moroccan Angular Developer Community.
 - [Software Craftmanship Morroco ](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
-- [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers
+- [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
+- [Moroccan-Developer](https://join.slack.com/t/moroccan-developer/shared_invite/zt-kiu1skjl-lorCc6c0pO8JMqGZySAefg) - official Slack workspace to share idea & build community.
+
 ---
 
 ### Events
@@ -86,6 +89,7 @@
   - [Ayoub Sousali](https://www.ayoubsousali.com/) - JavaScript, React, React Native, PHP, Python, ...
   - [Nadia Laasri](https://nadialaasri.me/blog/) - CSS, CSS ART, Javascript, ...
   - [Aymane Mimouni](https://aymanemx.com/posts/) - Python, Django, ...
+
 ---
 
 ### Podcasts
@@ -95,12 +99,26 @@
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
 - [Business B nab](https://www.facebook.com/BiznessBNab)
 - [DevCast](https://www.devcast.ma/)
-- [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA)
 - [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
 - [DevRev](https://www.facebook.com/devrevmorocco/)
 - [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
 - [Goosip-IT](https://www.facebook.com/gossipinit)
 - [Génération Kairos](https://www.generationkairos.com/)
+
+---
+
+### Youtube Channels
+
+- [Mohamed Youssfi](https://www.youtube.com/user/mohamedYoussfi) - Java, spring, programming, ...
+- [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA) - Programming, Python, Web, soft skills ...
+- [3arbaoui Mehdi](https://www.youtube.com/channel/UC6u-1b7VOVIC8LuJpnTNhOg) - Javascript, Web, soft skills, ...
+- [ZiroToHero](https://www.youtube.com/user/web0dream1/) - HTML, Web ....
+- [GeeksBlaBla](https://www.youtube.com/channel/UCW2WV7NKU0WPyuv4YoNSqBA) - Dev, Soft Skills, Meetups, Conferences ...
+- [ngMorocco](https://www.youtube.com/c/ngMorocco/videos) - Angular related videos
+- [Mehdi Cheracher](https://www.youtube.com/user/mehdi91611/videos) - Java ...
+- [MaDrasaTech ](https://www.youtube.com/user/JasonMoroccan) - Networking - Network Automation Python - Windows Server ...
+- [KHALID KATKOUT ](https://www.youtube.com/user/khalidnobleman) - Networking - CCNA - GNS3 - IPv6 ...
+
 ---
 
 ### Open Source Projects
@@ -164,23 +182,24 @@
 - [PHPForms](https://github.com/mehdibo/PHPForms) - A set of of tools to help you create forms and export data as fast as possible
 - [Codeigniter-blockchain](https://github.com/mehdibo/Codeigniter-blockchain) - A Codeigniter library to use the Blockchain Wallet AP
 - [Bulksms-notifier](https://github.com/mehdibo/bulksms-notifier) - A Symfony Notifier bridge for bulksms.ma
-- [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package  for localbitcoins Api
+- [LbtcApi](https://github.com/marvelbark2/lbtcapi) - A Laravel Package for localbitcoins Api
 - [Kickstart](https://github.com/Stormix/kickstart) - A very opinionated Laravel SPA boilerplate using Laravel 7.x / Typescript / Vue / TailwindCSS + Pest & Cypress for testing by [@Stormix](https://github.com/Stormix)
 - [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
 - [laravel-intellisense](https://marketplace.visualstudio.com/items?itemName=mohamedbenhida.laravel-intellisense) - Visual Studio Code extension for Laravel Framework. By [@simoebenhida](https://github.com/simoebenhida)
 
 #### Python
- - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
- - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
- - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
- - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
- - [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
+
+- [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
+- [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
+- [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
+- [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
+- [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 
 #### Go/Golang
 
 - [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
-- [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files.  by [@melbahja](https://git.io/mohamed)
-- [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`.  by [@melbahja](https://git.io/mohamed)
+- [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files. by [@melbahja](https://git.io/mohamed)
+- [ctl](https://github.com/melbahja/ctl) - A command line tool to run all systemd commands in one command `ctl`. by [@melbahja](https://git.io/mohamed)
 - [comet](https://github.com/chermehdi/comet) - A demo interpreted programming language.
 - [Anusic-API](https://github.com/EOussama/anusic-api) - Anime themes API. by [@EOussama](https://github.com/Eoussama)
 
@@ -192,6 +211,7 @@
 - [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 
 #### FLUTTER
+
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
 
 #### AI
@@ -220,14 +240,7 @@
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
 
 ---
-
-### Network
-
-- [MaDrasaTech ](https://www.youtube.com/user/JasonMoroccan)
-- [KHALID KATKOUT ](https://www.youtube.com/user/khalidnobleman)
-
----
-
+  
 ### 🧐 Want to contribute ?
 
 If you have something awesome to contribute to awesome morocco list, this is how you do it.
