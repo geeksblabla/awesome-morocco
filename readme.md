@@ -19,6 +19,7 @@
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
 
+
 ---
 
 ### Communities
@@ -116,6 +117,8 @@
 - [GeeksBlaBla](https://www.youtube.com/channel/UCW2WV7NKU0WPyuv4YoNSqBA) - Dev, Soft Skills, Meetups, Conferences ...
 - [ngMorocco](https://www.youtube.com/c/ngMorocco/videos) - Angular related videos
 - [Mehdi Cheracher](https://www.youtube.com/user/mehdi91611/videos) - Java ...
+- [MaDrasaTech ](https://www.youtube.com/user/JasonMoroccan) - Networking - Network Automation Python - Windows Server ...
+- [KHALID KATKOUT ](https://www.youtube.com/user/khalidnobleman) - Networking - CCNA - GNS3 - IPv6 ...
 
 ---
 
@@ -238,7 +241,7 @@
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
 
 ---
-
+  
 ### 🧐 Want to contribute ?
 
 If you have something awesome to contribute to awesome morocco list, this is how you do it.
