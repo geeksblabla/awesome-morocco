@@ -159,6 +159,7 @@
 - [Data Structures](https://github.com/Riad-ENNAIM/data-structures) - Some Data Structures implementation using JavaScript. by [@Riad-ENNAIM](https://github.com/Riad-ENNAIM)
 - [CRA boilerplate](https://github.com/smakosh/CRA-boilerplate) - A CRA boilerplate for large projects in JavaScript and TypeScript. By [@smakosh](https://github.com/smakosh)
 - [A Gatsby i18n starter](https://github.com/smakosh/gatsby-starter-i18n) - A Gatsby starter with i18n configured using `react-intl` and Context API. By [@smakosh](https://github.com/smakosh)
+- [DolarJs](https://github.com/mboussaid/DolarJS) - A minimal and lightweight  `javascript` library 
 
 #### JAVA
 
