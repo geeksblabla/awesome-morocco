@@ -161,7 +161,7 @@
 - [A Gatsby i18n starter](https://github.com/smakosh/gatsby-starter-i18n) - A Gatsby starter with i18n configured using `react-intl` and Context API. By [@smakosh](https://github.com/smakosh)
 - [DolarJs](https://github.com/mboussaid/DolarJS) - A minimal and lightweight  `javascript` library By [@mboussaid](https://github.com/mboussaid)
 - [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` ibrary that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
-- [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows  to add  verification to your inputs 
+- [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows  to add  verification to your inputs By [@mboussaid](https://github.com/mboussaid)
 #### JAVA
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
