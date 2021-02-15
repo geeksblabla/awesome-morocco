@@ -187,6 +187,7 @@
 - [Kickstart](https://github.com/Stormix/kickstart) - A very opinionated Laravel SPA boilerplate using Laravel 7.x / Typescript / Vue / TailwindCSS + Pest & Cypress for testing by [@Stormix](https://github.com/Stormix)
 - [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
 - [laravel-intellisense](https://marketplace.visualstudio.com/items?itemName=mohamedbenhida.laravel-intellisense) - Visual Studio Code extension for Laravel Framework. By [@simoebenhida](https://github.com/simoebenhida)
+- [vinala](https://github.com/vinala/vinala) - An elegant and swift mini PHP Framework For Webmasters. by [@youssefhad](https://github.com/youssefhad)
 
 #### Python
 
