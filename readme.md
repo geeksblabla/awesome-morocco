@@ -240,18 +240,7 @@
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
 
 ---
-<<<<<<< HEAD
-
-### Network
-
-- [MaDrasaTech](https://www.youtube.com/user/JasonMoroccan)   
-- [KHALID KATKOUT](https://www.youtube.com/user/khalidnobleman)
-
----
-
-=======
   
->>>>>>> 25ac34bf05c480757d1cd2e0c55749f8656b9d05
 ### 🧐 Want to contribute ?
 
 If you have something awesome to contribute to awesome morocco list, this is how you do it.
