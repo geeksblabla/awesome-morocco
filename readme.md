@@ -9,6 +9,8 @@
   <br />
 </div>
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 ### Contents
 
 - [Communities](#communities)
@@ -18,7 +20,6 @@
 - [Youtube Channels](#youtube-channels)
 - [Open Source Projects](#open-source-projects)
 - [Books](#books)
-
 
 ---
 
@@ -159,9 +160,10 @@
 - [Data Structures](https://github.com/Riad-ENNAIM/data-structures) - Some Data Structures implementation using JavaScript. by [@Riad-ENNAIM](https://github.com/Riad-ENNAIM)
 - [CRA boilerplate](https://github.com/smakosh/CRA-boilerplate) - A CRA boilerplate for large projects in JavaScript and TypeScript. By [@smakosh](https://github.com/smakosh)
 - [A Gatsby i18n starter](https://github.com/smakosh/gatsby-starter-i18n) - A Gatsby starter with i18n configured using `react-intl` and Context API. By [@smakosh](https://github.com/smakosh)
-- [DolarJs](https://github.com/mboussaid/DolarJS) - A minimal and lightweight  `javascript` library By [@mboussaid](https://github.com/mboussaid)
+- [DolarJs](https://github.com/mboussaid/DolarJS) - A minimal and lightweight `javascript` library By [@mboussaid](https://github.com/mboussaid)
 - [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` ibrary that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
-- [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows  to add  verification to your inputs By [@mboussaid](https://github.com/mboussaid)
+- [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
+
 #### JAVA
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
@@ -244,7 +246,7 @@
 - [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
 
 ---
-  
+
 ### 🧐 Want to contribute ?
 
 If you have something awesome to contribute to awesome morocco list, this is how you do it.
