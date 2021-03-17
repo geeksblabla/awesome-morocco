@@ -40,10 +40,7 @@
 - [Software Craftmanship Morroco ](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [Moroccan-Developer](https://join.slack.com/t/moroccan-developer/shared_invite/zt-kiu1skjl-lorCc6c0pO8JMqGZySAefg) - official Slack workspace to share idea & build community.
-<<<<<<< HEAD
-=======
 
->>>>>>> c95c11832b0533d5e46ea7868bfbee2039ff312a
 ---
 
 ### Events
