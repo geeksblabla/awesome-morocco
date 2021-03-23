@@ -110,7 +110,7 @@
 
 ---
 
-### Youtube Channels
+### YouTube Channels
 
 - [Mohamed Youssfi](https://www.youtube.com/user/mohamedYoussfi) - Java, spring, programming, ...
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA) - Programming, Python, Web, soft skills ...
@@ -126,7 +126,7 @@
 
 ### Open Source Projects
 
-#### JAVASCRIPT
+#### JavaScript
 
 - [Redux-saga](https://github.com/redux-saga/redux-saga) - An alternative side effect model for Redux apps by [@yelouafi](https://github.com/yelouafi)
 - [reactjs-popup](https://github.com/yjose/reactjs-popup) - A react popup component by [@yjose](https://github.com/yjose)
@@ -165,7 +165,7 @@
 - [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` ibrary that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
 - [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
 
-#### JAVA
+#### Java
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
 - [Fancybuttons](https://github.com/medyo/Fancybuttons) - Icons, Borders, Radius ... for Android buttons. by [@medyo](https://github.com/medyo)
@@ -202,7 +202,7 @@
 - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
 - [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 
-#### Go/Golang
+#### Go
 
 - [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files. by [@melbahja](https://git.io/mohamed)
@@ -217,7 +217,7 @@
 - [Tailwindcss Twitter Page](https://github.com/simoebenhida/tailwindcss-twitter-page) - A twitter profile made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 - [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 
-#### FLUTTER
+#### Flutter
 
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
 
