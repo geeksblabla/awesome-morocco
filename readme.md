@@ -37,7 +37,7 @@
 - [Devops Morocco](https://www.meetup.com/devops-in-morocco) - a group of both Developers & Operations professionals (managers, engineers & hackers).
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco/) - The Moroccan Angular Developer Community.
-- [Software Craftmanship Morroco ](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
+- [Software Craftmanship Morroco](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [Moroccan-Developer](https://join.slack.com/t/moroccan-developer/shared_invite/zt-kiu1skjl-lorCc6c0pO8JMqGZySAefg) - official Slack workspace to share idea & build community.
 
@@ -62,7 +62,7 @@
 
 - Developers
 
-  - [Mohammed Aboullaite ](https://aboullaite.me/) - Java , Docker...
+  - [Mohammed Aboullaite](https://aboullaite.me/) - Java , Docker...
   - [El Azizi Youssouf](https://elazizi.com/) - Javascript, React, React Native...
   - [Ismail Ghallou](https://smakosh.com/blog) - Javascript, React , life ....
   - [Amine Hakkou](https://www.hakkou.me/) - Javascript, React Native ....
@@ -91,7 +91,8 @@
   - [Nadia Laasri](https://nadialaasri.me/blog/) - CSS, CSS ART, Javascript, ...
   - [Aymane Mimouni](https://aymanemx.com/posts/) - Python, Django, ...
   - [Ihssane Hatim](https://caldo.digital/tag/web_development/) - Web dev ....
-  -  [Yassine Bennkhay](https://yassine-bennkhay.tech/) - Flutter, Dart,...<!-- you can remove this comment after reading! I Just want to tell you that i'm just start this blog so I'll be appretiated if you add it to this respected list of great developers. thanks. -->
+  - [Yassine Bennkhay](https://yassine-bennkhay.tech/) - Flutter, Dart,...
+
 
 ---
 
@@ -111,7 +112,7 @@
 
 ---
 
-### Youtube Channels
+### YouTube Channels
 
 - [Mohamed Youssfi](https://www.youtube.com/user/mohamedYoussfi) - Java, spring, programming, ...
 - [Al-Fihriya Academy](https://www.youtube.com/channel/UC9NMlidXGKVIMMkXJsWRiyA) - Programming, Python, Web, soft skills ...
@@ -120,14 +121,14 @@
 - [GeeksBlaBla](https://www.youtube.com/channel/UCW2WV7NKU0WPyuv4YoNSqBA) - Dev, Soft Skills, Meetups, Conferences ...
 - [ngMorocco](https://www.youtube.com/c/ngMorocco/videos) - Angular related videos
 - [Mehdi Cheracher](https://www.youtube.com/user/mehdi91611/videos) - Java ...
-- [MaDrasaTech ](https://www.youtube.com/user/JasonMoroccan) - Networking - Network Automation Python - Windows Server ...
-- [KHALID KATKOUT ](https://www.youtube.com/user/khalidnobleman) - Networking - CCNA - GNS3 - IPv6 ...
+- [MaDrasaTech](https://www.youtube.com/user/JasonMoroccan) - Networking - Network Automation Python - Windows Server ...
+- [KHALID KATKOUT](https://www.youtube.com/user/khalidnobleman) - Networking - CCNA - GNS3 - IPv6 ...
 
 ---
 
 ### Open Source Projects
 
-#### JAVASCRIPT
+#### JavaScript
 
 - [Redux-saga](https://github.com/redux-saga/redux-saga) - An alternative side effect model for Redux apps by [@yelouafi](https://github.com/yelouafi)
 - [reactjs-popup](https://github.com/yjose/reactjs-popup) - A react popup component by [@yjose](https://github.com/yjose)
@@ -166,7 +167,7 @@
 - [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` ibrary that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
 - [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
 
-#### JAVA
+#### Java
 
 - [android-about-page](https://github.com/medyo/android-about-page) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo)
 - [Fancybuttons](https://github.com/medyo/Fancybuttons) - Icons, Borders, Radius ... for Android buttons. by [@medyo](https://github.com/medyo)
@@ -203,7 +204,7 @@
 - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
 - [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 
-#### Go/Golang
+#### Go
 
 - [recaptcha-go](https://github.com/ezzarghili/recaptcha-go) - Validate Google reCAPTCHA v2 & v3 form submission package in golang. by [@ezzarghili](https://github.com/ezzarghili)
 - [goph](https://github.com/melbahja/goph) - Native SSH client to execute commands, upload/download files. by [@melbahja](https://git.io/mohamed)
@@ -218,7 +219,7 @@
 - [Tailwindcss Twitter Page](https://github.com/simoebenhida/tailwindcss-twitter-page) - A twitter profile made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 - [Tailwindcss Paypal Page](https://github.com/simoebenhida/tailwindcss-paypal-page) - A paypal page made with tailwindcss. By [@simoebenhida](https://github.com/simoebenhida)
 
-#### FLUTTER
+#### Flutter
 
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
 
