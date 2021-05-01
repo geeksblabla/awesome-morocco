@@ -229,6 +229,7 @@
 - [Tracking-with-darkflow](https://github.com/bendidi/Tracking-with-darkflow) - Real-time people Multitracker using YOLO v2 and deep_sort with tensorflow. by [@bendidi](https://github.com/bendidi)
 - [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
 - [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
+- [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
 
 #### Others
 
