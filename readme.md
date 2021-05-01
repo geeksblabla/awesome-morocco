@@ -204,6 +204,7 @@
 - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
 - [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 - [Pexon-Rest-API](https://github.com/yezz123/Pexon-Rest-API) - A full Rest-API for JSON response included Docker Contains. [@yezz123](https://github.com/yezz123)
+- [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
 
 #### Go
 
