@@ -39,7 +39,6 @@
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco/) - The Moroccan Angular Developer Community.
 - [Software Craftmanship Morroco](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
-- [Moroccan-Developer](https://join.slack.com/t/moroccan-developer/shared_invite/zt-kiu1skjl-lorCc6c0pO8JMqGZySAefg) - official Slack workspace to share idea & build community.
 - [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
 
 ---
