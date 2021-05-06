@@ -40,6 +40,7 @@
 - [Software Craftmanship Morroco](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [Moroccan-Developer](https://join.slack.com/t/moroccan-developer/shared_invite/zt-kiu1skjl-lorCc6c0pO8JMqGZySAefg) - official Slack workspace to share idea & build community.
+- [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
 
 ---
 
@@ -204,6 +205,7 @@
 - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
 - [Athena](https://github.com/GDGSNF/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 - [Pexon-Rest-API](https://github.com/yezz123/Pexon-Rest-API) - A full Rest-API for JSON response included Docker Contains. [@yezz123](https://github.com/yezz123)
+- [Parser](https://github.com/Py-Project/Parser) - Pure python standard library JSON. [@yezz123](https://github.com/yezz123)
 
 #### Go
 
@@ -241,6 +243,7 @@
 - [phpslim-dev](https://github.com/mehdibo/phpslim-dev) - Docker image for PHP Slim framework Development
 - [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
+- [libCplus](https://github.com/BnademOverflow/libCplus) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow)
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
 
 ---
