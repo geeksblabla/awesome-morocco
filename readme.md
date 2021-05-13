@@ -47,6 +47,7 @@
 
 - [Devoxx Morocco](https://devoxx.ma/)
 - [ForLoop Morocco](https://twitter.com/forloopmorocco)
+- [Blabla Conf](https://blablaconf.com/)
 
 ---
 
