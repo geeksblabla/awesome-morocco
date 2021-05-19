@@ -206,6 +206,7 @@
 - [Athena](https://github.com/yezz123/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
 - [Pexon-Rest-API](https://github.com/yezz123/Pexon-Rest-API) - A full Rest-API for JSON response included Docker Contains. [@yezz123](https://github.com/yezz123)
 - [Parser](https://github.com/Py-Project/Parser) - Pure python standard library JSON. [@yezz123](https://github.com/yezz123)
+- [DogeAPI](https://github.com/yezz123/DogeAPI) - an API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end. [@yezz123](https://github.com/yezz123)
 
 #### Go
 
