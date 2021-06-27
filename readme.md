@@ -208,6 +208,8 @@
 - [Pexon-Rest-API](https://github.com/yezz123/Pexon-Rest-API) - A full Rest-API for JSON response included Docker Contains. [@yezz123](https://github.com/yezz123)
 - [Parser](https://github.com/Py-Project/Parser) - Pure python standard library JSON. [@yezz123](https://github.com/yezz123)
 - [DogeAPI](https://github.com/yezz123/DogeAPI) - an API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end. [@yezz123](https://github.com/yezz123)
+- [Hephaestus](https://github.com/yezz123/Hephaestus) - Restful Api developed with Flask using Prometheus and Grafana for monitoring and containerization with Docker. [@yezz123](https://github.com/yezz123)
+- [ChefAPI](https://github.com/GDGSNF/ChefAPI) - An API using FASTAPI & Python-Jose & SQLAlchemy to create and share or keeping track of awesome food recipes. [@yezz123](https://github.com/yezz123)
 
 #### Go
 
