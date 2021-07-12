@@ -93,6 +93,7 @@
   - [Aymane Mimouni](https://aymanemx.com/posts/) - Python, Django, ...
   - [Ihssane Hatim](https://caldo.digital/tag/web_development/) - Web dev ....
   - [Yassine Bennkhay](https://yassine-bennkhay.tech/) - Flutter, Dart,...
+  - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
 
 
 ---
@@ -205,7 +206,7 @@
 - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
 - [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
 - [Athena](https://github.com/yezz123/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
-- [Pexon-Rest-API](https://github.com/yezz123/Pexon-Rest-API) - A full Rest-API for JSON response included Docker Contains. [@yezz123](https://github.com/yezz123)
+- [Task-Boilerplate](https://github.com/yezz123/Task-boilerplate) - Flask Boilerplate set up and configured to work with a database and Nginx. [@yezz123](https://github.com/yezz123)
 - [Parser](https://github.com/Py-Project/Parser) - Pure python standard library JSON. [@yezz123](https://github.com/yezz123)
 - [DogeAPI](https://github.com/yezz123/DogeAPI) - an API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end. [@yezz123](https://github.com/yezz123)
 - [Hephaestus](https://github.com/yezz123/Hephaestus) - Restful Api developed with Flask using Prometheus and Grafana for monitoring and containerization with Docker. [@yezz123](https://github.com/yezz123)
@@ -249,6 +250,7 @@
 - [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
 - [libCplus](https://github.com/BnademOverflow/libCplus) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow)
+- [Win10](https://github.com/GDGSNF/Win10) - Disabling "Activate Windows" watermark with simple code using C++ by [@GDGSNF](https://github.com/GDGSNF)
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
 
 ---
