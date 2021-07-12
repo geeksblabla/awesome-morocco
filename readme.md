@@ -250,7 +250,6 @@
 - [coronapy-cli](https://github.com/MouadBH/coronapy-cli) - A command line tool in python to fetch worldwide data about COVID-19. by [@MouadBH](https://github.com/MouadBH)
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
 - [libCplus](https://github.com/BnademOverflow/libCplus) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow)
-- [Win10](https://github.com/GDGSNF/Win10) - Disabling "Activate Windows" watermark with simple code using C++ by [@GDGSNF](https://github.com/GDGSNF)
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
 
 ---
