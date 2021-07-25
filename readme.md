@@ -187,6 +187,8 @@
 - [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
 - [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
 - [Larabye](https://github.com/mouadziani/Larabye) - A mini PHP starter / framework. by [@mouadziani](https://github.com/mouadziani)
+- [laravel-model-trackable](https://github.com/MouadZIANI/laravel-model-trackable) - A laravel package that allows you to track and log nested changes applied on your models. by [@mouadziani](https://github.com/mouadziani)
+- [laravel-query-inspector](https://github.com/MouadZIANI/laravel-query-inspector) - The missing laravel helper that allows you to inspect your eloquent queries with it's bind parameters. by [@mouadziani](https://github.com/mouadziani)
 - [SlackBatch](https://github.com/mehdibo/SlackBatch) - A CLI tool made with PHP to send Slack invitations
 - [Codeigniter-recaptcha](https://github.com/mehdibo/Codeigniter-recaptcha) - A CodeIgniter library to use Google's recaptcha
 - [Codeigniter-sslhook](https://github.com/mehdibo/Codeigniter-SSLHook) - A tool to set appropriate headers/redirection for SSL websites
