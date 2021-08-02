@@ -207,13 +207,15 @@
 - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. https://sourcerer.io/ by [@Stormix](https://github.com/Stormix)
 - [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
 - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
-- [My-Business](https://github.com/GDGSNF/My-Business) - A Business Management Tool by [@yezz123](https://github.com/yezz123)
+- [My-Business](https://github.com/GDGSNF/My-Business) - My Business is a business management tool featuring accounts, invoices, partners, projects, and server by [@yezz123](https://github.com/yezz123)
 - [Athena](https://github.com/yezz123/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
-- [Task-Boilerplate](https://github.com/yezz123/Task-boilerplate) - Flask Boilerplate set up and configured to work with a database and Nginx. [@yezz123](https://github.com/yezz123)
-- [Parser](https://github.com/Py-Project/Parser) - Pure python standard library JSON. [@yezz123](https://github.com/yezz123)
+- [FRDP](https://github.com/BnademOverflow/FRDP) - Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin. [@yezz123](https://github.com/yezz123)
+- [Nectus](https://github.com/yezz123/Nectus) - A boilerplate Flask API for a Fullstack Project with some additional packages and configuration prebuilt. [@yezz123](https://github.com/yezz123)
 - [DogeAPI](https://github.com/yezz123/DogeAPI) - an API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end. [@yezz123](https://github.com/yezz123)
 - [Hephaestus](https://github.com/yezz123/Hephaestus) - Restful Api developed with Flask using Prometheus and Grafana for monitoring and containerization with Docker. [@yezz123](https://github.com/yezz123)
-- [ChefAPI](https://github.com/GDGSNF/ChefAPI) - An API using FASTAPI & Python-Jose & SQLAlchemy to create and share or keeping track of awesome food recipes. [@yezz123](https://github.com/yezz123)
+- [ChefAPI](https://github.com/GDGSNF/ChefAPI) - API using FastAPI and PostgreSQL for sharing or keeping track of awesome food recipes Based on Oauth2 and JWT. [@yezz123](https://github.com/yezz123)
+- [Apollo](https://github.com/yezz123/Apollo) - A basic Application with multiple functionalities built with FastAPI aim to help Users Buy New Items Provided using PaypalAPI. [@yezz123](https://github.com/yezz123)
+- [Oauth2](https://github.com/yezz123/Oauth2) - PlayGround with JWTs used as OAuth 2.0 Bearer Tokens to encode all relevant parts of an access token into the access token itself instead of storing them in a database. [@yezz123](https://github.com/yezz123)
 
 #### Go
 
