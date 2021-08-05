@@ -40,6 +40,7 @@
 - [Software Craftmanship Morroco](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
+- [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
 
 ---
 
@@ -127,6 +128,7 @@
 - [MaDrasaTech](https://www.youtube.com/user/JasonMoroccan) - Networking - Network Automation Python - Windows Server ...
 - [KHALID KATKOUT](https://www.youtube.com/user/khalidnobleman) - Networking - CCNA - GNS3 - IPv6 ...
 - [ARS LONGA VITA BREVIS](https://www.youtube.com/channel/UCFkWVr33NMrcfYZWXOJvKsw) - Competitive Programming - Dynamic Programming - C/C++ ...
+- [CNCG Casablanca](https://www.youtube.com/channel/UC6HawQwd4jthXt1orvMIscg) - Cloud, Tech, Kubernetes, Dev-Ops...
 
 ---
 
