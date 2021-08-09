@@ -96,6 +96,7 @@
   - [Yassine Bennkhay](https://yassine-bennkhay.tech/) - Flutter, Dart,...
   - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
   - [Mouhcine Toumi](https://blog.mouhcinetoumi.com/) - Data Engineering, branding, self dev...
+  - [Haytam Bakouane](http://hbakouane.dev/) - Laravel/Vue developer
 
 
 ---
@@ -203,6 +204,8 @@
 - [php-eyed3](https://github.com/Stormix/php-eyed3) - A PHP wrapper for reading and updating ID3 meta data of (e.g.) MP3 files using eyeD3. By [@Stormix](https://github.com/Stormix)
 - [laravel-intellisense](https://marketplace.visualstudio.com/items?itemName=mohamedbenhida.laravel-intellisense) - Visual Studio Code extension for Laravel Framework. By [@simoebenhida](https://github.com/simoebenhida)
 - [vinala](https://github.com/vinala/vinala) - An elegant and swift mini PHP Framework For Webmasters. by [@youssefhad](https://github.com/youssefhad)
+- [Admin User Chatting](https://github.com/hbakouane/admin-user-chatting) - A Live chat between users and admins made with Livewire.
+- [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
 
 #### Python
 
