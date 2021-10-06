@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="400" src="assets/logo.svg" alt="Awesome Morocco" />
+  <img width="400" src="logo.svg" alt="Awesome Morocco" />
   <hr />
   <p>
     <b>👩‍💻 🇲🇦List of awesome Moroccan things for developers 🇲🇦👨🏻‍💻</b>

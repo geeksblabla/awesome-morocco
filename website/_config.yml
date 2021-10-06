@@ -32,7 +32,7 @@ defaults:
     values:
       layout: "default"
   - scope:
-      path: "README.md"
+      path: "../README.md"
     values:
       permalink: "/"
       layout: "default"
