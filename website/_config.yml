@@ -13,7 +13,7 @@ plugins:
   - jekyll-feed
   - jekyll-optional-front-matter
 include:
-  - readme.md
+  - '../readme.md'
 exclude:
   - "*.md"
   - Gemfile*
