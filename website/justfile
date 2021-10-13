@@ -2,7 +2,7 @@
     just --list
 
 @alex:
-	npx alex README.md
+	npx alex readme.md
 
 @build:
     just toc
@@ -10,11 +10,11 @@
 
 @lint:
     -curlylint _layouts/
-    -npx awesome-lint README.md
+    -npx awesome-lint readme.md
 
 @serve:
     modd --file=modd.conf
     bundle exec jekyll serve --drafts --watch --port 8000
 
 @toc:
-	npx doctoc README.md
+	npx doctoc readme.md
