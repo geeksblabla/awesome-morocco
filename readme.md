@@ -261,7 +261,7 @@
 - [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
 
 #### Assembly
--[HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW)-codes in C and their equivalence in MIPS Assembly
+-[HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW)-codes in C and their equivalence in MIPS Assembly by [@zakarialaoui10](https://github.com/zakarialaoui10)
 #### Others
 
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
