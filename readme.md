@@ -259,9 +259,6 @@
 - [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
 - [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
-
-#### Assembly
--[HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW)-codes in C and their equivalence in MIPS Assembly by [@zakarialaoui10](https://github.com/zakarialaoui10)
 #### Others
 
 - [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) - A repository to learn about open source code contributions flow.
@@ -275,6 +272,8 @@
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
 - [libCplus](https://github.com/BnademOverflow/libCplus) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow)
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
+- [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW)-codes in C and their equivalence in MIPS Assembly by [@zakarialaoui10](https://github.com/zakarialaoui10)
+
 
 ---
 
