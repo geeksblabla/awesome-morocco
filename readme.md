@@ -215,7 +215,9 @@
 - [vinala](https://github.com/vinala/vinala) - An elegant and swift mini PHP Framework For Webmasters. by [@youssefhad](https://github.com/youssefhad)
 - [Admin User Chatting](https://github.com/hbakouane/admin-user-chatting) - A Live chat between users and admins made with Livewire.
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
-
+- [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
+With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+ 
 #### Python
 
 - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. <https://sourcerer.io/> by [@Stormix](https://github.com/Stormix)
