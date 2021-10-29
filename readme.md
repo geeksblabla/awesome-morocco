@@ -90,7 +90,7 @@
   - [Younes Eramzi](https://eramzi.com/blog/) - wordpress, Digital branding, Web
   - [Meriam Kharbat](https://medium.com/@MeriamKharbat) - software, startup
   - [Hassan Azi](https://blog.pingfrommorocco.com/) - Programming, retrogaming, hacking and computer stuff
-  - [Hamza Belmellouki](https://hamza-jvm.me) - JVM Ecosystem
+  - [Hamza Belmellouki](https://hamzablm.com/blog/) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
   - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
   - [LAGHRAOUI El Mehdi](http://www.laghraoui.com/) - Java, Spring, ...
@@ -215,7 +215,9 @@
 - [vinala](https://github.com/vinala/vinala) - An elegant and swift mini PHP Framework For Webmasters. by [@youssefhad](https://github.com/youssefhad)
 - [Admin User Chatting](https://github.com/hbakouane/admin-user-chatting) - A Live chat between users and admins made with Livewire.
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
-
+- [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
+With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+ 
 #### Python
 
 - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. <https://sourcerer.io/> by [@Stormix](https://github.com/Stormix)
@@ -273,6 +275,7 @@
 - [CSE](https://github.com/bilnash/CSE) - R package for Casablanca Stock Exchange Data
 - [libCplus](https://github.com/BnademOverflow/libCplus) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow)
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) - Icons for VSCode based on macOS Big Sur design.
+- [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW) - Codes in C and their equivalence in MIPS Assembly. by [@zakarialaoui10](https://github.com/zakarialaoui10)
 
 ---
 
