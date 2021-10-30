@@ -29,6 +29,7 @@
   - [Flutter](#flutter)
   - [AI](#ai)
   - [Others](#others)
+- [Blockchain](#blockchain)
 - [Books](#books)
 - [Contributing](#contributing)
 
