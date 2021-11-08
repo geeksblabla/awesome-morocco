@@ -1,0 +1,18 @@
+name: Lint Readme
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 15
+      - run: npm install --global awesome-lint
+      - run: awesome-lint README.md
