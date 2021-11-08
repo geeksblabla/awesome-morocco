@@ -218,24 +218,20 @@
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
 - [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
 With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
- 
+
 #### Python
 
 - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. <https://sourcerer.io/> by [@Stormix](https://github.com/Stormix)
-- [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
+- [ping360-sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
 - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
+- [Dr-scaffold](https://github.com/Abdenasser/dr_scaffold) - scaffold django rest apis like a champion by [@Abdenasser](https://github.com/Abdenasser)
+- [AuthX](https://github.com/yezz123/authx) - A customizable Authentications and Oauth2 management for FastAPI by [@yezz123](https://github.com/yezz123)
 - [Fastapi-lazy](https://github.com/yezz123/fastapi-lazy) - A package with some utilities that you use in various projects made in FastAPI by [@yezz123](https://github.com/yezz123)
-- [JeffQL](https://github.com/yezz123/JeffQL) - A Simple FastAPI authentication & Login API using GraphQL and JWT by [@yezz123](https://github.com/yezz123)
-- [My-Business](https://github.com/GDGSNF/My-Business) - Is a business management tool featuring accounts, invoices, partners, projects, and server by [@yezz123](https://github.com/yezz123)
-- [Athena](https://github.com/yezz123/Athena) - web application developed in Python / Flask / SQLite that has two faces. [@yezz123](https://github.com/yezz123)
-- [FRDP](https://github.com/BnademOverflow/FRDP) - Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin. [@yezz123](https://github.com/yezz123)
-- [Nectus](https://github.com/yezz123/Nectus) - A boilerplate Flask API for a Fullstack Project with some additional packages and configuration prebuilt. [@yezz123](https://github.com/yezz123)
-- [DogeAPI](https://github.com/yezz123/DogeAPI) - an API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end. [@yezz123](https://github.com/yezz123)
-- [Pexon](https://github.com/yezz123/Pexon) - A full Rest-API With Oauth2 and JWT for request & response a JSON file Using FastAPI and SQLAlchemy. [@yezz123](https://github.com/yezz123)
-- [ChefAPI](https://github.com/GDGSNF/ChefAPI) - API using FastAPI and PostgreSQL for sharing or keeping track of awesome food recipes Based on Oauth2 and JWT. [@yezz123](https://github.com/yezz123)
-- [Apollo](https://github.com/yezz123/Apollo) - A basic Application with multiple functionalities built with FastAPI aim to help Users Buy New Items Provided using PaypalAPI. [@yezz123](https://github.com/yezz123)
-- [Oauth2](https://github.com/yezz123/Oauth2) - PlayGround with JWTs used as OAuth 2.0 Bearer Tokens to encode all relevant parts of an access token into the access token itself instead of storing them in a database. [@yezz123](https://github.com/yezz123)
-- [dr_scaffold](https://github.com/Abdenasser/dr_scaffold) - scaffold django rest apis like a champion. [@Abdenasser](https://github.com/Abdenasser)
+- [DogeAPI](https://github.com/yezz123/DogeAPI) - An API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end by [@yezz123](https://github.com/yezz123)
+- [My-Business](https://github.com/GDGSNF/My-Business) - A business management tool featuring accounts, invoices, partners, projects, and server by [@yezz123](https://github.com/yezz123)
+- [Athena](https://github.com/yezz123/Athena) - Test your Security Skills, and Clean Code Development as a Pythonist, Hacker & Warrior by [@yezz123](https://github.com/yezz123)
+- [FRDP](https://github.com/BnademOverflow/FRDP) - Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin by [@yezz123](https://github.com/yezz123)
+- [Apollo](https://github.com/yezz123/Apollo) - A basic Application with multiple functionalities built with FastAPI aim to help Users Buy New Items Provided using PaypalAPI by [@yezz123](https://github.com/yezz123)
 
 #### Go
 
