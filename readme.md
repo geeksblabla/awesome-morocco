@@ -222,9 +222,9 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 #### Python
 
 - [sourcerer-io-scrapper](https://github.com/Stormix/sourcerer-io-scrapper) - Because they don't have an API. <https://sourcerer.io/> by [@Stormix](https://github.com/Stormix)
-- [ping360-sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
+- [ping360_sonar](https://github.com/CentraleNantesRobotics/ping360_sonar) - ROS package for Blue Robotics Ping360 Sonar by [@Stormix](https://github.com/Stormix)
 - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
-- [Dr-scaffold](https://github.com/Abdenasser/dr_scaffold) - scaffold django rest apis like a champion by [@Abdenasser](https://github.com/Abdenasser)
+- [Dr_scaffold](https://github.com/Abdenasser/dr_scaffold) - scaffold django rest apis like a champion by [@Abdenasser](https://github.com/Abdenasser)
 - [AuthX](https://github.com/yezz123/authx) - A customizable Authentications and Oauth2 management for FastAPI by [@yezz123](https://github.com/yezz123)
 - [Fastapi-lazy](https://github.com/yezz123/fastapi-lazy) - A package with some utilities that you use in various projects made in FastAPI by [@yezz123](https://github.com/yezz123)
 - [DogeAPI](https://github.com/yezz123/DogeAPI) - An API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end by [@yezz123](https://github.com/yezz123)
