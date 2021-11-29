@@ -123,6 +123,7 @@
 - [Goosip-IT](https://www.facebook.com/gossipinit)
 - [Génération Kairos](https://www.generationkairos.com/)
 - [S7aba Podcast](https://linktr.ee/s7aba)
+- [Lectorem - القارئ](https://www.youtube.com/channel/UCAKherxCCvXWHyGaeQKy-Jw)
 
 ---
 
