@@ -10,6 +10,7 @@
 </div>
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 ### Contents
 
 - [Contents](#contents)
@@ -52,6 +53,7 @@
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
 - [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
+- [Morocco Develop](https://www.facebook.com/moroccodevelop/) - Page facebook of liveCoding about diffirent web technologies.
 
 ---
 
@@ -184,6 +186,7 @@
 - [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` ibrary that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
 - [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
 - [SeuleJs](https://github.com/ElMehdiLebbar/SeuleJs) - A progressive, incrementally-adoptable JavaScript framework for building UI on the web By [@ElMehdiLebbar](https://github.com/ElMehdiLebbar)
+- [Svelte Formly](https://github.com/arabdevelop/svelte-formly) - Generate a dynamic and reactive forms for svelte with custom your own rules. By [@kamalkech](https://github.com/kamalkech)
 
 #### Java
 
@@ -218,7 +221,9 @@
 - [Admin User Chatting](https://github.com/hbakouane/admin-user-chatting) - A Live chat between users and admins made with Livewire.
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
 - [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
-With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+  With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+- [Block Content Selected](https://www.drupal.org/project/bcs) - Inject and render any types of nodes to any block using autocomplete with view mode. By [@kamalkech](https://github.com/kamalkech)
+- [Node Layout Builder](https://www.drupal.org/project/node_layout_builder) - Custom layout of page node. By [@kamalkech](https://github.com/kamalkech)
 
 #### Python
 
