@@ -1,0 +1,104 @@
+name: New entry
+description: Fill this form to add your content to the website.
+title: "[New]: "
+labels: ["new-entry"]
+
+body:
+  - type: input
+    id: author
+    attributes:
+      label: Author full name
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. John Doe
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: project
+    attributes:
+      label: Project title
+      description: Add a title for your project
+      placeholder: ex. react-popup
+    validations:
+      required: false
+
+  - type: input
+    id: project-url
+    attributes:
+      label: Project url
+      description: Add a url for your project (repository or website)
+      placeholder: ex. https://github.com/user/project
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Project description
+      description: Add a description for your project
+      placeholder: ex. A react popup component
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Project type
+      description: Choose the type of the project
+      options:
+        - Community
+        - Event
+        - Blog
+        - Podcast
+        - YouTube Channel
+        - Open Source Project
+        - Book
+
+    validations:
+      required: true
+
+  - type: dropdown
+    id: is-oss
+    attributes:
+      label: If Open Source project, can you choose technology?
+      multiple: true
+      options:
+        - JavaScript
+        - Java
+        - ASP.NET
+        - PHP
+        - Python
+        - Go
+        - CSS
+        - Flutter
+        - AI
+        - Others
+      description: Choose the technology of the project
+    validations:
+      required: false
+
+  - type: input
+    id: is-oss-others
+    attributes:
+      label: If other, please specify
+      description: Indicate the technology
+      placeholder: ex. Cobol
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
