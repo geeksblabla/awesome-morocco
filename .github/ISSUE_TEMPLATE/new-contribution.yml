@@ -1,0 +1,70 @@
+name: New contribution
+description: If you want to add a new contribution to the project, please fill in the form below.
+title: "(contribution) my awesome contribution"
+labels:
+  - "contribution"
+assignees:
+  - "jefferyhus"
+  - "yjose"
+body:
+  - type: dropdown
+    id: category
+    validations:
+      required: true
+    attributes:
+      label: Category
+      description: What kind of contribution is this?
+      options:
+        - "Community"
+        - "Event"
+        - "Blog"
+        - "Podcast"
+        - "YouTube Channel"
+        - "Open Source Project"
+        - "Book"
+  - type: dropdown
+    id: project_type
+    validations:
+      required: false
+    attributes:
+      label: Project Type
+      description: If it's a project, then what kind of project is this?
+      options:
+        - "JavaScript"
+        - "Java"
+        - "ASP.NET"
+        - "PHP"
+        - "Python"
+        - "Ruby"
+        - "Go"
+        - "AI"
+        - "Other"
+  - type: input
+    id: title
+    validations:
+      required: true
+    attributes:
+      label: Title
+      placeholder: "my awesome contribution"
+  - type: input
+    id: description
+    validations:
+      required: false
+    attributes:
+      label: Description
+      placeholder: "This is my awesome contribution"
+  - type: input
+    id: url
+    validations:
+      required: true
+    attributes:
+      label: URL
+      placeholder: ''
+  - type: dropdown
+    id: blog_owner
+    attributes:
+      label: Blog owner
+      description: Who owns this contribution (if this is a blog)?
+      options:
+        - "organisation"
+        - "personal"
