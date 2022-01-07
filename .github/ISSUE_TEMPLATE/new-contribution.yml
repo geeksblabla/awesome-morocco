@@ -3,9 +3,7 @@ description: If you want to add a new contribution to the project, please fill i
 title: "(contribution) my awesome contribution"
 labels:
   - "contribution"
-assignees:
-  - "jefferyhus"
-  - "yjose"
+assignees: ["@jefferyhus", "@yjose"]
 body:
   - type: dropdown
     id: category
