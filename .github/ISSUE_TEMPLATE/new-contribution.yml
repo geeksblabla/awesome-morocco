@@ -59,7 +59,7 @@ body:
       required: true
     attributes:
       label: URL
-      placeholder: ''
+      placeholder: "The contribution URL"
   - type: dropdown
     id: blog_owner
     attributes:
