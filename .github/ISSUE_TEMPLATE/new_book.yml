@@ -1,0 +1,80 @@
+name: New book
+description: Fill this form to add your book/E-book to the website.
+title: "[New][Book]: "
+labels: ["new", "book"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about your book.
+
+  - type: input
+    id: author
+    attributes:
+      label: Author fullname
+      placeholder: ex. John Doe
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Author contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: contact-handler
+    attributes:
+      label: Author handler
+      placeholder: https://github.com/user
+    validations:
+      required: false
+
+  - type: input
+    id: book
+    attributes:
+      label: Book title
+      description: Add a title for your book
+      placeholder: ex. Blockchain by Example
+    validations:
+      required: false
+
+  - type: input
+    id: book-url
+    attributes:
+      label: Book URL
+      description: Add a url for your book (store or website)
+      placeholder: ex. https://amazon.com/book/12345
+    validations:
+      required: true
+
+  - type: input
+    id: book-id
+    attributes:
+      label: Book ISBN
+      description: Add the ISBN for your book (optional)
+      placeholder: ex. 111-222-333-444
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Add a description for your book
+      placeholder: ex. my super book
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

@@ -1,0 +1,71 @@
+name: New podcast
+description: Fill this form to add your podcast to the website.
+title: "[New][Podcast]: "
+labels: ["new", "podcast"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about your blog.
+
+  - type: input
+    id: author
+    attributes:
+      label: Author fullname
+      placeholder: ex. John Doe
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Author contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: contact-handler
+    attributes:
+      label: Author handler
+      placeholder: https://github.com/user
+    validations:
+      required: false
+
+  - type: input
+    id: podcast
+    attributes:
+      label: Podcast name
+      description: Add a name for your podcast
+      placeholder: ex. my super podcast
+    validations:
+      required: false
+
+  - type: input
+    id: podcast-url
+    attributes:
+      label: Podcast URL
+      description: Add a url for your podcast
+      placeholder: ex. https://spotify.com/podcast/my-super-podcast
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Add a description for your podcast
+      placeholder: ex. My super podcast
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
