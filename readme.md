@@ -187,6 +187,7 @@
 - [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` library that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
 - [SeuleJs](https://github.com/ElMehdiLebbar/SeuleJs) - A progressive, incrementally-adoptable JavaScript framework for building UI on the web By [@ElMehdiLebbar](https://github.com/ElMehdiLebbar)
 - [vue3 infinite loading](https://github.com/oumoussa98/vue3-infinite-loading) - An infinite scroll component compatible with vue.js 3 and vite, to help you implement an infinite scroll list more easily. By [@oumoussa98](https://github.com/oumoussa98)
+- [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
 
 #### Java
 
