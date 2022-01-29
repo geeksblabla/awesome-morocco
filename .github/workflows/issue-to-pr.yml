@@ -2,6 +2,8 @@ name: Issue to PR
 on:
   issues:
     types: [opened, edited]
+    branches:
+      - develop
 
 jobs:
   Issue_to_PR:
@@ -10,13 +12,20 @@ jobs:
     env:
       BODY: ${{ toJson(github.event.issue.body) }}
       LABELS: ${{ toJson(github.event.issue.labels) }}
+      DIR: "./content/data"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
+      - name: Install dependencies
+        run: yarn install
+        working-directory: scripts
+      - name: Run tests
+        run: yarn test
+        working-directory: scripts
       - name: Run parser
         id: issue-parser
         run: |
-          FILEPATH=$(node ./bin/issue-parser.js)
+          FILEPATH=$(node --require tsm ./scripts/src/issue-parser.ts)
           echo "::set-output name=FILEPATH::$FILEPATH"
 
       - name: Create commits
