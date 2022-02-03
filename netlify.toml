@@ -1,3 +1,4 @@
 [build]
-  publish = "out"
+  base = "website/"
+  publish = "out/"
   command = "yarn build-prod"
