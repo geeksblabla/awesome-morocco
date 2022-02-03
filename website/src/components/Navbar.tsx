@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { routes } from '@/utils/routes'
+import { useState } from "react";
+import { routes } from "@/utils/routes";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,22 +34,19 @@ export const Navbar = () => {
             </span>
           </a>
           <ul className="flex items-center hidden space-x-8 lg:flex">
-            {
-              routes.map(el =>
-                <li>
-                  <a
-                    href={el.link}
-                    aria-label={el.label}
-                    title={el.label}
-                    className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
-                  >
-                    {el.label}
-                  </a>
-                </li>
-              )
-            }
+            {routes.map((el, index) => (
+              <li key={`link-${index}`}>
+                <a
+                  href={el.link}
+                  aria-label={el.label}
+                  title={el.label}
+                  className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
+                >
+                  {el.label}
+                </a>
+              </li>
+            ))}
           </ul>
-
 
           <a
             href="/"
@@ -59,7 +56,6 @@ export const Navbar = () => {
           >
             Contribute
           </a>
-
 
           <div className="lg:hidden">
             <button
@@ -132,20 +128,18 @@ export const Navbar = () => {
                   </div>
                   <nav>
                     <ul className="space-y-4">
-                      {
-                        routes.map(el =>
-                          <li>
-                            <a
-                              href={el.link}
-                              aria-label={el.label}
-                              title={el.label}
-                              className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                            >
-                              {el.label}
-                            </a>
-                          </li>
-                        )
-                      }
+                      {routes.map((el) => (
+                        <li>
+                          <a
+                            href={el.link}
+                            aria-label={el.label}
+                            title={el.label}
+                            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          >
+                            {el.label}
+                          </a>
+                        </li>
+                      ))}
                       <li>
                         <a
                           href="/"
