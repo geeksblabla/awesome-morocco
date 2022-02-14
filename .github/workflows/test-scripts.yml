@@ -12,9 +12,6 @@ jobs:
   test-script:
     name: Test Script
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: scripts
 
     steps:
       - name: Check out Git repository
@@ -30,8 +27,11 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
+
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+        working-directory: "scripts"
+
       - name: Run Tests
         uses: mattallty/jest-github-action@v1
         env:
