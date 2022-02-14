@@ -28,13 +28,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Install dependencies
-        run: cd ./scripts && yarn install --frozen-lockfile
-
-      - name: Run Tests
-        uses: mattallty/jest-github-action@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run Tests and coverage report
+        uses: ArtiomTr/jest-coverage-report-action@v2
         with:
+          github-token: ${{ secrets.SECRET_TOKEN }}
           working-directory: "scripts"
-          test-command: "npm run test:ci"
+          package-manager: yarn
+          test-script: yarn jest
+      # - name: Run Tests
+      #   uses: mattallty/jest-github-action@v1
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     working-directory: "scripts"
+      #     test-command: "npm run test:ci"
