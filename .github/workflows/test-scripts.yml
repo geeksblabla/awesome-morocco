@@ -28,10 +28,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: Run Tests and coverage report
+      - name: Run Tests and
         uses: ArtiomTr/jest-coverage-report-action@v2
         with:
-          github-token: ${{ secrets.SECRET_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           working-directory: "scripts"
           package-manager: yarn
           test-script: yarn jest
