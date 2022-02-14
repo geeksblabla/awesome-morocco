@@ -27,7 +27,7 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "test": "jest --coverage"
+    "test": "jest"
   },
   "babel": {
     "presets": [
