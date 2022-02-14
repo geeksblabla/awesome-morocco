@@ -1,7 +1,11 @@
 import promiseRetry from "promise-retry";
 import Parser from "rss-parser";
 import { Post } from "../types";
-import { MAX_BLOG_POSTS_BY_RSS_URL } from "./constants";
+import {
+  MAX_BLOG_POSTS_BY_RSS_URL,
+  NO_ITEMS_ERROR,
+  RSS_URL_ERROR,
+} from "./constants";
 import { parseUrl } from "./parser";
 
 type RssItem = Parser.Item;
@@ -26,10 +30,10 @@ export const feedPromise = (rssUrl: string) => {
   return new Promise<string | Post[]>((resolve, reject) => {
     promiseRetry((retry) => parseUrl(rssUrl).catch(retry), retryConfig)
       .then((data) => {
-        if (!data.items) reject("Cannot read response->item");
+        if (!data.items) reject(NO_ITEMS_ERROR);
         else resolve(parseItemToPost(data.items));
       })
-      .catch(() => reject(`${rssUrl}: Rss feed Lading failed`));
+      .catch(() => reject(`${rssUrl}: ${RSS_URL_ERROR}`));
   });
 };
 

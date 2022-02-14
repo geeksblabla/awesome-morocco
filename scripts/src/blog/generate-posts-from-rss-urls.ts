@@ -41,5 +41,5 @@ export const generatePostsFromRssUrls = async (rssUrls: string[]) => {
     (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
   );
   const logs = getErrorReporting(rssUrls.length, posts.length, errors);
-  return { posts: sortedPosts, logs };
+  return { posts: sortedPosts, logs, errors };
 };
