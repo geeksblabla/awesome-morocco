@@ -37,3 +37,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           working-directory: "scripts"
+          test-command: "npm run test:ci"
