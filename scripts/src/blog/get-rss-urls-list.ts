@@ -1,14 +1,14 @@
 //TODO: migrate this function to read urls from 'data/blog'
 
 import fs from "fs";
-import { BLOGS_DIR_PATH } from "../constants";
+import { BLOGS_SOURCE_DIR_PATH } from "../constants";
 
 export const getRssUrlsList = () => {
   try {
-    const files: string[] = fs.readdirSync(BLOGS_DIR_PATH);
+    const files: string[] = fs.readdirSync(BLOGS_SOURCE_DIR_PATH);
     const urls: string[] = files
       .map((file) =>
-        JSON.parse(fs.readFileSync(`${BLOGS_DIR_PATH}/${file}`, "utf8"))
+        JSON.parse(fs.readFileSync(`${BLOGS_SOURCE_DIR_PATH}/${file}`, "utf8"))
       )
       .map((item) => item.rssUrl);
 
