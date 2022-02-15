@@ -10,7 +10,7 @@ on:
 
 jobs:
   test-script:
-    name: Test Script
+    name: Test Scripts
     runs-on: ubuntu-latest
 
     steps:
@@ -35,10 +35,3 @@ jobs:
           working-directory: "scripts"
           package-manager: yarn
           test-script: yarn jest
-      # - name: Run Tests
-      #   uses: mattallty/jest-github-action@v1
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #   with:
-      #     working-directory: "scripts"
-      #     test-command: "npm run test:ci"
