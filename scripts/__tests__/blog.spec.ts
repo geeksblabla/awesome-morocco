@@ -46,6 +46,12 @@ const NO_ITEMS_BLOG = {
   link: "http://no-items-blog.me/",
 };
 
+jest.mock("../src/blog/get-rss-urls-list", () => ({
+  getRssUrlsList: () => {
+    return ["http://blog1.me/", "http://blog2.me/"];
+  },
+}));
+
 jest.mock("../src/blog/parser", () => ({
   parseUrl: (url: string) => {
     const blog = [BLOG_1, BLOG_2, NO_ITEMS_BLOG].find(
