@@ -11,6 +11,6 @@ export const getErrorReporting = (
 ✅ ${numberOfPosts} blog posts has been collected from ${
     numberOfRssUrls - errors.length
   } RSS feeds
-${errors.join("\n")}
+${errors.map((e) => `❌ ${e}`).join("\n")}
       `;
 };

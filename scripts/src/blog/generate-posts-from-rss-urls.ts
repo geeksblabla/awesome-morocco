@@ -1,6 +1,7 @@
 // This script  is highly inspired: by https://github.com/gautamkrishnar/blog-post-workflow/blob/master/blog-post-workflow.js
-import { Post } from "../types";
+import { EMPTY_LIST_ERROR } from "../constants";
 import { feedPromise } from "./feed-url-promise";
+import { isFulfilled, isRejected } from "./filters";
 import { getErrorReporting } from "./get-errors-reporting";
 
 /**
@@ -21,25 +22,23 @@ export const generatePostsFromRssUrls = async (rssUrls: string[]) => {
   if (rssUrls.length === 0) {
     return {
       posts: [],
-      logs: `❌ Empty feed List, please check and try again`,
+      logs: EMPTY_LIST_ERROR,
     };
   }
 
   const promiseArray = rssUrls.map((rssUrl) => feedPromise(rssUrl));
   const results = await Promise.allSettled(promiseArray);
 
-  const posts: Post[] = [];
-  const errors: string[] = [];
-  results.forEach((result) => {
-    if (result.status === "fulfilled" && typeof result.value !== "string")
-      posts.push(...result.value);
-    if (result.status === "rejected" && typeof result.reason === "string")
-      errors.push(`❌ ${result.reason}`);
-  });
+  const posts = results
+    .filter(isFulfilled)
+    .map((t) => t.value)
+    .reduce((prev, current) => {
+      return [...prev, ...current];
+    }, [])
+    .sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
 
-  const sortedPosts = posts.sort(
-    (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
-  );
+  const errors = results.filter(isRejected).map((res) => res.reason);
+
   const logs = getErrorReporting(rssUrls.length, posts.length, errors);
-  return { posts: sortedPosts, logs, errors };
+  return { posts, logs, errors };
 };

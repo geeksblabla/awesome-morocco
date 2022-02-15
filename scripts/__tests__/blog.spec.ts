@@ -2,7 +2,7 @@ import {
   EMPTY_LIST_ERROR,
   NO_ITEMS_ERROR,
   RSS_URL_ERROR,
-} from "../src/blog/constants";
+} from "../src/constants";
 import { feedPromise } from "../src/blog/feed-url-promise";
 import { generatePostsFromRssUrls } from "../src/blog/generate-posts-from-rss-urls";
 import { getErrorReporting } from "../src/blog/get-errors-reporting";
@@ -109,6 +109,6 @@ describe("Blog posts generation from rss feeds ", () => {
     ]);
     expect(posts.length).toBe(4);
     expect(errors.length).toBe(1);
-    expect(errors[0]).toBe(`❌ ${invalidURL}: ${RSS_URL_ERROR}`);
+    expect(errors[0]).toBe(`${invalidURL}: ${RSS_URL_ERROR}`);
   });
 });
