@@ -52,6 +52,7 @@
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
 - [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
+- [JavaScript Morocco](https://twitter.com/JSMorocco) - The Moroccan JavaScript Community.
 
 ---
 
@@ -125,6 +126,7 @@
 - [Génération Kairos](https://www.generationkairos.com/)
 - [S7aba Podcast](https://linktr.ee/s7aba)
 - [Lectorem - القارئ](https://www.youtube.com/channel/UCAKherxCCvXWHyGaeQKy-Jw)
+- [Angular In Darija](https://angularindarija.dev/)
 
 ---
 
@@ -188,6 +190,7 @@
 - [SeuleJs](https://github.com/ElMehdiLebbar/SeuleJs) - A progressive, incrementally-adoptable JavaScript framework for building UI on the web By [@ElMehdiLebbar](https://github.com/ElMehdiLebbar)
 - [vue3 infinite loading](https://github.com/oumoussa98/vue3-infinite-loading) - An infinite scroll component compatible with vue.js 3 and vite, to help you implement an infinite scroll list more easily. By [@oumoussa98](https://github.com/oumoussa98)
 - [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
+- [ngx-darija](https://github.com/ngMorocco/ngx-darija) - Angular in Darija Live Coding Series official Application by the [Moroccan Angular Community](https://github.com/ngMorocco).
 
 #### Java
 
