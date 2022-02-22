@@ -1,11 +1,7 @@
 import { Label } from "./types";
 import { parseAttributes, getType } from "./utils";
 
-export default function parse(
-  body: string,
-  labels: Array<Label>,
-  dir: string
-): Array<any> {
+export default function parse(body: string, labels: Array<Label>, dir: string) {
   if (body === "" || labels.length !== 2) {
     throw new Error("Body or Labels are empty");
   }
@@ -21,7 +17,7 @@ export default function parse(
   const { createdAt } = result;
 
   const filename = `${type}-${createdAt}.json`;
-  const path = `./${dir}/${filename}`;
+  const path = `${dir}/${filename}`;
 
-  return [path, result];
+  return [path, result] as const;
 }
