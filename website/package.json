@@ -9,7 +9,7 @@
     "export": "next export",
     "build-prod": "run-s clean build export",
     "clean": "rimraf .next out",
-    "lint": "next lint",
+    "lint": "next lint --fix",
     "build-types": "tsc --noEmit --pretty",
     "prepare": "cd ../ && husky install ./website/.husky"
   },

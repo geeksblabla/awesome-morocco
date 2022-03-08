@@ -1,68 +1,69 @@
-export const Footer = () => {
+/* eslint-disable @next/next/no-html-link-for-pages */
+/* eslint-disable react/no-unescaped-entities */
+const Footer = () => {
   const links = [
     {
       title: 'Awesome Morocco',
       subLinks: [
         {
           link: '/',
-          label: 'Home'
+          label: 'Home',
         },
         {
           link: '/',
-          label: 'Communities'
+          label: 'Communities',
         },
         {
           link: '/',
-          label: 'Events'
+          label: 'Events',
         },
-      ]
+      ],
     },
     {
       title: 'People',
       subLinks: [
         {
           link: '/',
-          label: 'Blogs'
+          label: 'Blogs',
         },
         {
           link: '/',
-          label: 'Podcasts'
+          label: 'Podcasts',
         },
         {
           link: '/',
-          label: 'YouTube Channels'
-        }
-      ]
-    }
-  ]
+          label: 'YouTube Channels',
+        },
+      ],
+    },
+  ];
 
   return (
     <div className="bg-gray-900">
       <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid row-gap-10 mb-8 lg:grid-cols-6">
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
-            {
-              links.map(el => {
-                return (
-                  <div>
-                    <p className="font-medium tracking-wide text-gray-300">{el.title}</p>
-                    <ul className="mt-2 space-y-2">
-                      {
-                        el.subLinks.map(subLink =>
-                          <li>
-                            <a
-                              href={subLink.link}
-                              className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
-                            >
-                              {subLink.label}
-                            </a>
-                          </li>
-                        )
-                      }
-                    </ul>
-                  </div>
-                )
-              })}
+            {links.map((el, index) => {
+              return (
+                <div key={`link-${index}`}>
+                  <p className="font-medium tracking-wide text-gray-300">
+                    {el.title}
+                  </p>
+                  <ul className="mt-2 space-y-2">
+                    {el.subLinks.map((subLink, ind) => (
+                      <li key={`sub-link-${ind}`}>
+                        <a
+                          href={subLink.link}
+                          className="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-200"
+                        >
+                          {subLink.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
           </div>
 
           <div className="md:max-w-md lg:col-span-2">
@@ -121,9 +122,8 @@ export const Footer = () => {
             </a>
           </div>
         </div>
-
       </div>
-    </div >
+    </div>
   );
 };
 

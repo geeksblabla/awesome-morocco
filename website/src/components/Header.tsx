@@ -1,8 +1,8 @@
 type IProps = {
-  pageLink: string,
-  title: string,
-  description: string,
-}
+  pageLink: string;
+  title: string;
+  description: string;
+};
 
 const Header = ({ pageLink, title, description }: IProps) => {
   return (
@@ -75,4 +75,4 @@ const Header = ({ pageLink, title, description }: IProps) => {
   );
 };
 
-export default Header
+export default Header;

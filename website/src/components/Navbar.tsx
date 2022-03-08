@@ -1,7 +1,9 @@
-import { useState } from "react";
-import { routes } from "@/utils/routes";
+/* eslint-disable @next/next/no-html-link-for-pages */
+import { useState } from 'react';
 
-export const Navbar = () => {
+import { routes } from '@/utils/routes';
+
+const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -128,8 +130,8 @@ export const Navbar = () => {
                   </div>
                   <nav>
                     <ul className="space-y-4">
-                      {routes.map((el) => (
-                        <li>
+                      {routes.map((el, index) => (
+                        <li key={`route-${index}`}>
                           <a
                             href={el.link}
                             aria-label={el.label}
