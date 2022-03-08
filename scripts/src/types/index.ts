@@ -1,3 +1,2 @@
-import { Label, Payload } from "../types/github-issue";
-
-export { Label, Payload };
+export * from "../types/github-issue";
+export * from "../types/blog";

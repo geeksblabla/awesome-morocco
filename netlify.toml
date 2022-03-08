@@ -2,3 +2,6 @@
   base = "website/"
   publish = "out/"
   command = "yarn build-prod"
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF . ../content/"
+
+

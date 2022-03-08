@@ -1,0 +1,142 @@
+[
+  {
+    "title": "My home office setup!",
+    "link": "http://aboullaite.me/my-home-office-setup/",
+    "pubDate": "2021-08-31T13:50:16.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "How to build an image picker in React Native",
+    "link": "https://elazizi.com/how-to-build-an-image-picker-in-react-native",
+    "pubDate": "2021-08-07T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "15 React Native libraries you should use in 2021",
+    "link": "https://elazizi.com/15-react-native-libraries-you-should-use-in-2021",
+    "pubDate": "2021-05-10T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Deep Work",
+    "link": "https://elazizi.com/deep-work",
+    "pubDate": "2021-04-06T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "So good they can't ignore you",
+    "link": "https://elazizi.com/so-good-they-cant-ignore-you",
+    "pubDate": "2021-03-18T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Atomic habits Summary",
+    "link": "https://elazizi.com/atomic-habits-summary",
+    "pubDate": "2021-03-01T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "How to learn TypeScript for react developers",
+    "link": "https://elazizi.com/how-to-learn-type-script-for-react-developers",
+    "pubDate": "2020-12-20T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "How to structure a react-native project",
+    "link": "https://elazizi.com/how-to-structure-a-react-native-project",
+    "pubDate": "2020-11-17T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Blogging: Why you should care?",
+    "link": "https://elazizi.com/blogging-why-you-should-care",
+    "pubDate": "2020-10-25T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Authentication in React Native, Easy, Secure, and Reusable solution 💪.",
+    "link": "https://elazizi.com/authentication-in-react-native-easy-secure-and-reusable-solution-💪",
+    "pubDate": "2020-08-25T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Building Native Covid19 Tracker CLI using Java, PicoCLI & GraalVM",
+    "link": "http://aboullaite.me/java-covid19-cli-picocli-graalvm/",
+    "pubDate": "2020-05-11T22:40:09.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Handling Errors in React Native: A Complete Guide",
+    "link": "https://elazizi.com/handling-errors-in-react-native-a-complete-guide",
+    "pubDate": "2020-05-06T00:00:00.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Java 14 features: Text Blocks & Foreign-Memory Access API",
+    "link": "http://aboullaite.me/java-14-text-blocks-foreign-memory-access-api/",
+    "pubDate": "2020-03-22T11:46:32.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Java 14 features: Switch Expressions, JFR Event Streaming and more",
+    "link": "http://aboullaite.me/java-14-se-jfrs/",
+    "pubDate": "2020-03-11T15:05:13.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Skaffold, OKE & OCIR!",
+    "link": "http://aboullaite.me/skaffold-oke-ocir/",
+    "pubDate": "2020-03-06T03:31:16.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "5 reasons to attend DevNexus 2020",
+    "link": "http://aboullaite.me/5-reasons-to-attend-devnexus-2020/",
+    "pubDate": "2020-02-02T18:19:05.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Java 14 new features: Records",
+    "link": "http://aboullaite.me/java-14-records/",
+    "pubDate": "2020-01-29T15:56:04.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Tweets Sentiment Analysis using Stanford CoreNLP",
+    "link": "http://aboullaite.me/stanford-corenlp-java/",
+    "pubDate": "2020-01-08T13:04:30.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Running JavaFx app with Docker containers!",
+    "link": "http://aboullaite.me/javafx-docker/",
+    "pubDate": "2019-12-27T15:03:29.000Z",
+    "image": "",
+    "author": ""
+  },
+  {
+    "title": "Java 14 features:  Pattern Matching for `instanceof`, `jpackage` & helpful NPEs",
+    "link": "http://aboullaite.me/java-14-instanceof-jpackage-npes/",
+    "pubDate": "2019-12-21T20:00:36.000Z",
+    "image": "",
+    "author": ""
+  }
+]
