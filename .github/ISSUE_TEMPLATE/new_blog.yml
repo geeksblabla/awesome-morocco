@@ -1,0 +1,80 @@
+name: New blog
+description: Fill this form to add your blog to the website.
+title: "[New][Blog]: "
+labels: ["new", "blog"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about your blog.
+
+  - type: input
+    id: author
+    attributes:
+      label: Author fullname
+      placeholder: ex. John Doe
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Author contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: contact-handler
+    attributes:
+      label: Author handler
+      placeholder: https://github.com/user
+    validations:
+      required: false
+
+  - type: input
+    id: blog
+    attributes:
+      label: Blog title
+      description: Add a title for your blog
+      placeholder: ex. my super blog
+    validations:
+      required: false
+
+  - type: input
+    id: blog-url
+    attributes:
+      label: Blog URL
+      description: Add a url for your blog
+      placeholder: ex. https://smakosh.com/blog
+    validations:
+      required: true
+
+  - type: input
+    id: blog-rss
+    attributes:
+      label: Blog RSS
+      description: Add the RSS link for your blog
+      placeholder: ex. https://smakosh.com/blog/rss
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Add a description for your book
+      placeholder: ex. My super blog
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
