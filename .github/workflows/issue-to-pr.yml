@@ -2,8 +2,6 @@ name: Issue to PR
 on:
   issues:
     types: [opened, edited]
-    branches:
-      - develop
 
 jobs:
   Issue_to_PR:
@@ -25,8 +23,9 @@ jobs:
       - name: Run parser
         id: issue-parser
         run: |
-          FILEPATH=$(node --require tsm ./scripts/src/issue-parser.ts)
+          FILEPATH=$(NODE_PATH=dist scripts --require tsm ./src/issue-parser.ts)
           echo "::set-output name=FILEPATH::$FILEPATH"
+        working-directory: scripts
 
       - name: Create commits
         run: |
