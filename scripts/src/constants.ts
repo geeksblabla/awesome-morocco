@@ -11,6 +11,11 @@ export const DATA_GENERATED_DIR_PATH = path.join(
   "../../content/generated"
 );
 
+export const PROJECTS_GENERATED_DIR_PATH = path.join(
+  __dirname,
+  "../../content/generated/projects"
+);
+
 // blog constants
 export const EMPTY_LIST_ERROR = `Empty feed List, please check and try again`;
 export const NO_ITEMS_ERROR = "Cannot read response->item";

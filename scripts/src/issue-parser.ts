@@ -1,6 +1,6 @@
 #!/usr/local/bin/tsm
 
-import { DATA_GENERATED_DIR_PATH } from "./constants";
+import { PROJECTS_GENERATED_DIR_PATH } from "./constants";
 
 import { Label } from "./types";
 
@@ -10,7 +10,7 @@ import { getType, writeToJSONFile } from "./utils";
 
 const body = process.env.BODY || "";
 
-const dir = process.env.DIR || DATA_GENERATED_DIR_PATH;
+const dir = process.env.DIR || PROJECTS_GENERATED_DIR_PATH;
 
 const labels: Array<Label> = process.env.LABELS
   ? JSON.parse(process.env.LABELS || "")

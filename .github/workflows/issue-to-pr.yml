@@ -10,7 +10,7 @@ jobs:
     env:
       BODY: ${{ toJson(github.event.issue.body) }}
       LABELS: ${{ toJson(github.event.issue.labels) }}
-      DIR: "./content/generated/projects"
+      # DIR: "./content/generated/projects"
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
