@@ -23,7 +23,7 @@ jobs:
       - name: Run parser
         id: issue-parser
         run: |
-          FILEPATH=$(NODE_PATH=dist scripts --require tsm ./src/issue-parser.ts)
+          FILEPATH=$(NODE_PATH=scripts node --require tsm ./src/issue-parser.ts)
           echo "::set-output name=FILEPATH::$FILEPATH"
         working-directory: scripts
 
