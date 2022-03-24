@@ -1,3 +1,5 @@
+import { NextSeo } from 'next-seo';
+
 import Header from '@/components/Header';
 
 const Index = () => {
@@ -17,11 +19,15 @@ const Index = () => {
   ];
 
   return (
-    <div className="grow">
-      {sections.map((el, index) => (
-        <Header key={`link-${index}`} {...el} />
-      ))}
-    </div>
+    <>
+      <NextSeo title="Home" />
+
+      <div className="grow">
+        {sections.map((el, index) => (
+          <Header key={`link-${index}`} {...el} />
+        ))}
+      </div>
+    </>
   );
 };
 
