@@ -1,0 +1,6 @@
+{
+    "name": "redux-saga",
+    "repoUrl": "https://github.com/redux-saga/redux-saga",
+    "description": "An alternative side effect model for Redux apps",
+    "author": "Yassine Elouafi"
+  }
