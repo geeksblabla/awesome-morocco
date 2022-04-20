@@ -5,8 +5,16 @@ const NextSeo = {
   titleTemplate: '%s - Awesome Morocco',
 
   openGraph: {
+    type: 'website',
     locale: AppConfig.locale,
     site_name: AppConfig.site_name,
+    // url: '',
+  },
+
+  twitter: {
+    // handle: "@",
+    site: '@awesome-morocco',
+    cardType: 'summary_large_image',
   },
 };
 
