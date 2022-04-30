@@ -26,5 +26,5 @@ export const routes = [
   {
     link: '/about',
     label: 'About',
-  }
-]
+  },
+];
