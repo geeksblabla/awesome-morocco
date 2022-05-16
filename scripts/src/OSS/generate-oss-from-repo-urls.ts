@@ -3,6 +3,7 @@ import { EMPTY_LIST_ERROR } from "../constants";
 import { getRepoDetails} from "./request-repo-data";
 import { getErrorReporting } from "../blog/get-errors-reporting";
 import { isFulfilled, isRejected } from "../blog/filters";
+import { RepoDetails } from "../types";
 
 /**
  *
@@ -24,7 +25,7 @@ export const generatePostsFromRepoUrls = async (repoUrls: string[]) => {
 
   const promiseArray = repoUrls.map((repoUrl) => getRepoDetails(repoUrl));
   const results = await Promise.allSettled(promiseArray);
-  const posts = results
+  const posts: RepoDetails[] = results
     .filter(isFulfilled)
     .reduce((prev, current) => {
       return [...prev, current.value];
@@ -35,3 +36,4 @@ export const generatePostsFromRepoUrls = async (repoUrls: string[]) => {
   const logs = getErrorReporting(repoUrls.length, posts.length, errors);
   return { posts, logs, errors };
 };
+// Write parser for repo details
