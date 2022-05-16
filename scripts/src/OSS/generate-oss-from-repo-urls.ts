@@ -9,7 +9,7 @@ import { isFulfilled, isRejected } from "../blog/filters";
  * @param OSSUrls
  * @returns
  *
- * 1. Check if the rssUrls in not empty, if its the case we should return error
+ * 1. Check if the ossUrls in not empty, if its the case we should return error
  * 2. Create promise to fetch repo details
  * 3. Return logs and posts
  */
@@ -24,14 +24,12 @@ export const generatePostsFromRepoUrls = async (repoUrls: string[]) => {
 
   const promiseArray = repoUrls.map((repoUrl) => getRepoDetails(repoUrl));
   const results = await Promise.allSettled(promiseArray);
-
   const posts = results
     .filter(isFulfilled)
     .reduce((prev, current) => {
-      return [...prev, ...current];
+      return [...prev, current.value];
     }, [])
     .sort((a, b) => b.stargazers_count - a.stargazers_count);
-
   const errors = results.filter(isRejected).map((res) => res.reason);
 
   const logs = getErrorReporting(repoUrls.length, posts.length, errors);

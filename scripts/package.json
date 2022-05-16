@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "async-await-retry": "^1.2.4",
+    "axios": "^0.27.2",
     "dateformat": "^5.0.2",
     "jest": "^27.4.7",
     "promise-retry": "^2.0.1",
