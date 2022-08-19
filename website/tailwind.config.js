@@ -12,6 +12,7 @@ module.exports = {
       '4xl': '2.25rem',
       '5xl': '3rem',
       '6xl': '4rem',
+      '7xl': '5rem',
     },
     extend: {
       colors: {
@@ -37,6 +38,10 @@ module.exports = {
           800: '#2c5282',
           900: '#2a4365',
         },
+      },
+
+      boxShadow: {
+        '3xl': ' 0px 4px 50px rgba(0, 0, 0, 0.15)',
       },
     },
   },

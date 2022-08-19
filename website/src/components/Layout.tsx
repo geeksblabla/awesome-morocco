@@ -1,6 +1,5 @@
 import { ReactNode } from 'react';
 
-import Footer from './Footer';
 import Navbar from './Navbar';
 
 type IProps = {
@@ -9,10 +8,10 @@ type IProps = {
 
 const Layout = ({ children }: IProps) => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <Navbar />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
