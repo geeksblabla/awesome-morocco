@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { IoIosArrowDown } from 'react-icons/io';
 
+import arrowDown from '@/assets/arrowDown.svg';
 import logo from '@/assets/logo.svg';
 import searchIcon from '@/assets/search.svg';
 
@@ -38,10 +38,19 @@ const Navbar = () => {
         {/* menu */}
         <ul className="grow flex justify-between items-center text-xl font-medium tracking-tight">
           {MenuLinks.map((menuLink, i) => (
-            <li className="cursor-pointer whitespace-nowrap" key={i}>
+            <li
+              className="cursor-pointer whitespace-nowrap flex items-center gap-2"
+              key={i}
+            >
               <span>{menuLink.label}</span>
               {menuLink.subMenu && (
-                <IoIosArrowDown className="inline-block ml-1 " />
+                <Image
+                  src={arrowDown}
+                  alt="Arrow Down"
+                  height={18}
+                  width={20}
+                  className="inline-block ml-1 align-middle"
+                />
               )}
               {/* TODO submenu drop down */}
             </li>

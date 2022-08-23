@@ -16,4 +16,7 @@ module.exports = withBundleAnalyzer({
       inter: ['inter', 'sans-serif', 'system-ui'],
     },
   },
+  images: {
+    domains: ['source.unsplash.com'],
+  },
 });

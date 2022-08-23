@@ -1,3 +1,5 @@
+const lineClampPlugin = require('@tailwindcss/line-clamp');
+
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -43,8 +45,12 @@ module.exports = {
       boxShadow: {
         '3xl': ' 0px 4px 50px rgba(0, 0, 0, 0.15)',
       },
+      borderRadius: {
+        '3xl': '1.25rem',
+        '4xl': '1.5rem',
+      },
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [lineClampPlugin],
 };
