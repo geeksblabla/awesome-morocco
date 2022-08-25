@@ -20,7 +20,7 @@ const MenuLinks = [
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1320px] w-full mx-auto">
+    <div className="max-w-[1320px] w-full mx-auto hidden md:block">
       <nav className="flex justify-between align-middle my-14 px-4 ">
         {/* logo */}
         <div className="grow-[2] flex items-center ">
