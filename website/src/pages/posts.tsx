@@ -8,12 +8,24 @@ type Props = {
 };
 
 export async function getStaticProps(__context: any) {
-  const res = await customFetch('/api?resourceType=articles');
-  return {
-    props: {
-      posts: res.data,
-    },
-  };
+  try {
+    const res = await customFetch('/api?resourceType=articles');
+    return {
+      props: {
+        posts: res.data,
+      },
+    };
+  } catch (err) {
+    // eslint-disable-next-line no-console
+    console.error('error');
+    // eslint-disable-next-line no-console
+    console.error(err);
+    return {
+      props: {
+        posts: null,
+      },
+    };
+  }
 }
 
 const Posts = ({ posts }: Props) => {
