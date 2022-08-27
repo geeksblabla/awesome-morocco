@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import arrowDown from '@/assets/arrowDown.svg';
 import logo from '@/assets/logo.svg';
 import searchIcon from '@/assets/search.svg';
+import Image from '@/components/Image';
 
 const MenuLinks = [
   {

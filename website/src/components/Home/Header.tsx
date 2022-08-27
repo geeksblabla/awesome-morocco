@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Image from 'next/image';
-
 import amazon from '@/assets/amazon.svg';
 import github from '@/assets/github.svg';
 import google from '@/assets/google.svg';
@@ -9,6 +7,7 @@ import ibm from '@/assets/ibm.svg';
 import microsoft from '@/assets/microsoft.svg';
 import oracle from '@/assets/oracle.svg';
 import spotify from '@/assets/spotify.svg';
+import Image from '@/components/Image';
 
 const Header = () => {
   return (

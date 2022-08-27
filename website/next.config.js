@@ -17,6 +17,7 @@ module.exports = withBundleAnalyzer({
     },
   },
   images: {
+    loader: 'custom',
     domains: ['source.unsplash.com'],
   },
 });

@@ -1,8 +1,7 @@
 import React from 'react';
 
-import Image from 'next/image';
-
 import arrowRight from '@/assets/arrowRight.svg';
+import Image from '@/components/Image';
 
 const DiscoverMore = () => {
   return (

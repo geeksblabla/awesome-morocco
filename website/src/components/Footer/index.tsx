@@ -1,7 +1,7 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import logo from '@/assets/lightLogo.svg';
+import Image from '@/components/Image';
 
 import CommunityCard from './CommunityCard';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Image from 'next/image';
+import Image from '@/components/Image';
 
 import DiscoverMore from './DiscoverMore';
 import SectionTitle from './SectionTitle';

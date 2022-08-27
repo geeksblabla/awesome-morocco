@@ -1,10 +1,9 @@
 import React from 'react';
 
-import Image from 'next/image';
-
 import starIcon from '@/assets/star.svg';
 import targetIcon from '@/assets/target.svg';
 import typescriptIcon from '@/assets/typescript.svg';
+import Image from '@/components/Image';
 
 import DiscoverMore from './DiscoverMore';
 import SectionTitle from './SectionTitle';
