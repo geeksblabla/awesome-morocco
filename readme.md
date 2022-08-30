@@ -240,6 +240,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [Athena](https://github.com/yezz123/Athena) - Test your Security Skills, and Clean Code Development as a Pythonist, Hacker & Warrior by [@yezz123](https://github.com/yezz123)
 - [FRDP](https://github.com/BnademOverflow/FRDP) - Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin by [@yezz123](https://github.com/yezz123)
 - [Apollo](https://github.com/yezz123/Apollo) - A basic Application with multiple functionalities built with FastAPI aim to help Users Buy New Items Provided using PaypalAPI by [@yezz123](https://github.com/yezz123)
+- [Cyberowl](https://github.com/karimhabush/cyberowl) - A daily updated summary of security incidents being reported from different sources by [@karimhabush](https://github.com/karimhabush)
 
 #### Go
 
