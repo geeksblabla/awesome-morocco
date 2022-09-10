@@ -34,4 +34,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           working-directory: "scripts"
           package-manager: yarn
-          test-script: yarn jest
+          test-script: yarn test
