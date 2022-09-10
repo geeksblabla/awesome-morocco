@@ -1,6 +1,12 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Scripts",
+  "extends": "./base.json",
   "compilerOptions": {
+    "allowJs": true,
+    "noEmit": false,
     "target": "es6",
+    "sourceMap": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "./lib",
@@ -9,6 +15,5 @@
     "noImplicitAny": true,
     "esModuleInterop": true,
     "types": ["node", "jest"]
-  },
-  "exclude": ["node_modules", "**/*.spec.ts", "__tests__"]
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "extends": "tsconfig/nextjs.json", 
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+  },
+  "include": ["src", "next-env.d.ts"],
+  "exclude": ["node_modules"]
+}

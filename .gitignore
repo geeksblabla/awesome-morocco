@@ -67,4 +67,10 @@ dist
 node_modules
 package-lock.json
 
-.next
+build/**
+dist/**
+.next/**
+
+.turbo
+
+**/**/node_modules
