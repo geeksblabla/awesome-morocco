@@ -267,6 +267,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
 - [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
+- [ODC-World-Cup-2022-Predictions](https://github.com/Omaraitbenhaddi/ODC-World-Cup-2022-Predictions) - Prediction of the winner of an international matches Prediction results are "Win / Lose / Draw" and Apply the model to predict the result of FIFA world cup 2022 by [@Omaraitbenhaddi](https://github.com/Omaraitbenhaddi)
 
 #### Others
 
