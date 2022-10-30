@@ -52,6 +52,7 @@
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
 - [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
+- [JavaScript Morocco](https://twitter.com/JSMorocco) - The Moroccan JavaScript Community.
 
 ---
 
@@ -101,7 +102,7 @@
   - [Youssef Lghoumaigui](https://lghou.com/) - C#, Vue js...
   - [Rachid CHAMI](https://medium.com/@chamirachid) - Blockchain, Cryptography, Docker...
   - [Ayoub Sousali](https://www.ayoubsousali.com/) - JavaScript, React, React Native, PHP, Python, ...
-  - [Nadia Laasri](https://nadialaasri.me/blog/) - CSS, CSS ART, Javascript, ...
+  - [Nadia Laasri](https://nadialaasri.tech/blog/) - CSS, CSS ART, Javascript, ...
   - [Aymane Mimouni](https://aymanemx.com/posts/) - Python, Django, ...
   - [Ihssane Hatim](https://brightshine.io/tag/web_development/) - Web dev ....
   - [Yassine Bennkhay](https://yassine-bennkhay.tech/) - Flutter, Dart,...
@@ -126,6 +127,7 @@
 - [Génération Kairos](https://www.generationkairos.com/)
 - [S7aba Podcast](https://linktr.ee/s7aba)
 - [Lectorem - القارئ](https://www.youtube.com/channel/UCAKherxCCvXWHyGaeQKy-Jw)
+- [Angular In Darija](https://angularindarija.dev/)
 
 ---
 
@@ -184,9 +186,12 @@
 - [CRA boilerplate](https://github.com/smakosh/CRA-boilerplate) - A CRA boilerplate for large projects in JavaScript and TypeScript. By [@smakosh](https://github.com/smakosh)
 - [A Gatsby i18n starter](https://github.com/smakosh/gatsby-starter-i18n) - A Gatsby starter with i18n configured using `react-intl` and Context API. By [@smakosh](https://github.com/smakosh)
 - [DolarJs](https://github.com/mboussaid/Dolar.JS) - A minimal and lightweight `javascript` library By [@mboussaid](https://github.com/mboussaid)
-- [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` ibrary that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
-- [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` ibrary that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
+- [JSS](https://github.com/mboussaid/JSS) - A minimal `javascript` library that allows you to change the style of elements By [@mboussaid](https://github.com/mboussaid)
+- [VerifyJS](https://github.com/mboussaid/VerifyJS) - A minimal `javascript` library that allows to add verification to your inputs By [@mboussaid](https://github.com/mboussaid)
 - [SeuleJs](https://github.com/ElMehdiLebbar/SeuleJs) - A progressive, incrementally-adoptable JavaScript framework for building UI on the web By [@ElMehdiLebbar](https://github.com/ElMehdiLebbar)
+- [vue3 infinite loading](https://github.com/oumoussa98/vue3-infinite-loading) - An infinite scroll component compatible with vue.js 3 and vite, to help you implement an infinite scroll list more easily. By [@oumoussa98](https://github.com/oumoussa98)
+- [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
+- [ngx-darija](https://github.com/ngMorocco/ngx-darija) - Angular in Darija Live Coding Series official Application by the [Moroccan Angular Community](https://github.com/ngMorocco).
 
 #### Java
 
@@ -236,6 +241,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [Athena](https://github.com/yezz123/Athena) - Test your Security Skills, and Clean Code Development as a Pythonist, Hacker & Warrior by [@yezz123](https://github.com/yezz123)
 - [FRDP](https://github.com/BnademOverflow/FRDP) - Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin by [@yezz123](https://github.com/yezz123)
 - [Apollo](https://github.com/yezz123/Apollo) - A basic Application with multiple functionalities built with FastAPI aim to help Users Buy New Items Provided using PaypalAPI by [@yezz123](https://github.com/yezz123)
+- [Cyberowl](https://github.com/karimhabush/cyberowl) - A daily updated summary of security incidents being reported from different sources by [@karimhabush](https://github.com/karimhabush)
 
 #### Go
 
@@ -262,6 +268,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [PoseNet-chrome-Dinosaur](https://github.com/aminejafur/PoseNet-chromeDinosaur) - Play the famous Chrom Dinosaur game using your body! by [@aminejafur](https://github.com/aminejafur)
 - [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
+- [ODC-World-Cup-2022-Predictions](https://github.com/Omaraitbenhaddi/ODC-World-Cup-2022-Predictions) - Prediction of the winner of an international matches Prediction results are "Win / Lose / Draw" and Apply the model to predict the result of FIFA world cup 2022 by [@Omaraitbenhaddi](https://github.com/Omaraitbenhaddi)
 
 #### Others
 
