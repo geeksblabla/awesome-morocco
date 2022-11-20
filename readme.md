@@ -191,6 +191,7 @@
 - [vue3 infinite loading](https://github.com/oumoussa98/vue3-infinite-loading) - An infinite scroll component compatible with vue.js 3 and vite, to help you implement an infinite scroll list more easily. By [@oumoussa98](https://github.com/oumoussa98)
 - [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
 - [ngx-darija](https://github.com/ngMorocco/ngx-darija) - Angular in Darija Live Coding Series official Application by the [Moroccan Angular Community](https://github.com/ngMorocco).
+- [Ryo.js](https://github.com/marvelbark2/ryo-js) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2)
 
 #### Java
 
