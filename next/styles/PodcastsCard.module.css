@@ -1,0 +1,67 @@
+.podsWrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 10px;
+}
+
+.podsWrapper .podCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.podsWrapper .podCard .podCardText {
+  padding: 10px;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.podsWrapper .podCard .podCardText h2 {
+  margin: 0;
+}
+
+.podsWrapper .podCard .podCardText p {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+}
+
+.podsWrapper .podCard .podCardImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.podsWrapper .podCard .podCardImage img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .podsWrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .podsWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .podsWrapper {
+    grid-template-columns: 1fr;
+  }
+}

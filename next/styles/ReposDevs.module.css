@@ -1,0 +1,196 @@
+.repositories {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 0 20px;
+}
+
+.repositories .card {
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  padding: 8px 10px;
+  height: max-content;
+}
+
+.repositories .card h5 {
+  margin: 5px 0 10px 0;
+  color: white;
+  background-color: rgb(194, 0, 32);
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.repositories .card h2 {
+  font-weight: 550;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.repositories .card p {
+  color: gray;
+  font-size: 17px;
+}
+
+.repositories .card .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.repositories .card .tags span {
+  font-size: 14px;
+  border: 1px solid lightgray;
+  color: #262626;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.repositories .card .states {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-area: 10px;
+  border-top: 1px solid lightgray;
+  padding-top: 8px;
+  margin-top: 12px;
+}
+
+.repositories .card .states div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.repositories .card .states div span {
+  color: gray;
+}
+
+.developers {
+  max-width: 1200px;
+  width: 100;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.developers table {
+  border-collapse: collapse;
+  width: 100%;
+  /* table-layout: initial; */
+}
+
+.developers table td,
+.developers table th {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.developers table tr {
+  text-align: left;
+}
+
+.developers table th {
+  padding: 20px 0;
+  text-align: left;
+  color: gray;
+  font-weight: initial;
+}
+
+.developers table td {
+  padding: 20px 0;
+}
+
+.developers table .nameUserName {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.developers table td:nth-child(1) {
+  padding: 0 5px;
+}
+
+.developers table td:nth-child(2) {
+  padding: 0;
+  padding-right: 8px;
+}
+
+.developers table td:last-child,
+.developers table th:last-child {
+  text-align: center;
+}
+
+.developers table td img {
+  height: 40px;
+  width: 40px;
+}
+
+.developers table .nameUserName span:last-child {
+  font-size: 14px;
+  color: gray;
+}
+
+.language {
+  width: 100%;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+.language p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #e5e7eb;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  margin-bottom: -12px;
+  text-align: left;
+}
+
+.language span {
+  background-color: #f9fafb;
+  color: rgb(90, 90, 90);
+  margin-left: 10px;
+  padding: 0 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 860px) {
+  .repositories {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .repositories {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .repositories {
+    grid-template-columns: 1fr;
+  }
+  .developers table th,
+  .developers table td {
+    display: flex;
+  }
+
+  .developers table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

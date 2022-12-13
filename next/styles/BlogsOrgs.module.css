@@ -1,0 +1,75 @@
+.orgsWrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  gap: 10px;
+}
+
+.orgsWrapper .orgCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.orgsWrapper .orgCard .orgCardText {
+  padding: 10px;
+}
+
+.orgsWrapper .orgCard .orgCardText h2 {
+  margin: 0;
+}
+
+.orgsWrapper .orgCard .orgCardText p {
+  font-size: 14px;
+  color: gray;
+  line-height: 24px;
+}
+
+.orgsWrapper .orgCard .orgCardText a {
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 550;
+}
+
+.orgsWrapper .orgCard .orgCardImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orgsWrapper .orgCard .orgCardImage img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+  .orgsWrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .orgsWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .orgsWrapper {
+    grid-template-columns: 1fr;
+  }
+}
