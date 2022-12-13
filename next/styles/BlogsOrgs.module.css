@@ -17,6 +17,7 @@
   border: 1px solid rgb(233, 233, 233);
   padding: 5px;
   border-radius: 5px;
+  width: 100%;
 }
 
 .orgsWrapper .orgCard .orgCardText {
