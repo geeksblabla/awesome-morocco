@@ -11,10 +11,15 @@ import BlogsFeed from "../../components/BlogsFeed";
 import BlogsOrgs from "../../components/BlogsOrgs";
 import BlogsAuthors from "../../components/BlogsAuthors";
 
-export default function Blogs() {
+import fs from "fs/promises";
+import path from "path";
+import * as matter from 'gray-matter';
+
+export default function Blogs({ data }) {
   const [filterOpen, setFilterOpen] = useState(false);
   const [blogsContent, setBlogsContent] = useState("FEED");
 
+  let matterData = matter(data);
   return (
     <div className={styles.container}>
       <Head>
@@ -40,9 +45,9 @@ export default function Blogs() {
         />
         <div>
           {blogsContent == "FEED" ? (
-            <BlogsFeed />
+            <BlogsFeed feeds={matterData.data} />
           ) : blogsContent == "ORGANIZATIONS" ? (
-            <BlogsOrgs />
+            <BlogsOrgs orgs={matterData.data} />
           ) : blogsContent == "AUTHORS" ? (
             <BlogsAuthors />
           ) : null}
@@ -51,3 +56,13 @@ export default function Blogs() {
     </div>
   );
 }
+
+export const getStaticProps = async () => {
+  const filePath = path.join(process.cwd(), "content", "blogs.yaml");
+  const yamlData = await fs.readFile(filePath);
+  let data = yamlData.toString(undefined);
+
+  return {
+    props: { data },
+  };
+};
