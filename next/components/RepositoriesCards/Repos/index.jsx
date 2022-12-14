@@ -6,17 +6,18 @@ const Repos = ({ projects }) => {
   return (
     <div className={styles.repositories}>
       {projects.map((repository, index) => (
-        <div className={styles.card}>
-          <h5>{repository.author}</h5>
+        <div className={styles.card} key={`repo-${index}`}>
           <Link href={repository.url} key={index} legacyBehavior>
             <a target="_blank" title={`${repository.name} By ${repository.author}`}>
               <h2>{repository.name}</h2>
             </a>
           </Link>
+          <h5>{repository.author}</h5>
+
           <p>{repository.description}</p>
           <div className={styles.tags}>
             {repository.tags?.map((tag) => (
-              <span className={styles.singleTag} title={tag}>
+              <span className={styles.singleTag} title={tag} key={tag}>
                 #{tag}
               </span>
             ))}

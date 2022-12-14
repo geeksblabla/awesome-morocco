@@ -10,16 +10,14 @@ import BlogsFilterBar from "../../components/BlogsFilterBar";
 import BlogsFeed from "../../components/BlogsFeed";
 import BlogsOrgs from "../../components/BlogsOrgs";
 import BlogsAuthors from "../../components/BlogsAuthors";
+import { getParsedYAML } from "../../services/parser";
 
-import fs from "fs/promises";
-import path from "path";
-import * as matter from 'gray-matter';
 
-export default function Blogs({ data }) {
+
+export default function Blogs({data}) {
   const [filterOpen, setFilterOpen] = useState(false);
   const [blogsContent, setBlogsContent] = useState("FEED");
 
-  let matterData = matter(data);
   return (
     <div className={styles.container}>
       <Head>
@@ -45,9 +43,9 @@ export default function Blogs({ data }) {
         />
         <div>
           {blogsContent == "FEED" ? (
-            <BlogsFeed feeds={matterData.data} />
+            <BlogsFeed feeds={data} />
           ) : blogsContent == "ORGANIZATIONS" ? (
-            <BlogsOrgs orgs={matterData.data} />
+            <BlogsOrgs orgs={data} />
           ) : blogsContent == "AUTHORS" ? (
             <BlogsAuthors />
           ) : null}
@@ -58,11 +56,8 @@ export default function Blogs({ data }) {
 }
 
 export const getStaticProps = async () => {
-  const filePath = path.join(process.cwd(), "content", "blogs.yaml");
-  const yamlData = await fs.readFile(filePath);
-  let data = yamlData.toString(undefined);
-
+   const { data } = await getParsedYAML("blogs.yaml")
   return {
-    props: { data },
+    props: {data},
   };
 };

@@ -7,16 +7,15 @@ import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import FilterBar from "../components/FilterBar";
 import RepositoriesCards from "../components/RepositoriesCards";
+import { getParsedYAML } from "../services/parser";
 
-import fs from "fs/promises";
-import path from "path";
-import * as matter from 'gray-matter';
+
 
 export default function Home({ data }) {
   const [developers, setDevelopers] = useState(false);
   const [filterOpen, setFilterOpen] = useState(false);
 
-  let matterData = matter(data);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -40,17 +39,14 @@ export default function Home({ data }) {
           filterOpen={filterOpen}
           setFilterOpen={setFilterOpen}
         />
-        <RepositoriesCards developers={developers} projects={matterData.data} />
+        <RepositoriesCards developers={developers} projects={data} />
       </div>
     </div>
   );
 }
 
 export const getStaticProps = async () => {
-  const filePath = path.join(process.cwd(), "content", "projects.yaml");
-  const yamlData = await fs.readFile(filePath);
-  let data = yamlData.toString(undefined);
-
+  const { data } = await getParsedYAML("projects.yaml")
   return {
     props: { data },
   };
