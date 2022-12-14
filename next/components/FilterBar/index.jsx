@@ -9,6 +9,7 @@ const FilterBar = ({
   setDevelopers,
   filterOpen,
   setFilterOpen,
+  projects,
 }) => {
   return (
     <div className={styles.filterbar}>
@@ -40,7 +41,7 @@ const FilterBar = ({
         />
       </div>
 
-      {filterOpen == true ? <FilterSettings /> : null}
+      {filterOpen == true ? <FilterSettings projects={projects} /> : null}
     </div>
   );
 };

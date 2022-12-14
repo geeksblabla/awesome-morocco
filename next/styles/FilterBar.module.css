@@ -75,7 +75,6 @@
 
 .filterbar .filterOpenWrapper div:nth-child(1) div,
 .filterbar .filterOpenWrapper div:nth-child(2) div {
-  /* background-color: gold; */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -91,6 +90,18 @@
   padding: 4px 8px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.filterbar .filterOpenWrapper div:nth-child(1) div button:active {
+  transform: scale(0.98);
+}
+
+.filterbar .filterOpenWrapper div:nth-child(2) span {
+  border: 1px solid lightgray;
+  color: rgb(70, 70, 70);
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 .filterbar .filterOpen .filterButtons {

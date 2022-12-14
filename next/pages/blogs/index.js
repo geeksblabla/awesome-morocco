@@ -12,9 +12,7 @@ import BlogsOrgs from "../../components/BlogsOrgs";
 import BlogsAuthors from "../../components/BlogsAuthors";
 import { getParsedYAML } from "../../services/parser";
 
-
-
-export default function Blogs({data}) {
+export default function Blogs({ data }) {
   const [filterOpen, setFilterOpen] = useState(false);
   const [blogsContent, setBlogsContent] = useState("FEED");
 
@@ -56,8 +54,8 @@ export default function Blogs({data}) {
 }
 
 export const getStaticProps = async () => {
-   const { data } = await getParsedYAML("blogs.yaml")
+  const { data } = await getParsedYAML("blogs.yaml");
   return {
-    props: {data},
+    props: { data },
   };
 };

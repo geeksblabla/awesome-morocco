@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../styles/FilterBar.module.css";
 
-const FilterSettings = () => {
+const FilterSettings = ({ projects }) => {
   return (
     <div>
       <div className={styles.filterOpen}>
@@ -9,24 +9,18 @@ const FilterSettings = () => {
           <div>
             <h3>Languages</h3>
             <div>
-              <button>JavaScript(42)</button>
-              <button>TypeScript(13)</button>
-              <button>Java(11)</button>
-              <button>Python(31)</button>
-              <button>Go(3)</button>
-              <button>PHP(14)</button>
+              {projects.map((project) =>
+                project.tags.map((tag) => <button key={tag}>{tag}</button>)
+              )}
             </div>
           </div>
 
           <div>
             <h3>Tags</h3>
             <div>
-              <span>Machine Learning</span>
-              <span>Database</span>
-              <span>Documentation</span>
-              <span>Extentions</span>
-              <span>Typesafty</span>
-              <span>Nodejs</span>
+              {projects.map((project) =>
+                project.tags.map((tag) => <span key={tag}>{tag}</span>)
+              )}
             </div>
           </div>
 

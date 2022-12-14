@@ -9,12 +9,9 @@ import FilterBar from "../components/FilterBar";
 import RepositoriesCards from "../components/RepositoriesCards";
 import { getParsedYAML } from "../services/parser";
 
-
-
 export default function Home({ data }) {
   const [developers, setDevelopers] = useState(false);
   const [filterOpen, setFilterOpen] = useState(false);
-
 
   return (
     <div className={styles.container}>
@@ -38,6 +35,7 @@ export default function Home({ data }) {
           setDevelopers={setDevelopers}
           filterOpen={filterOpen}
           setFilterOpen={setFilterOpen}
+          projects={data}
         />
         <RepositoriesCards developers={developers} projects={data} />
       </div>
@@ -46,7 +44,7 @@ export default function Home({ data }) {
 }
 
 export const getStaticProps = async () => {
-  const { data } = await getParsedYAML("projects.yaml")
+  const { data } = await getParsedYAML("projects.yaml");
   return {
     props: { data },
   };
