@@ -2,9 +2,11 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "../../styles/Navbar.module.css";
+import useGithubRepoStarsCount from "../../hooks/github-stars";
 
 const Navbar = () => {
   const router = useRouter();
+  const count = useGithubRepoStarsCount('DevC-Casa/awesome-morocco')
 
   return (
     <div className={styles.navbar}>
@@ -99,11 +101,11 @@ const Navbar = () => {
             </defs>
           </svg>
 
-          <span>502 Stars</span>
+          <span>{ count } Stars</span>
         </Link>
 
         <div className={styles.contribute}>
-          <button>Contribute</button>
+          <Link href="https://github.com/DevC-Casa/awesome-morocco" >Contribute</Link>
         </div>
       </div>
     </div>
