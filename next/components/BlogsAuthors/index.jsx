@@ -15,7 +15,7 @@ const BlogsAuthors = () => {
           <div className={styles.authorCardText}>
             <h2>{author.full_name}</h2>
             <p>{author.tech_stack}</p>
-            <Link href="">Visit website {"-->"}</Link>
+            <Link href="">Visit the website</Link>
           </div>
         </div>
       ))}

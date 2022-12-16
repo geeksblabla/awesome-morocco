@@ -17,7 +17,7 @@ const BlogsOrgs = ({ orgs }) => {
               <p>{org.description}</p>
               <Link href={org.url} legacyBehavior>
                 <a target="_blank">
-                  <span>Visit website {"-->"}</span>
+                  <span>Visit the website</span>
                 </a>
               </Link>
             </div>
