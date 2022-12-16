@@ -9,7 +9,7 @@ const BlogsOrgs = ({ orgs }) => {
         org.type == "professional" ? (
           <div className={styles.orgCard} key={index}>
             <div className={styles.orgCardImage}>
-              <img src={org.image} alt="Organization Image" />
+              <img src={org.image}  alt="Organization Image" />
             </div>
             <div className={styles.orgCardText}>
               <h4>{org.author}</h4>

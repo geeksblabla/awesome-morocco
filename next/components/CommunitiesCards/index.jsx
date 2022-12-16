@@ -58,7 +58,7 @@ const CommunitiesCards = () => {
           </div>
 
           <div className={styles.bookButton}>
-            <Link href="">Book a session</Link>
+            <span onClick={() => alert('Coming soon')}>Book a session</span>
           </div>
         </div>
       ))}

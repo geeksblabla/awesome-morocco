@@ -4,35 +4,35 @@
   url: https://xlog.x-hub.io
   description: Sharing knowledge is our DNA, because power is gained by sharing knowledge not by hoarding it, our experts will be covering the best and latest IT practices to level up your IT learning journey.
   author: xHub
-  image: "/orgsImages/org_img.png"
+  image: "/orgsImages/xhub.png"
   type: professional
 - id: 2
   name: Obytes
   url: https://obytes.com/blog
   description: We're a team of dreamers and makers who create products that your users will love.
   author: Obytes
-  image: "/orgsImages/org_img.png"
+  image: "/orgsImages/obytes.png"
   type: professional
 - id: 3
   name: Gemography
   url: https://dev.to/gemography
   description: Matching talented engineers with great opportunities.
   author: Gemography
-  image: "/orgsImages/org_img.png"
+  image: "/orgsImages/gemography.jpeg"
   type: professional
 - id: 4
   name: Remote.ma
   url: https://remote.ma
   description: Discover remote work jobs you can do from Morocco with worldwide companies covering every industry.
   author: Ahmed El AZZABI
-  image: "/orgsImages/org_img.png"
+  image: "/orgsImages/remotema.png"
   type: professional
 - id: 5
   name: Nimble Ways
   url: https://blog.nimbleways.com
   description: From ideas to solutions in record time.
   author: Nimble Ways
-  image: "/orgsImages/org_img.png"
+  image: "/orgsImages/nimbleways.jpeg"
   type: professional
 - id: 6
   name: Mohammed Aboullaite
