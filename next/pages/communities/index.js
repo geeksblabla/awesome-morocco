@@ -19,8 +19,7 @@ export default function Communities({ data }) {
       </Head>
 
       <div className={styles.main}>
-        <UpperBanner />
-        <Navbar currentPageTitle={false} />
+     
         <Header
           headerTitle={"Communities"}
           haederDescription={

@@ -25,8 +25,7 @@ export default function Blogs({ data }) {
       </Head>
 
       <div>
-        <UpperBanner />
-        <Navbar />
+   
         <Header
           headerTitle={"Blogs"}
           haederDescription={

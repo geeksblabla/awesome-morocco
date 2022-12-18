@@ -30,7 +30,7 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
-          <li title="Communities">
+          {/* <li title="Communities">
             <Link href="/communities" legacyBehavior>
               <a
                 className={
@@ -40,7 +40,7 @@ const Navbar = () => {
                 Communities
               </a>
             </Link>
-          </li>
+          </li> */}
           <li title="Podcasts">
             <Link href="/podcasts" legacyBehavior>
               <a className={router.route == "/podcasts" ? styles.active : null}>

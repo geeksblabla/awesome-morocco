@@ -24,8 +24,7 @@ export default function Podcasts({ data }) {
       </Head>
 
       <div className={styles.main}>
-        <UpperBanner />
-        <Navbar />
+  
         <Header
           headerTitle={"Podcasts"}
           haederDescription={"Find your favorite Moroccan Podcasts"}
