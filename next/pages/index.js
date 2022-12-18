@@ -21,9 +21,7 @@ export default function Home({ data }) {
         <link rel="icon" href="/site-icon.svg" />
       </Head>
 
-      <div className={styles.main}>
-        <UpperBanner />
-        <Navbar />
+<div>
         <Header
           headerTitle={"Open Source Projects"}
           haederDescription={

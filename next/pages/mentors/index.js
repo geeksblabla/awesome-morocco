@@ -19,8 +19,7 @@ export default function Mentors({ data }) {
       </Head>
 
       <div className={styles.main}>
-        <UpperBanner />
-        <Navbar />
+   
         <Header
           headerTitle={"Mentors"}
           haederDescription={
