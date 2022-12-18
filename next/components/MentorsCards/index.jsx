@@ -1,22 +1,20 @@
 import Link from "next/link";
 import React from "react";
-import styles from "../../styles/CommunitiesCards.module.css";
+import styles from "../../styles/MentorsCards.module.css";
 
-import users from "./data";
-
-const CommunitiesCards = () => {
+const MentorsCards = ({ mentors }) => {
   return (
     <div className={styles.communitesWrapper}>
-      {users.map((user, index) => (
+      {mentors.map((mentor, index) => (
         <div className={styles.userCard} key={index}>
           <div className={styles.userPersonalInfo}>
             <div className={styles.userImage}>
-              <img src={user.avatar} alt="User Avatar" />
+              <img src={mentor.image} alt="User Avatar" />
               <span></span>
             </div>
             <div className={styles.userText}>
               <div className={styles.nameSettings}>
-                <h2>{user.full_name}</h2>
+                <h2>{mentor.name}</h2>
                 <Link href="">
                   <svg
                     width="14"
@@ -32,33 +30,26 @@ const CommunitiesCards = () => {
                   </svg>
                 </Link>
               </div>
-              <div className={styles.price_workhours}>
-                {user.price_range ? (
-                  <span>
-                    <b>{user.price_range}</b>
-                    <span>Dh/h</span>
-                  </span>
-                ) : null}
-                <span>
-                  <b>{user.reviews_dic}</b>
-                  <span>({user.reviews_full})</span>
-                </span>
-              </div>
+              <h3>@{mentor.company}</h3>
             </div>
           </div>
 
           <div className={styles.userAbout}>
-            <p>{user.about}</p>
+            <p>{mentor.description}</p>
           </div>
 
           <div className={styles.userTechStack}>
-            {user.tech_stack.map((techStack, index) => (
-              <span key={index}>{techStack}</span>
+            {mentor.technologies.map((technology, index) => (
+              <span key={index}>{technology}</span>
             ))}
           </div>
 
           <div className={styles.bookButton}>
-            <Link href="">Book a session</Link>
+            <Link href={mentor.url} legacyBehavior>
+                <a target="_blank">
+                    Book a session
+                </a>
+            </Link>
           </div>
         </div>
       ))}
@@ -66,4 +57,4 @@ const CommunitiesCards = () => {
   );
 };
 
-export default CommunitiesCards;
+export default MentorsCards;

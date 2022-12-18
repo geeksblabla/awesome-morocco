@@ -5,8 +5,8 @@ import styles from "../../styles/Blogs.module.css";
 import UpperBanner from "../../components/UpperBanner";
 import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
-import BlogsFilterBar from "../../components/BlogsFilterBar";
 
+import BlogsFilterBar from "../../components/BlogsFilterBar";
 import BlogsFeed from "../../components/BlogsFeed";
 import BlogsOrgs from "../../components/BlogsOrgs";
 import BlogsAuthors from "../../components/BlogsAuthors";

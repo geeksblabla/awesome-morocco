@@ -9,8 +9,9 @@ import Header from "../../components/Header";
 import PodcastsFilterBar from "../../components/PodcastsFilterBar";
 import PodcastsCard from "../../components/PodcastsCard";
 import PodcastRadio from "../../components/PodcastsRadio";
+import { getParsedYAML } from "../../services/parser";
 
-export default function Podcasts() {
+export default function Podcasts({ data }) {
   const [filterOpen, setFilterOpen] = useState(false);
   const [podcastContent, setPodcastContent] = useState("PODCASTS");
 
@@ -36,7 +37,7 @@ export default function Podcasts() {
           setPodcastContent={setPodcastContent}
         />
         {podcastContent == "PODCASTS" ? (
-          <PodcastsCard />
+          <PodcastsCard podcasts={data} />
         ) : podcastContent == "RADIO" ? (
           <PodcastRadio />
         ) : null}
@@ -44,3 +45,10 @@ export default function Podcasts() {
     </div>
   );
 }
+
+export const getStaticProps = async () => {
+  const { data } = await getParsedYAML("podcasts.yaml");
+  return {
+    props: { data },
+  };
+};

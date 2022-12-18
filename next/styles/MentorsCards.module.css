@@ -31,6 +31,11 @@
   position: relative;
 }
 
+.communitesWrapper .userCard .userPersonalInfo .userImage img {
+  max-width: 70px;
+  border-radius: 50%;
+}
+
 .communitesWrapper .userCard .userPersonalInfo .userImage span {
   height: 12px;
   width: 12px;
@@ -54,6 +59,10 @@
 .communitesWrapper .userCard .userPersonalInfo .userText .nameSettings h2 {
   margin: 0 0 8px 0;
   color: #1f2937;
+}
+
+.communitesWrapper .userCard .userPersonalInfo .userText h3 {
+  margin: 0;  
 }
 
 .communitesWrapper .userCard .userPersonalInfo .userText .price_workhours {

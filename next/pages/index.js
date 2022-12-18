@@ -16,7 +16,7 @@ export default function Home({ data }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Awesome Morocco UI</title>
+        <title>Awesome Morocco</title>
         <meta name="description" content="Made with <3 By Ismail Boularbah" />
         <link rel="icon" href="/site-icon.svg" />
       </Head>

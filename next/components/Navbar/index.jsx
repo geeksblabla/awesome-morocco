@@ -46,6 +46,13 @@ const Navbar = () => {
               </a>
             </Link>
           </li>
+          <li title="Mentors">
+            <Link href="/mentors" legacyBehavior>
+              <a className={router.route == "/mentors" ? styles.active : null}>
+                Mentors
+              </a>
+            </Link>
+          </li>
         </ul>
       </div>
 

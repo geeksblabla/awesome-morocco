@@ -3,7 +3,7 @@
   width: 100%;
   margin: auto;
   display: grid;
-  place-items: center;
+  place-items: start;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 20px;
   gap: 10px;
