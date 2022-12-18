@@ -46,9 +46,9 @@ const MentorsCards = ({ mentors }) => {
 
           <div className={styles.bookButton}>
             <Link href={mentor.url} legacyBehavior>
-                <a target="_blank">
-                    Book a session
-                </a>
+              <a target="_blank">
+                <span>Book a session</span>
+              </a>
             </Link>
           </div>
         </div>

@@ -9,7 +9,7 @@ const BlogsOrgs = ({ orgs }) => {
         org.type == "professional" ? (
           <div className={styles.orgCard} key={index}>
             <div className={styles.orgCardImage}>
-              <img src={org.image} alt="Organization Image" />
+              <img src={org.image}  alt="Organization Image" />
             </div>
             <div className={styles.orgCardText}>
               <h4>{org.author}</h4>
@@ -17,7 +17,7 @@ const BlogsOrgs = ({ orgs }) => {
               <p>{org.description}</p>
               <Link href={org.url} legacyBehavior>
                 <a target="_blank">
-                  <span>Visit website {"-->"}</span>
+                  <span>Visit the website</span>
                 </a>
               </Link>
             </div>

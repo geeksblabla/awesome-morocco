@@ -108,7 +108,7 @@
   margin-top: 10px;
 }
 
-.communitesWrapper .userCard .bookButton a {
+.communitesWrapper .userCard .bookButton span {
   background-color: #111827;
   color: white;
   display: flex;
@@ -117,6 +117,7 @@
   padding: 10px 20px;
   border-radius: 5px;
   font-weight: 400;
+  cursor: pointer;
 }
 
 /* Media Queries */

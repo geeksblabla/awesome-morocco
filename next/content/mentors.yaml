@@ -5,7 +5,7 @@
   description: Developer, OSS and community, full-time DJ ( Docker & Java), part-time blogger. @geeksblabla godfather!
   company: Spotify
   image: "/avatars/aboullaite.jpg"
-  technologies:
+  technologies: 
     - Java
     - Docker
 
@@ -15,7 +15,7 @@
   description: NoCode is the best code, NoOps is the best ops — DevSecBizFinOps cloud rider
   company: xHub
   image: "/avatars/djalal.jpg"
-  technologies:
+  technologies: 
     - NoCode
     - DevOps
 
@@ -39,4 +39,3 @@
     - Kubernetes
     - DevOps
 ---
-

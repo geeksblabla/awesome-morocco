@@ -94,7 +94,7 @@
   font-size: 13px;
 }
 
-.navbar .inputAndButton .contribute button {
+.navbar .inputAndButton .contribute a {
   background-color: #111827;
   border: 1px solid #111827;
   padding: 10px 20px;
