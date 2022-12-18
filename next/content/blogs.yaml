@@ -1,0 +1,184 @@
+---
+- id: 1
+  name: xHub
+  url: https://xlog.x-hub.io
+  description: Sharing knowledge is our DNA, because power is gained by sharing knowledge not by hoarding it, our experts will be covering the best and latest IT practices to level up your IT learning journey.
+  author: xHub
+  image: "/orgsImages/xhub.png"
+  type: professional
+- id: 2
+  name: Obytes
+  url: https://obytes.com/blog
+  description: We're a team of dreamers and makers who create products that your users will love.
+  author: Obytes
+  image: "/orgsImages/obytes.png"
+  type: professional
+- id: 3
+  name: Gemography
+  url: https://dev.to/gemography
+  description: Matching talented engineers with great opportunities.
+  author: Gemography
+  image: "/orgsImages/gemography.jpeg"
+  type: professional
+- id: 4
+  name: Remote.ma
+  url: https://remote.ma
+  description: Discover remote work jobs you can do from Morocco with worldwide companies covering every industry.
+  author: Ahmed El AZZABI
+  image: "/orgsImages/remotema.png"
+  type: professional
+- id: 5
+  name: Nimble Ways
+  url: https://blog.nimbleways.com
+  description: From ideas to solutions in record time.
+  author: Nimble Ways
+  image: "/orgsImages/nimbleways.jpeg"
+  type: professional
+- id: 6
+  name: Mohammed Aboullaite
+  url: https://aboullaite.me
+  author: Mohammed Aboullaite
+  description: Java , Docker ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 7
+  name: El Azizi Youssouf
+  url: https://elazizi.com
+  author: El Azizi Youssouf
+  description: Javascript, React, React Native ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 8
+  name: Ismail Ghallou
+  url: https://smakosh.com/blog
+  author: Ismail Ghallou
+  description: Javascript, React , life ....
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 9
+  name: Amine Hakkou
+  url: https://hakkou.me
+  author: Amine Hakkou
+  description: Javascript, React Native ....
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 10
+  name: Abderrahim SOUBAI-ELIDRISI
+  url: https://soubai.me
+  author: Abderrahim SOUBAI-ELIDRISI
+  description: Javascript, Node.js , Angular ....
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 11
+  name: Zanid Haytam
+  url: https://blog.zhaytam.com/
+  author: Zanid Haytam
+  description: C#, .NET Core, Python, Data Science, ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 12
+  name: Yassine ElOuafi
+  url: https://abstractfun.com
+  author: Yassine ElOuafi
+  description: Javascript, Programming ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 13
+  name: Mohamed Elbahja
+  url: https://elbahja.me
+  author: Mohamed Elbahja
+  description: PHP, Golang, Vue.js, Sysadmin ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 14
+  name: Ahmed Elazzabi
+  url: https://elazzabi.com
+  author: Ahmed Elazzabi
+  description: Books, tech, productivity, entrepreneurship
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 15
+  name: Meriam Kharbat
+  url: https://medium.com/@MeriamKharbat
+  author: Meriam Kharbat
+  description: software, startup
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 16
+  name: Hassan Azi
+  url: https://blog.pingfrommorocco.com
+  author: Hassan Azi
+  description: Programming, retrogaming, hacking and computer stuff
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 17
+  name: Akram Saouri
+  url: https://dev.to/akram
+  author: Akram Saouri
+  description: Node, React and a lot of curiosity
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 18
+  name: Mehdi Sakout
+  url: https://mehdisakout.com
+  author: Mehdi Sakout
+  description: Mobile, Android, Indie Making, SaaS ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 19
+  name: KAOUSSI Souhail
+  url: https://medium.com/@artisoft
+  author: KAOUSSI Souhail
+  description: Javascript - Vue ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 20
+  name: Mehdi Cheracher
+  url: https://chermehdi.com
+  author: Mehdi Cheracher
+  description: Java, Performance ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 21
+  name: Youssef Lghoumaigui
+  url: https://lghou.com
+  author: Youssef Lghoumaigui
+  description: C#, Vue js ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 22
+  name: Rachid CHAMI
+  url: https://medium.com/@chamirachid
+  author: Rachid CHAMI
+  description: Blockchain, Cryptography, Docker ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 23
+  name: Nadia Laasri
+  url: https://nadialaasri.tech/blog
+  author: Nadia Laasri
+  description: CSS, CSS ART, Javascript ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 24
+  name: Aymane Mimouni
+  url: https://aymanemx.com/posts
+  author: Aymane Mimouni
+  description: Python, Django ...
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 25
+  name: Ihssane Hatim
+  url: https://brightshine.io/tag/web_development
+  author: Ihssane Hatim
+  description: Web dev ....
+  image: "./feedImages/feed_img.png"
+  type: personal
+- id: 26
+  name: Yasser Tahiri
+  url: https://blog.yezz.me
+  author: Yasser Tahiri
+  description: Security, Python, APIs, ....
+  image: "./feedImages/feed_img.png"
+  type: personal
+---

@@ -1,0 +1,52 @@
+.radioContainer {
+  padding: 20px;
+  background-color: #e5e7eb;
+  max-width: 1200px;
+  width: 92.5%;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.radioContainer h3 {
+  font-weight: 450;
+  margin-top: 0;
+}
+
+.radioWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.radioWrapper .radioCard {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.radioWrapper .radioCard .radioText p {
+  color: gray;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .radioWrapper .radioCard {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .radioWrapper .radioCard .radioText {
+    text-align: center;
+  }
+}

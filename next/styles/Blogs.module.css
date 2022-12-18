@@ -1,0 +1,143 @@
+.container {
+  padding: 0 0 20px 0;
+}
+.filterbar {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  gap: 30px;
+}
+
+.filterbar .filters {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 2fr 1fr;
+}
+
+.filterbar .filterbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.filterbar .filterbuttons button {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: gray;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: transparent;
+}
+
+.filterbar .filterbuttons button.active {
+  background-color: rgb(233, 233, 233);
+  color: #111827;
+  font-weight: 450;
+}
+
+.filterbar .filterIcon button {
+  padding: 6px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #111827;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.filterbar .filterOpen {
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.filterbar .filterOpenWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.filterbar .filterOpenWrapper div h3 {
+  margin-top: 0;
+}
+
+.filterbar .filterOpenWrapper div:nth-child(1) div,
+.filterbar .filterOpenWrapper div:nth-child(2) div {
+  /* background-color: gold; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.filterbar .filterOpenWrapper div:nth-child(1) div button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid lightgray;
+  color: rgb(70, 70, 70);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filterbar .filterOpen .filterButtons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.filterbar .filterOpen .filterButtons button {
+  padding: 8px 16px;
+  border-radius: 5px;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.filterbar .filterOpen .filterButtons button:first-child {
+  border: 1px solid lightgray;
+}
+
+.filterbar .filterOpen .filterButtons button:last-child {
+  background-color: #111827;
+  color: white;
+  border: 1px solid #111827;
+}
+
+/* #111827 */
+
+/* Media Queries */
+@media only screen and (max-width: 860px) {
+  .filterbar .filterOpenWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .filterbar .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .filterbar .filterOpenWrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
