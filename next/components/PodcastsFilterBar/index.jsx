@@ -20,7 +20,7 @@ const PodcastsFilterBar = ({
           >
             Podcasts
           </button>
-          <button
+          {/* <button
             title="Radio"
             className={podcastContent == "RADIO" ? styles.active : ""}
             onClick={() => {
@@ -28,10 +28,10 @@ const PodcastsFilterBar = ({
             }}
           >
             Radio
-          </button>
+          </button> */}
         </div>
 
-        <div className={styles.filterIcon}>
+        {/* <div className={styles.filterIcon}>
           <button
             onClick={() => {
               setFilterOpen(!filterOpen);
@@ -53,7 +53,7 @@ const PodcastsFilterBar = ({
               </svg>
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
 
       {filterOpen == true ? (

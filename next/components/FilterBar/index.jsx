@@ -24,7 +24,7 @@ const FilterBar = ({
           >
             Repositories
           </button>
-          <button
+          {/* <button
             title="Developers"
             onClick={() => {
               setDevelopers(true);
@@ -32,13 +32,13 @@ const FilterBar = ({
             className={developers != true ? "" : styles.active}
           >
             Developers
-          </button>
+          </button> */}
         </div>
 
-        <FilterIconButton
+        {/* <FilterIconButton
           filterOpen={filterOpen}
           setFilterOpen={setFilterOpen}
-        />
+        /> */}
       </div>
 
       {filterOpen == true ? <FilterSettings projects={projects} /> : null}
