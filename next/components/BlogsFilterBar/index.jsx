@@ -29,7 +29,7 @@ const BlogsFilterBar = ({
           >
             Organizations
           </button>
-          <button
+          {/* <button
             title="Authors"
             className={blogsContent == "AUTHORS" ? styles.active : ""}
             onClick={() => {
@@ -37,10 +37,10 @@ const BlogsFilterBar = ({
             }}
           >
             Authors
-          </button>
+          </button> */}
         </div>
 
-        <div className={styles.filterIcon}>
+        {/* <div className={styles.filterIcon}>
           <button
             onClick={() => {
               setFilterOpen(!filterOpen);
@@ -62,7 +62,7 @@ const BlogsFilterBar = ({
               </svg>
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
 
       {filterOpen == true ? (
