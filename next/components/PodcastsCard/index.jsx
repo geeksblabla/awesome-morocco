@@ -8,7 +8,7 @@ const PodcastsCard = ({ podcasts }) => {
       {podcasts.map((podcast, index) => (
         <div className={styles.podCard} key={index}>
           <div className={styles.podCardImage}>
-            <img src="/podcastsImages/podcast_img1.png" alt="Podcast Image" />
+            <img src={podcast.image} width="40px" alt="Podcast Image" />
           </div>
           <div className={styles.podCardText}>
             <Link href={podcast.url}>

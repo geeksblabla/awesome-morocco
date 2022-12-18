@@ -14,7 +14,12 @@ const MentorsCards = ({ mentors }) => {
             </div>
             <div className={styles.userText}>
               <div className={styles.nameSettings}>
+                 <Link href={mentor.url} legacyBehavior>
+              <a target="_blank">
+
                 <h2>{mentor.name}</h2>
+              </a>
+                </Link>
                 <Link href="">
                   <svg
                     width="14"
@@ -30,7 +35,7 @@ const MentorsCards = ({ mentors }) => {
                   </svg>
                 </Link>
               </div>
-              <h3>@{mentor.company}</h3>
+              <h3>{ `${mentor.company ? '@' : ''}`  }{mentor.company}</h3>
             </div>
           </div>
 
@@ -44,12 +49,8 @@ const MentorsCards = ({ mentors }) => {
             ))}
           </div>
 
-          <div className={styles.bookButton}>
-            <Link href={mentor.url} legacyBehavior>
-              <a target="_blank">
+          <div onClick={() => alert('Coming soon')} className={styles.bookButton}>
                 <span>Book a session</span>
-              </a>
-            </Link>
           </div>
         </div>
       ))}
