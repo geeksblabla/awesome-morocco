@@ -209,6 +209,8 @@
 - [larapoll](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
 - [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
+- [Xstate](https://github.com/mouadziani/xstate) - A [state machine](https://statecharts.dev/what-is-a-state-machine.html) library to play with any complex behavior of your PHP objects (inspired from [xstate.js](https://github.com/statelyai/xstate)). by [@mouadziani](https://github.com/mouadziani)
+- [Laravel-merchant](https://github.com/mouadziani/laravel-mercanet) - A Laravel package for integrating the [BnpParibas Mercanet](https://mabanquepro.bnpparibas/fr/notre-offre-pro/comptes-cartes-et-services/solutions-d-encaissement/encaissement-internet-et-mobile/offre-e-commerce-mercanet) payment gateway. by [@mouadziani](https://github.com/mouadziani)
 - [Larabye](https://github.com/mouadziani/Larabye) - A mini PHP starter / framework. by [@mouadziani](https://github.com/mouadziani)
 - [laravel-model-trackable](https://github.com/MouadZIANI/laravel-model-trackable) - A laravel package that allows you to track and log nested changes applied on your models. by [@mouadziani](https://github.com/mouadziani)
 - [laravel-query-inspector](https://github.com/MouadZIANI/laravel-query-inspector) - The missing laravel helper that allows you to inspect your eloquent queries with it's bind parameters. by [@mouadziani](https://github.com/mouadziani)
