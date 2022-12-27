@@ -289,8 +289,6 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 
 ### Books
 
-- [Blockchain By Example](https://www.amazon.com/Blockchain-Example-Decentralized-applications-Hyperledger-ebook/dp/B0787CGRHW) by [Badr Bellaj](https://twitter.com/BadrBellaj)
-
 ---
 
 ### Contributing
