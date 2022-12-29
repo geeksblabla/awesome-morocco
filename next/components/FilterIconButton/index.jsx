@@ -1,16 +1,16 @@
 import React from "react";
-import styles from "../../styles/FilterBar.module.css";
+import styles from "../../styles/FilterBar.module.scss";
 
 const FilterIconButton = ({ filterOpen, setFilterOpen }) => {
   return (
-    <div className={styles.filterIcon}>
+    <div className={styles.filters}>
       <button
         onClick={() => {
           setFilterOpen(!filterOpen);
         }}
       >
         <span>Filter</span>
-        <span>
+        <span className={filterOpen ? styles.showFilters : null}>
           <svg
             width="18"
             height="12"

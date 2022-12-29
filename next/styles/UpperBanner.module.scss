@@ -1,0 +1,45 @@
+@import 'utils/variables';
+
+.upperbanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: $dark-blue-color;
+
+  p {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    color: $white-color;
+  }
+  a {
+    text-decoration: underline;
+  }
+
+  button {
+    position: relative;
+    margin-left: auto;
+    width: 11px;
+    height: 11px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @include desktop() {
+    padding: 10px;
+    p {
+      font-size: 14px;
+    }
+  }
+}

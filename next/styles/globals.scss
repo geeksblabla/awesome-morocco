@@ -1,0 +1,49 @@
+@import 'utils/variables';
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f9fafb;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.mainContainer {
+  padding: 0 32px 32px;
+  margin-inline: auto;
+
+  /* Media Queries */
+  @include tablet() {
+    width: 750px;
+  }
+
+  @include desktop() {
+    width: 970px;
+    padding-inline: 0;
+  }
+
+  @include largeScreen() {
+    width: 1140px;
+  }
+
+}
+
+.authorTag {
+  width: max-content;
+  padding: 5px 10px;
+  margin: 10px 0 0;
+  background: linear-gradient(to right, #e70027, #3cc365);
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  color: $white-color;
+}

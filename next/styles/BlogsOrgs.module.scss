@@ -1,0 +1,63 @@
+@import 'utils/variables';
+
+.organizations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px 10px;
+
+  .organization {
+    display: grid;
+    grid-template-rows: 240px 1fr;
+    gap: 10px;
+
+    >div:first-child + div {
+      padding-inline: 5px;
+    }
+
+    &, .organizationImage {
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid $cards-border-color;
+    }
+
+    .organizationImage {
+      background-color: $white-color;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+      }
+    }
+
+    .organizationAuthor,
+    .organizationName {
+      margin: 0;
+    }
+
+    .organizationName {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .organizationDesc {
+      font-size: 12px;
+      line-height: 16px;
+      color: $text-color;
+    }
+
+    .organizationButton {
+      background-color: $cards-border-color;
+      color: #000;
+      text-align: center;
+
+      a {
+        display: block;
+        width: 100%;
+        padding: 7px;
+      }
+    }
+  }
+}

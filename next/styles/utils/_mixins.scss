@@ -1,0 +1,29 @@
+@mixin shave( $number_lines ) {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $number_lines;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// Small screen / tablet
+@mixin tablet() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+// Medium screen / desktop
+@mixin desktop() {
+    @media (min-width: 992px) {
+        @content;
+    }
+}
+
+// Large screen / wide desktop
+@mixin largeScreen() {
+    @media (min-width: 1200px){
+        @content;
+    } 
+}

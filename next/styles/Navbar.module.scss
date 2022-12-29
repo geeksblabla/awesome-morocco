@@ -1,0 +1,138 @@
+@import 'utils/variables';
+
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding: 10px 20px;
+
+  .rightContent {
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .logo {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .mianMenu {
+    display: flex;
+    justify-content: center;
+    gap: 5px 16px;
+    padding: 0;
+    margin: 15px 0;
+    list-style: none;
+
+    li {
+      a {
+        font-size: 14px;
+        color: $gray-color;
+        white-space: nowrap;
+
+        &:hover,
+        &.active {
+          color: $dark-blue-color;
+        }
+      }
+    }
+  }
+
+  .searchForm {
+    .inputField {
+      width: max-content;
+      padding: 6px 15px;
+      background: $lighter-gray-color;
+      border-radius: 5px;
+
+      input,
+      button {
+        background: transparent;
+        border: none;
+      }
+
+      input {
+        font-size: 12px;
+        outline: none;
+      }
+    }
+  }
+
+  .contribution {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+
+    .stars {
+      display: grid;
+      grid-template-columns: 25px repeat(2, 1fr);
+      align-items: center;
+      width: max-content;
+      padding: 5px 5px 5px 10px;
+      border: 1px solid $gray-color;
+      border-radius: 3px;
+
+      span {
+        color: $gray-color;
+
+        &.count {
+          font-weight: 600;
+        }
+      }
+    }
+
+    .contributeLink {
+      display: grid;
+      align-items: center;
+      padding: 5px 10px;
+      background-color: $dark-blue-color;
+      border-radius: 3px;
+      font-size: 14px;
+      color: $white-color;
+    }
+  }
+
+  /* Media Queries */
+  @include desktop() {
+
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline: 50px;
+
+    .rightContent {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 30px;
+    }
+
+    .leftCentent {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo {
+      justify-content: start;
+      margin: 0;
+    }
+
+    .mianMenu {
+      margin: 0 50px;
+      flex-wrap: wrap;
+      justify-content: start;
+    }
+
+    .contribution {
+      padding-left: 20px;
+      border-left: 1px solid $borders-color;
+    }
+
+  }
+}

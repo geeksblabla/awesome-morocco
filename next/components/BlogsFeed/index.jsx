@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../styles/BlogsFeed.module.css";
+import styles from "../../styles/BlogsFeed.module.scss";
 
 const BlogsFeed = ({ feeds }) => {
   return (
@@ -11,20 +11,20 @@ const BlogsFeed = ({ feeds }) => {
             <div className={styles.feedCardImage}>
               <img src={feed.image} alt="Feed Image" />
             </div>
-            <div className={styles.feedTextLink}>
-              <div className={styles.feedCardText}>
-                <h2>{feed.name}</h2>
-                <p>{feed.description}</p>
-                <b>{feed.publish_date}</b>
-              </div>
-              <div className={styles.feedCardReadMore}>
+            <div className={styles.feedContent}>
+                <div className={styles.feedInfo}>
+                  <h2 className={styles.feedContentAuthor}>{feed.name}</h2>
+                  <p className={styles.feedContentDesc}>{feed.description}</p>
+                  <b>{feed.publish_date}</b>
+                </div>
+                <div className={styles.feedCardReadMore}>
                 <Link href={feed.url} legacyBehavior>
                   <a target="_blank">
-                    <span>Read More</span>
+                    <div>Read More</div>
                     <span>
                       <svg
                         width="8"
-                        height="15"
+                        height="14"
                         viewBox="0 0 8 15"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const BlogsFeed = ({ feeds }) => {
                     </span>
                   </a>
                 </Link>
-              </div>
+            </div>
             </div>
           </div>
         ) : null

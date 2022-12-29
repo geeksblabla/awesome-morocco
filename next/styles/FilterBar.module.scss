@@ -1,0 +1,182 @@
+@import 'utils/variables';
+
+.filterbar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+
+  button {
+    padding: 5px 10px;
+    background: transparent;
+    border: none;
+    border-radius: 4px; 
+    font-size: 14px;
+    cursor: pointer;  
+  }
+
+  .filterbuttons {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+
+    button {
+      color: $gray-color;  
+      
+      &:hover {
+        color: $dark-blue-color;
+      }
+
+      &.active {
+        background: $cards-border-color;
+        color: $dark-blue-color;
+      }
+
+    }
+  }
+
+  .filters {
+    margin-left: auto;
+
+    button {
+      padding: 5px;
+      border: 1px solid $borders-color;
+
+      span {
+        &:first-child {
+          margin-right: 10px;
+        }
+        font-size: 14px;
+        color: $dark-blue-color;
+
+        &.showFilters {
+          display: inline-block;
+          transition: transform 0.25s ease-in-out;
+          transform: rotateX(180deg);
+        }
+      }
+    }
+  }
+
+  .filterOpen {
+    padding: 16px 35px;
+    margin-top: 20px;
+    border: 1px solid $borders-color;
+    border-radius: 5px;
+  }
+
+  .filterOptions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px 50px;
+
+    h3 {
+      margin: 0 0 15px;
+      font-size: 14px;
+      color: $dark-blue-color;
+    }
+
+    .filterLanguages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 5px;
+      button {
+        border: 1px solid $borders-color;
+        color: $dark-blue-color;
+
+        &:hover {
+          border: 1px solid $dark-blue-color;
+        }
+      }
+    }
+
+    .filterTags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      
+      span {
+        display: inline-block;
+        font-size: 14px;
+        color: $dark-blue-color;
+      }
+    }
+
+    .filterSorts {
+      display: grid;
+      gap: 8px;
+
+      input[type="radio"] {
+        visibility: hidden;
+
+        + label {
+          position: relative;
+          padding-left: 25px;
+          margin-left: -20px;
+
+          &::before,
+          &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            border-radius: 50%;
+          }
+
+          &::before {
+            width: 14px;
+            height: 14px;
+            background-color: $white-color;
+            border: 1px solid $dark-blue-color;
+          }
+
+          &::after {
+            width: 10px;
+            height: 10px;
+            margin: -5px 3px;
+            background: $dark-blue-color;
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.25s ease;
+          }
+        }
+
+        &:checked {
+          + label {
+            &::after {
+              opacity: 1;
+              transform: scale(1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .filterButtons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+
+    .clearFilters {
+      padding: 6px 20px;
+      border: 1px solid $borders-color;
+    }
+
+    .applyFilter {
+      background-color: $dark-blue-color;
+      color: $white-color;
+    }
+  }
+
+  @include desktop() {
+    .filterbuttons {
+      justify-content: center;
+    }
+
+  .filterOptions {
+    grid-template-columns: repeat(2, 1fr) 180px;
+  }
+  }
+}

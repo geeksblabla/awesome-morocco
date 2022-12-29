@@ -1,0 +1,55 @@
+@import 'utils/variables';
+
+.header {
+  padding: 32px;
+  margin-top: 15px;
+  background: #000001 url('../public/header_image.png') no-repeat center; 
+ 
+  .headerContent {
+    h1,
+    p {
+      margin: 0;
+      color: $white-color;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+    }
+
+    p {
+      margin-top: 15px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  
+  /* Media Queries */
+  @include desktop() {
+    margin: 0;
+    background-position-x: right;
+
+    .headerContent {
+      max-width: 75%;
+      margin: 0 auto;
+      h1,
+      p {
+        text-align: left;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        max-width: 370px;
+        font-size: 14px;
+      }
+    }
+
+  }
+
+}
+
+
+

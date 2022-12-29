@@ -1,20 +1,20 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../styles/PodcastsCard.module.css";
+import styles from "../../styles/PodcastsCard.module.scss";
 
 const PodcastsCard = ({ podcasts }) => {
   return (
-    <div className={styles.podsWrapper}>
+    <div className={styles.podcasts}>
       {podcasts.map((podcast, index) => (
-        <div className={styles.podCard} key={index}>
-          <div className={styles.podCardImage}>
+        <div className={styles.podcast} key={index}>
+          <div className={styles.podcastImage}>
             <img src={podcast.image} width="40px" alt="Podcast Image" />
           </div>
-          <div className={styles.podCardText}>
+          <div className={styles.podcastContent}>
             <Link href={podcast.url}>
-              <h2>{podcast.name}</h2>
+              <h2 className={styles.podcastAuthor}>{podcast.name}</h2>
             </Link>
-            <p>{podcast.description}</p>
+            <p className={styles.podcastDesc}>{podcast.description}</p>
           </div>
         </div>
       ))}

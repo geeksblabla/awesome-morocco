@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/FilterBar.module.css";
+import styles from "../../styles/FilterBar.module.scss";
 import FilterIconButton from "../FilterIconButton";
 
 import FilterSettings from "../FilterSettings";
@@ -13,7 +13,7 @@ const FilterBar = ({
 }) => {
   return (
     <div className={styles.filterbar}>
-      <div className={styles.filters}>
+
         <div className={styles.filterbuttons}>
           <button
             title="Repositories"
@@ -24,6 +24,7 @@ const FilterBar = ({
           >
             Repositories
           </button>
+
           {/* <button
             title="Developers"
             onClick={() => {
@@ -34,14 +35,11 @@ const FilterBar = ({
             Developers
           </button> */}
         </div>
-
         {/* <FilterIconButton
           filterOpen={filterOpen}
           setFilterOpen={setFilterOpen}
         /> */}
-      </div>
-
-      {filterOpen == true ? <FilterSettings projects={projects} /> : null}
+      {/* {filterOpen == true ? <FilterSettings projects={projects} /> : null} */}
     </div>
   );
 };

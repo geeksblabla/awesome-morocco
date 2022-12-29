@@ -1,28 +1,35 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../../styles/ReposDevs.module.css";
+import styles from "../../../styles/ReposDevs.module.scss";
 
 const Repos = ({ projects }) => {
   return (
+    <>
+    <div className={styles.language}>
+      <span>JavaScript</span>
+    </div>
     <div className={styles.repositories}>
       {projects.map((repository, index) => (
-        <div className={styles.card} key={`repo-${index}`}>
-          <Link href={repository.url} key={index} legacyBehavior>
-            <a target="_blank" title={`${repository.name} By ${repository.author}`}>
-              <h2>{repository.name}</h2>
-            </a>
-          </Link>
-          <h5>{repository.author}</h5>
+        <div className={styles.repositorie} key={`repo-${index}`}>
+          <div className={styles.repositorieInfo}>
+            <Link href={repository.url} key={index} legacyBehavior>
+              <a target="_blank" title={`${repository.name} By ${repository.author}`}>
+                <h2 className={styles.repositorieName}>{repository.name}</h2>
+              </a>
+            </Link>
+            <h5 className='authorTag'>{repository.author}</h5>
 
-          <p>{repository.description}</p>
-          <div className={styles.tags}>
-            {repository.tags?.map((tag) => (
-              <span className={styles.singleTag} title={tag} key={tag}>
-                #{tag}
-              </span>
-            ))}
+            <p className={styles.repositorieDesc}>{repository.description}</p>
+            <div className={styles.repositorieTags}>
+              {repository.tags?.map((tag) => (
+                <span title={tag} key={tag}>
+                  #{tag}
+                </span>
+              ))}
+            </div>
           </div>
-          <div className={styles.states}>
+
+          <div className={styles.repositorieStates}>
             <div className={styles.singleState}>
               <span>
                 <svg
@@ -80,6 +87,7 @@ const Repos = ({ projects }) => {
         </div>
       ))}
     </div>
+    </>
   );
 };
 

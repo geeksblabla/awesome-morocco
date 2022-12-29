@@ -1,16 +1,12 @@
 import React from "react";
-import styles from "../../styles/Header.module.css";
+import styles from "../../styles/Header.module.scss";
 
 const Header = ({ headerTitle, haederDescription }) => {
   return (
     <div className={styles.header}>
-      <div className={styles.headerText}>
+      <div className={styles.headerContent}>
         <h1>{headerTitle}</h1>
         <p>{haederDescription}</p>
-      </div>
-
-      <div className={styles.headerImage}>
-        <img src="/header_image.png" alt="Header Image" />
       </div>
     </div>
   );

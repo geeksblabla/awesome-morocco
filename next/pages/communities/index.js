@@ -1,9 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import styles from "../../styles/Home.module.css";
 
-import UpperBanner from "../../components/UpperBanner";
-import Navbar from "../../components/Navbar";
 import Header from "../../components/Header";
 
 import { getParsedYAML } from "../../services/parser";

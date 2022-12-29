@@ -1,0 +1,43 @@
+@import 'utils/variables';
+
+.podcasts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+
+  .podcast {
+    display: grid;
+    grid-template-rows: 240px 1fr;
+    gap: 10px;
+
+    &, .podcastImage {
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid $cards-border-color;
+    }
+
+    .podcastImage {
+      background-color: $white-color;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+      }
+    }
+
+    .podcastAuthor {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .podcastDesc {
+      margin: 5px 0;
+      font-size: 12px;
+      line-height: 16px;
+      color: $text-color;
+      @include shave(1);
+    }
+  }
+}

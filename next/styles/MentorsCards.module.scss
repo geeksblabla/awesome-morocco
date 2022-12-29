@@ -1,0 +1,105 @@
+@import 'utils/variables';
+
+.mentors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  gap: 15px;
+  margin: 50px 0;
+
+  .mentor {
+    display: grid;
+    border: 1px solid $cards-border-color;
+    padding: 15px 20px;
+    border-radius: 2px;
+
+    &Info {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      align-items: center;
+    }
+
+    &Image {
+      width: 60px;
+      height: 60px;
+
+      img {
+        max-width: 100%;
+        border-radius: 50%;
+
+      }
+    }
+
+    &Head {
+      display: flex;
+
+      .mentorName {
+        h2,
+        h3 {
+          margin: 0;
+        }
+
+        .mentorFullName {
+          font-size: 18px;
+          font-weight: 600;
+          color: $dark-blue-color;
+        }
+
+        .mentorCompany {
+          margin-top: 5px;
+          font-size: 14px;
+          font-weight: 700;
+          color: $dark-blue-color;
+        }
+
+      }
+
+      .mentorMoreOptions {
+        margin-left: auto;
+      }
+    }
+
+    
+
+    &Content {
+      .mentorDescription {
+        font-size: 12px;
+        line-height: 16px;
+        color: $text-color;
+      }
+
+      .mentorTechStack {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 5px 10px;
+          
+          > span {
+            padding: 5px 10px;
+            background-color: $cards-border-color;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #000;
+            text-transform: uppercase;
+          }
+      }
+    }
+
+    &BookButton {
+      margin-top: 10px;
+      display: flex;
+      justify-content: flex-end;
+      button {
+        padding: 4px 12px;
+        background-color: $dark-blue-color;
+        border: none;
+        border-radius: 3px;
+        font-size: 14px;
+        color: $white-color;
+        cursor: pointer;
+      }
+    }
+
+
+  }
+
+}

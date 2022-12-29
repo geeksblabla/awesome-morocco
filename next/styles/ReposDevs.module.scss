@@ -1,0 +1,165 @@
+@import 'utils/variables';
+
+.language {
+  position: relative;
+  margin-bottom: 30px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 90%;
+    height: 1px;
+    background-color: $borders-color;
+  }
+
+  span {
+    padding-inline: 10px;
+    margin-left: 20px;
+    background-color: $white-color;
+    color: $gray-color;
+    isolation: isolate;
+  }
+}
+
+.repositories {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  gap: 20px;
+
+  .repositorie {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    background-color: white;
+    border: 1px solid $cards-border-color;
+    border-radius: 3px;
+
+    .repositorieInfo {
+      padding: 10px;
+    }
+    .repositorieName {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 400;
+      color: $dark-blue-color;
+      @include shave(1);
+    }
+
+    .repositorieDesc {
+      margin: 15px 0 10px;
+      font-size: 12px;
+      line-height: 16px;
+      color: $text-color;
+
+    }
+
+    .repositorieStates {
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 10px;
+      border-top: 1px solid lightgray;
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        span {
+          color: gray;
+        }
+      }
+    }
+
+    .repositorieTags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+
+      span {
+        padding: 5px 10px;
+        background-color: $cards-border-color;
+        border-radius: 5px 0 5px 0;
+        font-size: 12px;
+        font-weight: 600;
+        color: $dark-blue-color;
+      }
+    }
+
+  }
+}
+
+.developers {
+  display: grid;
+  overflow-x: auto;
+
+  .developersInfo,
+  .developer {
+    display: grid;
+    grid-template-columns: 1fr 150px repeat(4, 1fr);
+    gap: 20px 50px;
+
+    >li, div {
+      &:first-child {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+      }
+    }
+
+    li {
+      font-size: 14px;
+      font-weight: 400;
+      color: #6B7280;
+      white-space: nowrap;
+
+      &:last-child {
+        text-align: center;
+      }
+    }
+
+    >div {
+      display: flex;
+      align-self: center;
+      font-size: 14px;
+
+      &:last-child {
+        justify-content: center;
+      }
+    }
+  }
+
+  .developersInfo {
+    padding: 0;
+    list-style: none;
+  }
+
+  .developer {
+    padding: 15px 0;
+    border-top: 1px solid $borders-color;
+
+    .developerImage {
+      width: 40px;
+      height: auto;
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+        border-radius: 50%;
+      }
+    }
+
+    .developerName {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 14px;
+      white-space: nowrap;
+      span {
+        color: $text-color;
+        &:first-child {
+          flex-basis: 100%;
+          color: $dark-blue-color;
+        }
+      }
+    }
+  }
+}
