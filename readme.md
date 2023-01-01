@@ -192,6 +192,7 @@
 - [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
 - [ngx-darija](https://github.com/ngMorocco/ngx-darija) - Angular in Darija Live Coding Series official Application by the [Moroccan Angular Community](https://github.com/ngMorocco).
 - [Ryo.js](https://github.com/marvelbark2/ryo-js) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2)
+- [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403)
 
 #### Java
 
@@ -229,6 +230,7 @@
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
 - [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
 With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+- [ux-datatable](https://github.com/Aziz403/ux-datatable) A Datatable.net integration for Symfony. by [@Aziz403](https://github.com/Aziz403)
 
 #### Python
 
