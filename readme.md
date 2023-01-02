@@ -230,6 +230,7 @@
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
 - [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
 With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+- [MyStockMaster](https://github.com/Zakarialabib/myStockMaster) - Laravel-based inventory management system that offers an easy and straightforward way to keep track of inventory, sales, purchases, and more. It features a user-friendly dashboard, intuitive reports, made by [@zakarialabib](https://github.com/zakarialabib)
 - [ux-datatable](https://github.com/Aziz403/ux-datatable) A Datatable.net integration for Symfony. by [@Aziz403](https://github.com/Aziz403)
 
 #### Python
