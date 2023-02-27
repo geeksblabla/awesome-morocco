@@ -1,0 +1,39 @@
+.upperbanner {
+  background-color: #111827;
+  padding: 2px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.upperbanner p {
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
+
+.upperbanner p a {
+  text-decoration: underline;
+}
+
+.upperbanner button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+  .upperbanner {
+    gap: 10px;
+  }
+
+  .upperbanner button {
+    position: initial;
+    cursor: unset;
+  }
+}
