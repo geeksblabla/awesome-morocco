@@ -16,6 +16,11 @@ This project is based on the [t3](https://create.t3.gg/) stack. Make sure to rea
 git clone https://github.com/geeksblabla/awesome-morocco.git
 ```
 
+<b>To access the latest updates and features, we recommend switching to the next_t3 branch:</b> 
+```bash 
+git checkout next_t3
+```
+
 3. Install dependencies
 
 ```bash
@@ -27,7 +32,7 @@ pnpm install
    - Go to (https://github.com/settings/apps) to create a github application.
    - Set the homepage url to `http://localhost:3000`
    - Set the callback url to `http://localhost:3000/api/auth/callback/github`
-   - Generate a client secret and copy cline id and client secret to `.env` file
+   - Generate a client secret and copy client id and client secret to `.env` file
    - Set `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` in `.env` file
 
 5. Generate a [Github personal access token](https://github.com/settings/tokens) to fetch data from github api and copy it to `.env` file as `GITHUB_API_TOKEN` (this token should have `repo` scope only as we only need to fetch data from github api)
