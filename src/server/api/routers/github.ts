@@ -8,7 +8,16 @@ const GITHUB_REPO_URL_REGEX =
 
 export const githubRouter = createTRPCRouter({
   repo: protectedProcedure
-    .input(z.object({ url: z.string().regex(GITHUB_REPO_URL_REGEX) }))
+    .input(
+      z.object({
+        url: z
+          .string()
+          .regex(
+            GITHUB_REPO_URL_REGEX,
+            "Invalid Repo url, Please make sure the url is a valid Github repo url "
+          ),
+      })
+    )
     .mutation(async ({ input, ctx }) => {
       const [owner, repo] = input.url.split("/").slice(-2);
       const data = await getGithubRepoMetadata({ owner, repo });

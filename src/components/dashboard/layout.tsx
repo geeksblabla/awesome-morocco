@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Toaster } from "react-hot-toast";
 
 const Items = [
   {
@@ -48,26 +49,29 @@ export const DashboardLayout = ({
   activePage?: Page;
 }) => {
   return (
-    <div className="mx-4 min-h-screen max-w-screen-xl sm:mx-8 xl:mx-auto">
-      <div className="grid grid-cols-8 pt-3 sm:grid-cols-10">
-        <div className="col-span-2 hidden sm:block">
-          <ul>
-            {Items.map((item) => (
-              <MenuItem
-                key={item.label}
-                label={item.label}
-                href={item.href}
-                active={activePage === item.label}
-              />
-            ))}
-          </ul>
-        </div>
+    <>
+      <Toaster position="top-center" reverseOrder={false} />
+      <div className="mx-4 min-h-screen max-w-screen-xl sm:mx-8 xl:mx-auto">
+        <div className="grid grid-cols-8 pt-3 sm:grid-cols-10">
+          <div className="col-span-2 hidden sm:block">
+            <ul>
+              {Items.map((item) => (
+                <MenuItem
+                  key={item.label}
+                  label={item.label}
+                  href={item.href}
+                  active={activePage === item.label}
+                />
+              ))}
+            </ul>
+          </div>
 
-        <div className="col-span-8 overflow-hidden rounded-xl bg-gray-50 px-8 shadow">
-          {children}
+          <div className="col-span-8 overflow-hidden rounded-xl bg-gray-50 px-8 shadow">
+            {children}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

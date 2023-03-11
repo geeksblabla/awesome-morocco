@@ -1,11 +1,26 @@
 import { useState } from "react";
+import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
 
 export const NewOpenSourceProject = () => {
   const { mutate, isLoading } = api.github.repo.useMutation();
   const [url, setUrl] = useState("");
   const onSubmit = () => {
-    mutate({ url });
+    mutate(
+      { url },
+      {
+        onSuccess: () => {
+          toast.success("Project added successfully");
+        },
+        onError: (error) => {
+          console.log(error.data?.zodError);
+
+          if (error.data?.zodError) {
+            toast.error(error.data?.zodError?.fieldErrors?.["url"][0]);
+          }
+        },
+      }
+    );
   };
   return (
     <>
@@ -15,20 +30,15 @@ export const NewOpenSourceProject = () => {
         </h1>
       </div>
       <hr className="mt-4 mb-8" />
-      <p className="py-2 text-xl font-semibold">Project URL </p>
-      <div className="flex items-center">
-        <label htmlFor="login-password">
-          <div className="relative flex w-full overflow-hidden rounded-md border-2 transition focus-within:border-blue-600">
-            <input
-              type="text"
-              name="url"
-              value={url}
-              onChange={(e) => setUrl(e.target.value)}
-              className="w-full flex-shrink appearance-none border-gray-300 bg-white py-2 px-4 text-base text-gray-700 placeholder-gray-400 focus:outline-none"
-              placeholder="http://github.com/username/project-name"
-            />
-          </div>
-        </label>
+      <div>
+        <label className=""> Open source project url</label>
+        <input
+          type="email"
+          placeholder="https://github.com/user/repo"
+          className="mt-2 h-12 w-full rounded-md bg-gray-100 px-3"
+          value={url}
+          onChange={(e) => setUrl(e.target.value)}
+        />
       </div>
       <button
         onClick={onSubmit}
