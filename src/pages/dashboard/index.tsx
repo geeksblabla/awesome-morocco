@@ -1,7 +1,5 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { useSession } from "next-auth/react";
-
 import { DashboardLayout, NavBar, OSProjectCard } from "~/components";
 import { api } from "~/utils/api";
 
@@ -14,7 +12,7 @@ const Dashboard: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <DashboardLayout>
+      <DashboardLayout activePage="Home">
         <Repos />
       </DashboardLayout>
     </>

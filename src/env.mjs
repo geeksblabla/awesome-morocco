@@ -19,8 +19,8 @@ const server = z.object({
     process.env.VERCEL ? z.string().min(1) : z.string().url()
   ),
   // Add `.min(1) on ID and SECRET if you want to make sure they're not empty
-  GITHUB_ID: z.string(),
-  GITHUB_SECRET: z.string(),
+  GITHUB_CLIENT_ID: z.string(),
+  GITHUB_CLIENT_SECRET: z.string(),
   GITHUB_API_TOKEN: z.string(),
 });
 
@@ -43,8 +43,8 @@ const processEnv = {
   NODE_ENV: process.env.NODE_ENV,
   NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET,
   NEXTAUTH_URL: process.env.NEXTAUTH_URL,
-  GITHUB_ID: process.env.GITHUB_ID,
-  GITHUB_SECRET: process.env.GITHUB_SECRET,
+  GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
+  GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
   GITHUB_API_TOKEN: process.env.GITHUB_API_TOKEN,
   // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
 };

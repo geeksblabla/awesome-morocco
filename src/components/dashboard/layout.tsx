@@ -1,31 +1,65 @@
 import Link from "next/link";
 
+const Items = [
+  {
+    label: "Home",
+    href: "/dashboard",
+  },
+  {
+    label: "Open Source Projects",
+    href: "/dashboard/open-source",
+  },
+  {
+    label: "Blogs",
+    href: "/dashboard/blogs",
+  },
+  {
+    label: "Communities",
+    href: "/dashboard/communities",
+  },
+  {
+    label: "Events",
+    href: "/dashboard/events",
+  },
+  {
+    label: "Podcasts",
+    href: "/dashboard/podcasts",
+  },
+  {
+    label: "Mentors",
+    href: "/dashboard/mentors",
+  },
+];
+
+type Page =
+  | "Home"
+  | "Open Source Projects"
+  | "Blogs"
+  | "Communities"
+  | "Events"
+  | "Podcasts"
+  | "Mentors";
+
 export const DashboardLayout = ({
   children,
+  activePage,
 }: {
   children: React.ReactNode;
+  activePage?: Page;
 }) => {
   return (
     <div className="mx-4 min-h-screen max-w-screen-xl sm:mx-8 xl:mx-auto">
-      <h1 className="border-b py-6 text-4xl font-semibold">Settings</h1>
       <div className="grid grid-cols-8 pt-3 sm:grid-cols-10">
         <div className="col-span-2 hidden sm:block">
           <ul>
-            <li className="mt-5 cursor-pointer border-l-2 border-transparent px-2 py-2 font-semibold transition hover:border-l-blue-700 hover:text-blue-700">
-              Submissions
-            </li>
-            <li className="mt-5 cursor-pointer border-l-2 border-l-blue-700 px-2 py-2 font-semibold transition hover:border-l-blue-700 hover:text-blue-700">
-              <Link href="/dashboard/open-source">Open Source Projects</Link>
-            </li>
-            <li className="mt-5 cursor-pointer border-l-2 border-transparent px-2 py-2 font-semibold transition hover:border-l-blue-700 hover:text-blue-700">
-              Blogs
-            </li>
-            <li className="mt-5 cursor-pointer border-l-2 border-transparent px-2 py-2 font-semibold transition hover:border-l-blue-700 hover:text-blue-700">
-              Communities
-            </li>
-            <li className="mt-5 cursor-pointer border-l-2 border-transparent px-2 py-2 font-semibold transition hover:border-l-blue-700 hover:text-blue-700">
-              Events
-            </li>
+            {Items.map((item) => (
+              <MenuItem
+                key={item.label}
+                label={item.label}
+                href={item.href}
+                active={activePage === item.label}
+              />
+            ))}
           </ul>
         </div>
 
@@ -34,5 +68,27 @@ export const DashboardLayout = ({
         </div>
       </div>
     </div>
+  );
+};
+
+const MenuItem = ({
+  label,
+  href,
+  active = false,
+}: {
+  label: string;
+  href: string;
+  active?: boolean;
+}) => {
+  return (
+    <li
+      className={`mt-5 cursor-pointer border-l-2 ${
+        active
+          ? "border-l-blue-700 text-blue-700"
+          : "border-transparent text-black"
+      }  px-2 py-2 font-semibold transition hover:border-l-blue-700 hover:text-blue-700`}
+    >
+      <Link href={href}>{label}</Link>
+    </li>
   );
 };
