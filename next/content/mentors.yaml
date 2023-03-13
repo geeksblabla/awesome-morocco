@@ -1,0 +1,41 @@
+---
+- id: 1
+  name: Mohammed Aboullaite
+  url: https://aboullaite.me/
+  description: Developer, OSS and community, full-time DJ ( Docker & Java), part-time blogger. @geeksblabla godfather!
+  company: Spotify
+  image: "/avatars/aboullaite.jpg"
+  technologies: 
+    - Java
+    - Docker
+
+- id: 2
+  name: Djalal Elbaz
+  url: https://djal.al/
+  description: NoCode is the best code, NoOps is the best ops — DevSecBizFinOps cloud rider
+  company: 
+  image: "/avatars/djalal.jpg"
+  technologies: 
+    - NoCode
+    - DevOps
+
+- id: 3
+  name: Youssouf El Azizi
+  url: https://elazizi.com/
+  description: 🙌 Human first! 💚 CSS/JS/React/RN, open-source 👨🏻‍💻 Mobile tribe lead at @obytesio | @geeksblabla team member 🙌 | part-time blogger
+  company: Obytes
+  image: "/avatars/youssef.jpg"
+  technologies:
+    - React-native
+    - React
+
+- id: 4
+  name: Abdellfetah SGHIOUAR
+  url: https://linktr.ee/boredabdel
+  description: Senior Cloud Developer Advocate @Google.Co-Host of @kubernetespod.
+  company: Google
+  image: "/avatars/abdellfetah.jpg"
+  technologies:
+    - Kubernetes
+    - DevOps
+---

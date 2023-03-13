@@ -44,13 +44,11 @@
 - [Rabat.js](https://twitter.com/RabatJS) - The Rbati community of JavaScript enthusiasts and professionals.
 - [MorrocoJUG](https://www.facebook.com/groups/moroccojug) - Morocco Java User Group
 - [Moroccan Gamedev Community](https://www.facebook.com/groups/670735856666271) - Everything related to games dev
-- [Docker Morocco](https://events.docker.com/casablanca) - Learn, Collaborate & Dockerize! Meet other developers and ops engineers in your community that are using and learning about Docker.
 - [Devops Morocco](https://www.meetup.com/devops-in-morocco) - a group of both Developers & Operations professionals (managers, engineers & hackers).
 - [Morocco Microsoft Community](http://www.moroccomicrosoftcommunity.com) - Microsoft Community in morocco.
 - [NgMorocco](https://www.meetup.com/fr-FR/ngMorocco/) - The Moroccan Angular Developer Community.
 - [Software Craftmanship Morroco](https://www.meetup.com/Software-Craftsmanship-Club-ma/) - Moroccan Software Crafters .
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
-- [BnademOverFlow](https://bnademoverflow.com/) - A great community with genius people who love to be beside the computer and understand how its works.
 - [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
 - [JavaScript Morocco](https://twitter.com/JSMorocco) - The Moroccan JavaScript Community.
 
@@ -81,10 +79,8 @@
   - [Ismail Ghallou](https://smakosh.com/blog) - Javascript, React , life ....
   - [Amine Hakkou](https://www.hakkou.me/) - Javascript, React Native ....
   - [Abderrahim SOUBAI-ELIDRISI](https://www.soubai.me/) - Javascript, Node.js , Angular ....
-  - [Meriem Zaid](https://imeriem.com/) - Javascript, Python, React ....
   - [Othmane](https://othmane.io/) - Bootstrapping, Indie Making, SaaS
   - [Awaiting Bits](https://blog.zhaytam.com/) - C#, .NET Core, Python, Data Science, ...
-  - [OffBy2](https://offby2.com) - C#, .NET, Docker and other random things
   - [Yassine ElOuafi](https://abstractfun.com/) - Javascript, Programming ...
   - [Mohamed Elbahja](https://elbahja.me) - PHP, Golang, Vue.js, Sysadmin...
   - [Ahmed Elazzabi](https://elazzabi.com/) - Books, tech, productivity, entrepreneurship
@@ -94,20 +90,16 @@
   - [Hamza Belmellouki](https://hamzablm.com/blog/) - JVM Ecosystem
   - [Akram Saouri](https://dev.to/akram) - Node, React and a lot of curiosity
   - [Mehdi Sakout](https://mehdisakout.com) - Mobile, Android, Indie Making, SaaS ...
-  - [LAGHRAOUI El Mehdi](http://www.laghraoui.com/) - Java, Spring, ...
-  - [Ismail_Elazizi](https://ismailelazizi.com/blog) - Design, UX/UI, Design tips ...
   - [KAOUSSI Souhail](https://medium.com/@artisoft) - Javascript - Vue ...
   - [Mehdi Cheracher](https://chermehdi.com) - Java, Performance...
   - [Anas Mazouni](https://blog.anasmazouni.dev/) - Programming, Robotics and other random stuff ...
   - [Youssef Lghoumaigui](https://lghou.com/) - C#, Vue js...
   - [Rachid CHAMI](https://medium.com/@chamirachid) - Blockchain, Cryptography, Docker...
-  - [Ayoub Sousali](https://www.ayoubsousali.com/) - JavaScript, React, React Native, PHP, Python, ...
+  - [Ayoub Sousali](https://www.sousali.com/) - JavaScript, React, React Native, PHP, Python, ...
   - [Nadia Laasri](https://nadialaasri.tech/blog/) - CSS, CSS ART, Javascript, ...
   - [Aymane Mimouni](https://aymanemx.com/posts/) - Python, Django, ...
   - [Ihssane Hatim](https://brightshine.io/tag/web_development/) - Web dev ....
-  - [Yassine Bennkhay](https://yassine-bennkhay.tech/) - Flutter, Dart,...
   - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
-  - [Mouhcine Toumi](https://blog.mouhcinetoumi.com/) - Data Engineering, branding, self dev...
   - [Mounaim Zaryouhi](https://www.techandlifetips.com/) - Linux, WSL, Java, Hiking and other things...
   - [Zakaria Elalaoui](https://github.com/zakarialaoui10) - Javascript, Three.js, C, Python, Asm...
 
@@ -116,10 +108,8 @@
 ### Podcasts
 
 - [GeeksBlabla](https://geeksblabla.com/)
-- [Pentium](https://pentium.live/)
 - [Data Maroc](https://www.youtube.com/channel/UC0eQAfZTFIvWZ9dZ45RIGEw)
 - [Business B nab](https://www.facebook.com/BiznessBNab)
-- [DevCast](https://www.devcast.ma/)
 - [Mohamed IDBRAHIM](https://www.youtube.com/c/IDBRAHIMMohamed)
 - [DevRev](https://www.facebook.com/devrevmorocco/)
 - [Tech w Atay](https://www.youtube.com/channel/UCq7XuD165huF3raqkJsnE2A)
@@ -192,6 +182,9 @@
 - [vue3 infinite loading](https://github.com/oumoussa98/vue3-infinite-loading) - An infinite scroll component compatible with vue.js 3 and vite, to help you implement an infinite scroll list more easily. By [@oumoussa98](https://github.com/oumoussa98)
 - [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
 - [ngx-darija](https://github.com/ngMorocco/ngx-darija) - Angular in Darija Live Coding Series official Application by the [Moroccan Angular Community](https://github.com/ngMorocco).
+- [Ryo.js](https://github.com/marvelbark2/ryo-js) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2)
+- [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403)
+- [next-salat](https://github.com/ayoubsousali/next-salat) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali)
 
 #### Java
 
@@ -209,6 +202,8 @@
 - [larapoll](https://github.com/akiyamaSM/larapoll) - A Laravel package to manage your polls. by [@akiyamaSM](https://github.com/akiyamaSM)
 - [Laravel Starter](https://github.com/simoebenhida/laravel-starter) - A laravel start that has all the stuff that i need when creating a fresh laravel app. By [@simoebenhida](https://github.com/simoebenhida)
 - [Laravel Log Reader](https://github.com/ci-on/laravel-log-reader) - An UI for laravel logs. By [@simoebenhida](https://github.com/simoebenhida)
+- [Xstate](https://github.com/mouadziani/xstate) - A [state machine](https://statecharts.dev/what-is-a-state-machine.html) library to play with any complex behavior of your PHP objects (inspired from [xstate.js](https://github.com/statelyai/xstate)). by [@mouadziani](https://github.com/mouadziani)
+- [Laravel-merchant](https://github.com/mouadziani/laravel-mercanet) - A Laravel package for integrating the [BnpParibas Mercanet](https://mabanquepro.bnpparibas/fr/notre-offre-pro/comptes-cartes-et-services/solutions-d-encaissement/encaissement-internet-et-mobile/offre-e-commerce-mercanet) payment gateway. by [@mouadziani](https://github.com/mouadziani)
 - [Larabye](https://github.com/mouadziani/Larabye) - A mini PHP starter / framework. by [@mouadziani](https://github.com/mouadziani)
 - [laravel-model-trackable](https://github.com/MouadZIANI/laravel-model-trackable) - A laravel package that allows you to track and log nested changes applied on your models. by [@mouadziani](https://github.com/mouadziani)
 - [laravel-query-inspector](https://github.com/MouadZIANI/laravel-query-inspector) - The missing laravel helper that allows you to inspect your eloquent queries with it's bind parameters. by [@mouadziani](https://github.com/mouadziani)
@@ -227,6 +222,8 @@
 - [Laravel, Vue & Admin LTE Boilerplate](https://github.com/hbakouane/adminlte-laravel-vue) - Laravel, Vue and Admin LTE integrated in one project.
 - [PHPFlasher](https://github.com/php-flasher/php-flasher) - A powerful and flexible flash notification system for PHP
 With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
+- [MyStockMaster](https://github.com/Zakarialabib/myStockMaster) - Laravel-based inventory management system that offers an easy and straightforward way to keep track of inventory, sales, purchases, and more. It features a user-friendly dashboard, intuitive reports, made by [@zakarialabib](https://github.com/zakarialabib)
+- [ux-datatable](https://github.com/Aziz403/ux-datatable) A Datatable.net integration for Symfony. by [@Aziz403](https://github.com/Aziz403)
 
 #### Python
 
@@ -235,6 +232,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [Responder](https://github.com/taoufik07/responder) - A familiar HTTP Service Framework for Python by [@taoufik07](https://github.com/taoufik07)
 - [Dr_scaffold](https://github.com/Abdenasser/dr_scaffold) - scaffold django rest apis like a champion by [@Abdenasser](https://github.com/Abdenasser)
 - [AuthX](https://github.com/yezz123/authx) - A customizable Authentications and Oauth2 management for FastAPI by [@yezz123](https://github.com/yezz123)
+- [ORMDantic](https://github.com/yezz123/ormdantic) - Asynchronous ORM that uses pydantic models to represent database tables by [@yezz123](https://github.com/yezz123)
 - [Fastapi-lazy](https://github.com/yezz123/fastapi-lazy) - A package with some utilities that you use in various projects made in FastAPI by [@yezz123](https://github.com/yezz123)
 - [DogeAPI](https://github.com/yezz123/DogeAPI) - An API with high performance built with FastAPI & SQLAlchemy, help to improve connection with Back-end by [@yezz123](https://github.com/yezz123)
 - [My-Business](https://github.com/GDGSNF/My-Business) - A business management tool featuring accounts, invoices, partners, projects, and server by [@yezz123](https://github.com/yezz123)
