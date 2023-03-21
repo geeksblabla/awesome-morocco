@@ -14,10 +14,10 @@ const Home: NextPage = () => {
       </Head>
       <NavBar />
       <PageBanner
-        title="Home"
+        title="Open Source"
         description="Explore latest innovations in the Tech world New here? Check our Tutorial on Open Source"
       />
-      <main className="mx-auto flex  max-w-screen-lg flex-1 flex-col items-center justify-center px-20 text-center  ">
+      <main className="mx-auto flex  max-w-screen-lg flex-1 flex-col items-center justify-center  text-center">
         <TabsList
           routes={[
             { name: "Open Source", link: "/open-source" },
@@ -41,7 +41,7 @@ const Repos: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-row flex-wrap items-center justify-center">
+    <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
       {data?.map((repo) => (
         <OSProjectCard key={repo.id} project={repo} />
       ))}

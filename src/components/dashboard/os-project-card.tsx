@@ -2,7 +2,7 @@ import type { GithubRepo } from "@prisma/client";
 
 export const OSProjectCard = ({ project }: { project: GithubRepo }) => {
   return (
-    <div className="mx-auto my-4 flex w-[400px] flex-col items-center  rounded-xl border border-gray-100 p-6 text-gray-600 shadow-lg sm:flex-row sm:gap-8">
+    <div className="mx-auto flex flex-col items-center  rounded-xl border border-gray-100 p-6 text-gray-600 shadow-lg sm:flex-row sm:gap-6">
       <div className="flex flex-col items-center text-center sm:items-stretch sm:text-left">
         <div className="mb-2 flex flex-col justify-between sm:flex-row sm:items-center">
           <h4 className="mb-4 sm:m-0">
@@ -10,7 +10,7 @@ export const OSProjectCard = ({ project }: { project: GithubRepo }) => {
             <br />
             <span className="text-lg font-bold">{project.name}</span>
           </h4>
-          <div className="flex items-center">
+          <div className="flex items-end justify-end ">
             <div className="flex flex-row items-center justify-center">
               <span
                 className="ml-1 flex h-8 w-8 items-center justify-center text-lg  "
