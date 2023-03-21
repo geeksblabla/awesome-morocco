@@ -7,14 +7,14 @@ export const LoginButton = () => {
     <li className="mt-2 sm:mt-0">
       {sessionData ? (
         <Link
-          className="rounded-xl border-2 border-blue-600 px-6 py-2 font-medium text-blue-600 hover:bg-blue-600 hover:text-white"
+          className="rounded-xl border-2 border-gray-600 px-6 py-2 font-medium text-gray-600 hover:bg-gray-600 hover:text-white"
           href="/dashboard"
         >
           Dashboard
         </Link>
       ) : (
         <a
-          className="rounded-xl border-2 border-blue-600 px-6 py-2 font-medium text-blue-600 hover:bg-blue-600 hover:text-white"
+          className="rounded-xl border-2 border-gray-600 px-6 py-2 font-medium text-gray-600 hover:bg-gray-600 hover:text-white"
           onClick={() => void signIn()}
         >
           Login
