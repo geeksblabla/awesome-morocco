@@ -2,8 +2,8 @@ import type { GithubRepo } from "@prisma/client";
 
 export const OSProjectCard = ({ project }: { project: GithubRepo }) => {
   return (
-    <div className="mx-auto flex flex-col items-center  rounded-xl border border-gray-100 p-6 text-gray-600 shadow-lg sm:flex-row sm:gap-6">
-      <div className="flex flex-col items-center text-center sm:items-stretch sm:text-left">
+    <div className="flex grow cursor-pointer flex-col  items-center rounded-xl border border-gray-100 p-6 text-gray-600 shadow-md hover:shadow-lg sm:flex-row sm:gap-6">
+      <div className="flex h-full grow flex-col items-stretch text-left">
         <div className="mb-2 flex flex-col justify-between sm:flex-row sm:items-center">
           <h4 className="mb-4 sm:m-0">
             <span className="text-xs">{project.language}</span>
@@ -53,18 +53,17 @@ export const OSProjectCard = ({ project }: { project: GithubRepo }) => {
             </div>
           </div>
         </div>
-        <p className="text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          fugit veritatis sapiente quidem odit labore animi velit
-        </p>
-        <div className="flex flex-row flex-wrap py-2">
+        <div className="flex-1">
+          <p className="text-sm">{project.description}</p>
+        </div>
+        <div className="flex flex-row flex-wrap  py-2">
           {project.topics.split(",").map((topic, index) => (
-            <div
+            <span
               key={index}
-              className="mr-2 mt-1 self-start rounded-2xl bg-blue-100 py-1.5 px-4 text-xs text-gray-600"
+              className="mr-2 mt-1 self-start rounded-2xl bg-blue-100 py-1 px-3 text-xs text-gray-600"
             >
               {topic}
-            </div>
+            </span>
           ))}
         </div>
       </div>

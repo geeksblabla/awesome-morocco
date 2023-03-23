@@ -51,7 +51,7 @@ export const DashboardLayout = ({
   return (
     <>
       <Toaster position="top-center" reverseOrder={false} />
-      <div className="mx-4 min-h-screen max-w-screen-xl sm:mx-8 xl:mx-auto">
+      <div className="mx-4 max-w-screen-lg  sm:mx-8 xl:mx-auto">
         <div className="grid grid-cols-8 pt-3 sm:grid-cols-10">
           <div className="col-span-2 hidden sm:block">
             <ul>

@@ -1,7 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 
-import { api } from "~/utils/api";
 import { NavBar, OsRankingTable, PageBanner, TabsList } from "~/components";
 
 const Home: NextPage = () => {
@@ -22,6 +21,10 @@ const Home: NextPage = () => {
           routes={[
             { name: "Open Source", link: "/open-source" },
             { name: "ranking", link: "/open-source/ranking" },
+            {
+              name: "First Contribution",
+              link: "/open-source/first-contribution",
+            },
           ]}
           activeIndex={1}
         />

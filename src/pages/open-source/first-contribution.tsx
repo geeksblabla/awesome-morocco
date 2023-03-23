@@ -2,7 +2,7 @@ import { type NextPage } from "next";
 import Head from "next/head";
 
 import { api } from "~/utils/api";
-import { NavBar, OSProjectCard, PageBanner, TabsList } from "~/components";
+import { NavBar, OsRankingTable, PageBanner, TabsList } from "~/components";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         title="Open Source"
         description="Explore latest innovations in the Tech world New here? Check our Tutorial on Open Source"
       />
-      <main className="mx-auto flex  max-w-screen-lg flex-1 flex-col items-center justify-center  text-center">
+      <main className="mx-auto flex  max-w-screen-lg flex-col items-center justify-center  text-center  ">
         <TabsList
           routes={[
             { name: "Open Source", link: "/open-source" },
@@ -27,28 +27,12 @@ const Home: NextPage = () => {
               link: "/open-source/first-contribution",
             },
           ]}
-          activeIndex={0}
+          activeIndex={2}
         />
-        <Repos />
+        <div> First contribution guide here as mdx file</div>
       </main>
     </>
   );
 };
 
 export default Home;
-
-const Repos: React.FC = () => {
-  const { data, isLoading } = api.github.repos.useQuery();
-
-  if (isLoading) {
-    return <p>Loading...</p>;
-  }
-
-  return (
-    <div className="grid gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-      {data?.map((repo) => (
-        <OSProjectCard key={repo.id} project={repo} />
-      ))}
-    </div>
-  );
-};

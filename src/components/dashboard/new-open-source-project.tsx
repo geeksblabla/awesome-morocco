@@ -11,12 +11,15 @@ export const NewOpenSourceProject = () => {
       {
         onSuccess: () => {
           toast.success("Project added successfully");
+          setUrl("");
         },
         onError: (error) => {
-          console.log(error.data?.zodError);
+          const errorMessage = error.data?.zodError?.fieldErrors.url;
 
-          if (error.data?.zodError) {
-            toast.error(error.data?.zodError?.fieldErrors?.["url"][0]);
+          if (errorMessage && errorMessage[0]) {
+            toast.error(errorMessage[0]);
+          } else {
+            toast.error("Something went wrong, please try again later");
           }
         },
       }
@@ -25,13 +28,22 @@ export const NewOpenSourceProject = () => {
   return (
     <>
       <div className="pt-4">
-        <h1 className="py-2 text-2xl font-semibold">
-          Add new open source project
-        </h1>
+        <h1 className="py-2 text-2xl font-semibold">New Open Source project</h1>
       </div>
       <hr className="mt-4 mb-8" />
-      <div>
-        <label className=""> Open source project url</label>
+      <p className="text-lg text-gray-600">
+        Before adding a new project, ensure that it meets the following
+        criteria:
+        <ul className="text-base">
+          <li>* The project must be open-source and hosted on Github.</li>
+          <li>* The project must have a minimum of 50 stars.</li>
+          <li>
+            * The project should have a valid README.md file and a well-written
+            description.
+          </li>
+        </ul>
+      </p>
+      <div className="mt-4">
         <input
           type="email"
           placeholder="https://github.com/user/repo"
@@ -44,7 +56,7 @@ export const NewOpenSourceProject = () => {
         onClick={onSubmit}
         className="mt-4 rounded-lg bg-blue-600 px-4 py-2 text-white"
       >
-        {isLoading ? "Loading..." : "Add"}
+        {isLoading ? "Loading..." : "Add Project"}
       </button>
     </>
   );

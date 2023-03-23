@@ -11,6 +11,7 @@ CREATE TABLE "GithubRepo" (
     "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updatedAt" DATETIME NOT NULL,
     "name" TEXT NOT NULL,
+    "description" TEXT NOT NULL,
     "url" TEXT NOT NULL,
     "owner" TEXT NOT NULL,
     "stars" INTEGER NOT NULL,
@@ -63,6 +64,9 @@ CREATE TABLE "VerificationToken" (
     "token" TEXT NOT NULL,
     "expires" DATETIME NOT NULL
 );
+
+-- CreateIndex
+CREATE UNIQUE INDEX "GithubRepo_url_key" ON "GithubRepo"("url");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Account_provider_providerAccountId_key" ON "Account"("provider", "providerAccountId");

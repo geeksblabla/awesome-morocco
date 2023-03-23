@@ -13,6 +13,10 @@ const Dashboard: NextPage = () => {
       </Head>
       <NavBar />
       <DashboardLayout activePage="Home">
+        <div className="pt-4">
+          <h1 className="py-2 text-2xl font-semibold">Your Submissions </h1>
+        </div>
+        <hr className="mt-4 mb-8" />
         <Repos />
       </DashboardLayout>
     </>
@@ -22,20 +26,17 @@ const Dashboard: NextPage = () => {
 export default Dashboard;
 
 const Repos: React.FC = () => {
-  const { data, isLoading } = api.github.repos.useQuery();
+  const { data, isLoading } = api.github.my_repos.useQuery();
 
   if (isLoading) {
     return <p>Loading...</p>;
   }
 
   return (
-    <div className="flex flex-col items-center justify-center gap-4">
-      <p className="text-center text-2xl">
-        {data?.length} open source projects
-        {data?.map((repo) => (
-          <OSProjectCard key={repo.id} project={repo} />
-        ))}
-      </p>
+    <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
+      {data?.map((repo) => (
+        <OSProjectCard key={repo.id} project={repo} />
+      ))}
     </div>
   );
 };

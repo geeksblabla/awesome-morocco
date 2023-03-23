@@ -25,6 +25,7 @@ model GithubRepo {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     name      String
+    description String
     url       String   @unique
     owner     String
     stars     Int
@@ -45,6 +46,7 @@ model Account {
     providerAccountId String
     refresh_token     String? // @db.Text
     access_token      String? // @db.Text
+    refresh_token_expires_in Int?
     expires_at        Int?
     token_type        String?
     scope             String?

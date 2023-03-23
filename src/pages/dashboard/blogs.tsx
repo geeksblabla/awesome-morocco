@@ -12,7 +12,10 @@ const Index: NextPage = () => {
       </Head>
       <NavBar />
       <DashboardLayout activePage="Blogs">
-        <div> blogs</div>
+        <div className="pt-4">
+          <h1 className="py-2 text-2xl font-semibold">New Blog</h1>
+        </div>
+        <hr className="mt-4 mb-8" />
       </DashboardLayout>
     </>
   );
