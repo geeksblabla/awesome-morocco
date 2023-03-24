@@ -16,18 +16,21 @@ This project is based on the [t3](https://create.t3.gg/) stack. Make sure to rea
 git clone https://github.com/geeksblabla/awesome-morocco.git
 ```
 
-<b>To access the latest updates and features, we recommend switching to the next_t3 branch:</b> 
-```bash 
+<b>To access the latest updates and features, we recommend switching to the next_t3 branch:</b>
+
+```bash
 git checkout next_t3
 ```
 
-3. Install `pnpm` as a global dependency 
+3. Install `pnpm` as a global dependency
+
 ```bash
 curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm
 ```
 
 Using `npm`
-```bash 
+
+```bash
 npm install -g pnpm
 ```
 
@@ -43,16 +46,20 @@ pnpm install
    - Set the homepage url to `http://localhost:3000`
    - Set the callback url to `http://localhost:3000/api/auth/callback/github`
    - Make a copy of `.env.example` file:
+
    ```bash
     cp .env.example .env
-   ``` 
+   ```
+
    - Generate a client secret and copy client id and client secret to `.env`file
 
    - Set `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` in `.env` file
 
 6. Generate a [Github personal access token](https://github.com/settings/tokens) to fetch data from github api and copy it to `.env` file as `GITHUB_API_TOKEN` (this token should have `repo` scope only as we only need to fetch data from github api)
 
-7. Init the database and start the development server
+7. Go to [PlanetScale](https://planetscale.com/) and create a free account and create a database and copy the database url to `.env` file as `DATABASE_URL`
+
+8. Init the database and start the development server
 
 ```bash
 pnpm prisma db push
