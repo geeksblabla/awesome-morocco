@@ -41,6 +41,7 @@
 - [Facebook Developers Circle: Marrakech](https://web.facebook.com/groups/DevC.Marrakech) - Collaborate, ask and meet other developers from Marrakech.
 - [Google Developers Group Casablanca](https://gdgcasablanca.com/) - Google Developers Group of Casablanca City.
 - [Google Developers Group Agadir](https://www.meetup.com/GDGAgadir) - Google Developers Group of Agadir City.
+- [Google Developers Group Tangier](https://gdg.community.dev/gdg-tangier/) - GDG Tangier.
 - [Rabat.js](https://twitter.com/RabatJS) - The Rbati community of JavaScript enthusiasts and professionals.
 - [MorrocoJUG](https://www.facebook.com/groups/moroccojug) - Morocco Java User Group
 - [Moroccan Gamedev Community](https://www.facebook.com/groups/670735856666271) - Everything related to games dev
@@ -101,6 +102,7 @@
   - [Ihssane Hatim](https://brightshine.io/tag/web_development/) - Web dev ....
   - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
   - [Mounaim Zaryouhi](https://www.techandlifetips.com/) - Linux, WSL, Java, Hiking and other things...
+  - [Houssain Amrani](https://github.com/amranidev) - C, PHP, Hardware, Electronics, Music Industry...
 
 ---
 
