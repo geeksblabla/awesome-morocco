@@ -2,7 +2,8 @@ import { type NextPage } from "next";
 import Head from "next/head";
 
 import { api } from "~/utils/api";
-import { NavBar, PageBanner, TabsList } from "~/components";
+import { NavBar, PageBanner, Spinner, TabsList } from "~/components";
+import { BlogCard } from "~/components/blog-card";
 
 const Home: NextPage = () => {
   return (
@@ -37,14 +38,14 @@ const Blogs: React.FC = () => {
   const { data, isLoading } = api.blog.blogs.useQuery();
 
   if (isLoading) {
-    return <p>Loading...</p>;
+    return <Spinner />;
   }
 
   return (
     <section className="w-screen py-20">
       <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
         {data?.map((blog) => (
-          <Article
+          <BlogCard
             key={blog.id}
             title={blog.title}
             description={blog.description}
@@ -53,36 +54,5 @@ const Blogs: React.FC = () => {
         ))}
       </div>
     </section>
-  );
-};
-
-type ArticleProps = {
-  title: string;
-  description: string;
-  image: string;
-};
-const Article = ({ title, description, image }: ArticleProps) => {
-  return (
-    <div className="group relative m-10 h-60 w-full  cursor-pointer overflow-hidden rounded-lg shadow-md">
-      <div className="absolute left-0 top-0 h-full w-full  transition-all duration-300 ease-in-out group-hover:-top-96">
-        <img
-          className="h-4/6 w-full object-cover"
-          src={image}
-          alt={`${title} website image`}
-        />
-        <div className="flex h-2/6 items-center justify-center  ">
-          <h1 className=" px-4 text-center font-serif text-xl font-semibold">
-            {title}
-          </h1>
-        </div>
-      </div>
-
-      <div className="absolute left-0 -bottom-96 flex h-full w-full flex-col justify-center transition-all duration-300 ease-in-out group-hover:bottom-0">
-        <h1 className="mb-2 px-8 text-center font-serif text-xl font-semibold ">
-          {title}
-        </h1>
-        <p className="px-8 text-center">{description}</p>
-      </div>
-    </div>
   );
 };

@@ -33,7 +33,7 @@ export const blogRouter = createTRPCRouter({
           title: data.title,
           description: data.description,
           image: data.image || "", // add placeholder image here in case
-          rss: input.rss || "",
+          rss: input.rss || "/images/placeholder.png",
           lastRSSUpdatedAt: new Date("2000-01-01T00:00:00.000Z"), // default value :)
           author: {
             connect: {
@@ -47,6 +47,14 @@ export const blogRouter = createTRPCRouter({
     }),
   blogs: publicProcedure.query(async ({ ctx }) => {
     const data = await ctx.prisma.blog.findMany();
+    return data;
+  }),
+  my_blogs: protectedProcedure.query(async ({ ctx }) => {
+    const data = await ctx.prisma.blog.findMany({
+      where: {
+        authorId: ctx.session.user.id,
+      },
+    });
     return data;
   }),
 });

@@ -1,6 +1,8 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { DashboardLayout, NavBar, NewBlog } from "~/components";
+import { DashboardLayout, Divider, NavBar, NewBlog } from "~/components";
+import { BlogCard } from "~/components/blog-card";
+import { api } from "~/utils/api";
 
 const Index: NextPage = () => {
   return (
@@ -13,9 +15,37 @@ const Index: NextPage = () => {
       <NavBar />
       <DashboardLayout activePage="Blogs">
         <NewBlog />
+        <Divider />
+        <MyBlogs />
       </DashboardLayout>
     </>
   );
 };
 
 export default Index;
+
+const MyBlogs = () => {
+  const { data, isLoading } = api.blog.my_blogs.useQuery();
+  if (isLoading) {
+    return <p>Loading...</p>;
+  }
+
+  return (
+    <>
+      <div className="pt-10">
+        <h1 className="py-2 text-2xl font-semibold">📚 My Blogs</h1>
+      </div>
+      <hr className="mt-4 mb-8" />
+      <div className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+        {data?.map((blog) => (
+          <BlogCard
+            key={blog.id}
+            title={blog.title}
+            description={blog.description}
+            image={blog.image}
+          />
+        ))}
+      </div>
+    </>
+  );
+};

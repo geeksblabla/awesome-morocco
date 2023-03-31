@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
+import { Rule } from "./rule";
 
 export const NewBlog = () => {
   const { mutate, isLoading } = api.blog.new_blog.useMutation();
@@ -33,23 +34,20 @@ export const NewBlog = () => {
   return (
     <>
       <div className="pt-4">
-        <h1 className="py-2 text-2xl font-semibold">New Blog</h1>
+        <h1 className="py-2 text-2xl font-semibold">📝 New Blog</h1>
       </div>
       <hr className="mt-4 mb-8" />
-      <p className="text-lg text-gray-600">
+      <p className="pb-2 text-lg text-gray-600">
         Before adding a Blog, ensure that it meets the following criteria:
       </p>
-      <ul className="text-base">
-        <li>
-          * If your blog is part of your portfolio please add the exact blog
-          page.
-        </li>
-        <li>* The blog should have at least 3 blog posts to be accepted</li>
-        <li>
-          * Make sure your blog open graph metadata is correct as we will use it
-          to display your blog.
-        </li>
-      </ul>
+      <Rule>
+        If your blog is part of your portfolio please add the exact blog
+      </Rule>
+      <Rule>The blog should have at least 3 blog posts to be accepted</Rule>
+      <Rule>
+        Make sure your blog open graph metadata is correct as we will use it to
+        display your blog.
+      </Rule>
 
       <div className="mt-4">
         <input

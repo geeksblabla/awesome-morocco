@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
+import { Rule } from "./rule";
 
 export const NewOpenSourceProject = () => {
   const { mutate, isLoading } = api.github.repo.useMutation();
@@ -36,12 +37,12 @@ export const NewOpenSourceProject = () => {
         criteria:
       </p>
       <ul className="text-base">
-        <li>* The project must be open-source and hosted on Github.</li>
-        <li>* The project must have a minimum of 50 stars.</li>
-        <li>
-          * The project should have a valid README.md file and a well-written
+        <Rule>The project must be open-source and hosted on Github.</Rule>
+        <Rule>The project must have a minimum of 50 stars.</Rule>
+        <Rule>
+          The project should have a valid README.md file and a well-written
           description.
-        </li>
+        </Rule>
       </ul>
 
       <div className="mt-4">
