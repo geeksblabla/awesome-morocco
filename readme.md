@@ -223,6 +223,9 @@
 With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeunes)
 - [MyStockMaster](https://github.com/Zakarialabib/myStockMaster) - Laravel-based inventory management system that offers an easy and straightforward way to keep track of inventory, sales, purchases, and more. It features a user-friendly dashboard, intuitive reports, made by [@zakarialabib](https://github.com/zakarialabib)
 - [ux-datatable](https://github.com/Aziz403/ux-datatable) A Datatable.net integration for Symfony. by [@Aziz403](https://github.com/Aziz403)
+- [Micro-bus](https://github.com/amranidev/micro-bus) Event driven microservices with laravel/lumen and AWS. by [@amranidev](https://github.com/amranidev)
+- [cloud-pubsub](https://github.com/gdg-tangier/cloud-pubsub) Google Cloud Pub/Sub for Laravel. by [@gdg-tangier](https://github.com/gdg-tangier)
+- [laracombee](https://github.com/amranidev/laracombee) A Recombee integration for Laravel. by [@amranidev](https://github.com/amranidev)
 
 #### Python
 
@@ -266,6 +269,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [ODC-World-Cup-2022-Predictions](https://github.com/Omaraitbenhaddi/ODC-World-Cup-2022-Predictions) - Prediction of the winner of an international matches Prediction results are "Win / Lose / Draw" and Apply the model to predict the result of FIFA world cup 2022 by [@Omaraitbenhaddi](https://github.com/Omaraitbenhaddi)
+- [cervello](https://github.com/gdg-tangier/cervello) - A simple machine learning lib written in Typescript. by [@gdg-tangier](https://github.com/gdg-tangier)
 
 #### Others
 
