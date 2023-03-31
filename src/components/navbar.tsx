@@ -17,7 +17,7 @@ const routes = [
     label: "Events",
   },
   {
-    link: "/blogs",
+    link: "/blog",
     label: "Blogs",
   },
   {

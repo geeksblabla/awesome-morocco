@@ -34,18 +34,19 @@ export const NewOpenSourceProject = () => {
       <p className="text-lg text-gray-600">
         Before adding a new project, ensure that it meets the following
         criteria:
-        <ul className="text-base">
-          <li>* The project must be open-source and hosted on Github.</li>
-          <li>* The project must have a minimum of 50 stars.</li>
-          <li>
-            * The project should have a valid README.md file and a well-written
-            description.
-          </li>
-        </ul>
       </p>
+      <ul className="text-base">
+        <li>* The project must be open-source and hosted on Github.</li>
+        <li>* The project must have a minimum of 50 stars.</li>
+        <li>
+          * The project should have a valid README.md file and a well-written
+          description.
+        </li>
+      </ul>
+
       <div className="mt-4">
         <input
-          type="email"
+          type="url"
           placeholder="https://github.com/user/repo"
           className="mt-2 h-12 w-full rounded-md bg-gray-100 px-3"
           value={url}

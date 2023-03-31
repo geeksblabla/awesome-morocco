@@ -1,6 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { DashboardLayout, NavBar } from "~/components";
+import { DashboardLayout, NavBar, NewBlog } from "~/components";
 
 const Index: NextPage = () => {
   return (
@@ -12,10 +12,7 @@ const Index: NextPage = () => {
       </Head>
       <NavBar />
       <DashboardLayout activePage="Blogs">
-        <div className="pt-4">
-          <h1 className="py-2 text-2xl font-semibold">New Blog</h1>
-        </div>
-        <hr className="mt-4 mb-8" />
+        <NewBlog />
       </DashboardLayout>
     </>
   );

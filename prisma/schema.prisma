@@ -17,12 +17,26 @@ model Example {
     updatedAt DateTime @updatedAt
 }
 
+model Blog {
+    id        String   @id @default(cuid())
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+    lastRSSUpdatedAt DateTime
+    title     String
+    description   String
+    url       String   @unique
+    rss       String
+    image    String
+    author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+    authorId  String
+}
+
 model GithubRepo {
     id        String   @id @default(cuid())
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     name      String
-    description String
+    description String @db.LongText
     url       String   @unique
     owner     String
     stars     Int
@@ -71,6 +85,7 @@ model User {
     accounts      Account[]
     sessions      Session[]
     githubRepos   GithubRepo[]
+    blogs         Blog[]
 }
 
 model VerificationToken {
