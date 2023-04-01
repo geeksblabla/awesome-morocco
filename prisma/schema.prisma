@@ -11,24 +11,23 @@ datasource db {
   relationMode = "prisma"
 }
 
-model Example {
-    id        String   @id @default(cuid())
-    createdAt DateTime @default(now())
-    updatedAt DateTime @updatedAt
-}
 
 model Blog {
     id        String   @id @default(cuid())
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     lastRSSUpdatedAt DateTime
+    lastArticlePublishedAt DateTime
     title     String
     description   String @db.Text
     url       String   @unique
     rss       String
     image    String @db.Text
-    author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
-    authorId  String
+    user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+    userId  String
+    draft   Boolean @default(true)
+
+    @@index([userId])
 }
 
 model GithubRepo {
@@ -46,6 +45,9 @@ model GithubRepo {
     topics    String
     user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
     userId    String
+    draft     Boolean @default(true)
+
+    @@index([userId])
 }
 
 // Necessary for Next auth
@@ -66,6 +68,7 @@ model Account {
     user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
     @@unique([provider, providerAccountId])
+    @@index([userId])
 }
 
 model Session {
@@ -74,6 +77,7 @@ model Session {
     userId       String
     expires      DateTime
     user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+    @@index([userId])
 }
 
 model User {
@@ -82,6 +86,7 @@ model User {
     email         String?   @unique
     emailVerified DateTime?
     image         String?
+    isAdmin       Boolean   @default(false)
     accounts      Account[]
     sessions      Session[]
     githubRepos   GithubRepo[]
