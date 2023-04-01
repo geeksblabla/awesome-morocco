@@ -2,9 +2,10 @@ import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
 import { Rule } from "./rule";
+import { ServerError, showErrorToast } from "./show-error-toast";
 
 export const NewOpenSourceProject = () => {
-  const { mutate, isLoading } = api.github.repo.useMutation();
+  const { mutate, isLoading } = api.github.new_repo.useMutation();
   const [url, setUrl] = useState("");
   const onSubmit = () => {
     mutate(
@@ -15,13 +16,7 @@ export const NewOpenSourceProject = () => {
           setUrl("");
         },
         onError: (error) => {
-          const errorMessage = error.data?.zodError?.fieldErrors.url;
-
-          if (errorMessage && errorMessage[0]) {
-            toast.error(errorMessage[0]);
-          } else {
-            toast.error("Something went wrong, please try again later");
-          }
+          showErrorToast(error as ServerError);
         },
       }
     );

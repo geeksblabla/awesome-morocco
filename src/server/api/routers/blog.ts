@@ -22,8 +22,8 @@ export const blogRouter = createTRPCRouter({
   new_blog: protectedProcedure
     .input(
       z.object({
-        url: z.string().url(),
-        rss: z.union([z.string().url().optional(), z.string().optional()]),
+        url: z.string().url("Invalid Blog URL format"),
+        rss: z.union([z.string().url("Invalid RSS URL format"), z.string()]),
       })
     )
     .mutation(async ({ input, ctx }) => {

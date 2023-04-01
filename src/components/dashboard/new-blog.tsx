@@ -2,6 +2,7 @@ import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
 import { Rule } from "./rule";
+import { ServerError, showErrorToast } from "./show-error-toast";
 
 export const NewBlog = () => {
   const { mutate, isLoading } = api.blog.new_blog.useMutation();
@@ -17,16 +18,7 @@ export const NewBlog = () => {
           setRss("");
         },
         onError: (error) => {
-          const urlErrorMessage = error.data?.zodError?.fieldErrors.url;
-          const rssErrorMessage = error.data?.zodError?.fieldErrors.rss;
-
-          if (urlErrorMessage && urlErrorMessage[0]) {
-            toast.error(urlErrorMessage[0]);
-          } else if (rssErrorMessage && rssErrorMessage[0]) {
-            toast.error(rssErrorMessage[0]);
-          } else {
-            toast.error("Something went wrong, please try again later");
-          }
+          showErrorToast(error as ServerError);
         },
       }
     );
