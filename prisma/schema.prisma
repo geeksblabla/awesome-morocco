@@ -65,6 +65,13 @@ model GithubRepo {
     @@index([userId])
 }
 
+model Podcast {
+    id        String   @id @default(cuid())
+    source    String   @unique
+    user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+    userId    String
+}
+
 // Necessary for Next auth
 model Account {
     id                String  @id @default(cuid())
@@ -106,6 +113,7 @@ model User {
     sessions      Session[]
     githubRepos   GithubRepo[]
     blogs         Blog[]
+    podcast       Podcast[]
 }
 
 model VerificationToken {

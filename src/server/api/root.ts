@@ -1,6 +1,7 @@
 import { createTRPCRouter } from "~/server/api/trpc";
 import { githubRouter } from "./routers/github";
 import { blogRouter } from "./routers/blog";
+import { podcastRouter } from "./routers/podcast";
 
 /**
  * This is the primary router for your server.
@@ -10,6 +11,7 @@ import { blogRouter } from "./routers/blog";
 export const appRouter = createTRPCRouter({
   github: githubRouter,
   blog: blogRouter,
+  podcast: podcastRouter,
 });
 
 // export type definition of API
