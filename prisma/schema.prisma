@@ -23,10 +23,10 @@ model Blog {
     updatedAt DateTime @updatedAt
     lastRSSUpdatedAt DateTime
     title     String
-    description   String
+    description   String @db.Text
     url       String   @unique
     rss       String
-    image    String
+    image    String @db.Text
     author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
     authorId  String
 }
@@ -36,7 +36,7 @@ model GithubRepo {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     name      String
-    description String @db.LongText
+    description String @db.Text
     url       String   @unique
     owner     String
     stars     Int

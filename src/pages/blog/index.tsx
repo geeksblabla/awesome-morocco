@@ -50,6 +50,7 @@ const Blogs: React.FC = () => {
             title={blog.title}
             description={blog.description}
             image={blog.image}
+            url={blog.url}
           />
         ))}
       </div>

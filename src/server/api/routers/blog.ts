@@ -31,7 +31,7 @@ export const blogRouter = createTRPCRouter({
         data: {
           url: input.url,
           title: data.title,
-          description: data.description,
+          description: data.description || "",
           image: data.image || "", // add placeholder image here in case
           rss: input.rss || "/images/placeholder.png",
           lastRSSUpdatedAt: new Date("2000-01-01T00:00:00.000Z"), // default value :)
