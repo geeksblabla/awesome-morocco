@@ -38,13 +38,7 @@ const MyBlogs = () => {
       <hr className="mt-4 mb-8" />
       <div className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
         {data?.map((blog) => (
-          <BlogCard
-            key={blog.id}
-            title={blog.title}
-            description={blog.description}
-            image={blog.image}
-            url={blog.url}
-          />
+          <BlogCard key={blog.id} {...blog} />
         ))}
       </div>
     </>
