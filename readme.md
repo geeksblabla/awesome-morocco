@@ -192,7 +192,7 @@
 - [Deno-Trading-Bot](https://github.com/Zizwar/deno-trading-bot) - Technical Strategies and Indicators for Trading Crypto By [@IbrahimBIDI](https://github.com/Zizwar)
 - [ngx-darija](https://github.com/ngMorocco/ngx-darija) - Angular in Darija Live Coding Series official Application by the [Moroccan Angular Community](https://github.com/ngMorocco).
 - [Ryo.js](https://github.com/marvelbark2/ryo-js) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2)
-- [Countries Informations](https://github.com/souf1neCoder/Countries-Informations) - Countries Information a Project for Improve knowledge about other Countries and also General Culture
+- [Countries Informations](https://github.com/souf1neCoder/Countries-Informations) - Countries Information a Project for Improve knowledge about other Countries and also General Culture by [souf1neCoder](https://github.com/souf1neCoder)
 
 
 
