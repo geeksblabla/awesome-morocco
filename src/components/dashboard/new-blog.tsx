@@ -2,7 +2,7 @@ import { useState } from "react";
 import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
 import { Rule } from "./rule";
-import { ServerError, showErrorToast } from "./show-error-toast";
+import { type ServerError, showErrorToast } from "./show-error-toast";
 
 export const NewBlog = () => {
   const { mutate, isLoading } = api.blog.new_blog.useMutation();
@@ -10,7 +10,7 @@ export const NewBlog = () => {
   const [rss, setRss] = useState("");
   const onSubmit = () => {
     mutate(
-      { url, rss },
+      { url, rss: rss.length > 0 ? rss : undefined },
       {
         onSuccess: () => {
           toast.success("Blog added successfully");

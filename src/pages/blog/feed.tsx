@@ -1,7 +1,14 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 
-import { NavBar, PageBanner, TabsList } from "~/components";
+import {
+  ArticleCard,
+  NavBar,
+  PageBanner,
+  Spinner,
+  TabsList,
+} from "~/components";
+import { api } from "~/utils/api";
 
 const Home: NextPage = () => {
   return (
@@ -33,9 +40,19 @@ const Home: NextPage = () => {
 export default Home;
 
 const Feed: React.FC = () => {
+  const { data, isLoading } = api.blog.articles.useQuery();
+
+  if (isLoading) {
+    return <Spinner />;
+  }
+
   return (
-    <div className="grid gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-      feed
-    </div>
+    <section className="w-screen py-20">
+      <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-5 p-5 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+        {data?.map((post) => (
+          <ArticleCard key={post.id} {...post} />
+        ))}
+      </div>
+    </section>
   );
 };

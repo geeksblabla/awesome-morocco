@@ -6,3 +6,4 @@ export * from "./os-ranking-table";
 export * from "./remote-image";
 export * from "./divider";
 export * from "./spinner";
+export * from "./article-card";

@@ -10,9 +10,11 @@ The Blog form is pretty simple, you just need to provide the url of the blog and
 
 When you click submit, we are going to fetch open graph meta tags from the blog url(using `metascrapper`), mainly the title,description and image of the blog and save it in the database.
 
-If the blog has RSS feed, we are going to save it in the database too as part of the blog entity and we set `lastRSSUpdatedAt` to `2000` to indicate that we didn't fetch the last posts yet as well as `lastArticlePublishedAt`.
+If the blog has RSS feed, we are going to save it in the database too as part of the blog entity and we set `lastRSSUpdatedAt` to `2000` to indicate that we didn't fetch the last posts.
 
 The blog will be set as draft(not the case if you are admin) and need to be approved by the admin before appearing on the website. same for collecting feed posts from the blog.
+
+> Note: for testing purpose, you can update your role to `admin` in the database to be able to add blogs without approval.
 
 ## How we are collecting Feed posts ?
 

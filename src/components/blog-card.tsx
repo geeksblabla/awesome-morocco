@@ -1,17 +1,11 @@
 import { RemoteImage } from "./remote-image";
+import type { Blog } from "@prisma/client";
 
-type BlogCardProps = {
-  title: string;
-  description: string;
-  image: string;
-  url: string;
-};
-export const BlogCard = ({ title, description, image, url }: BlogCardProps) => {
+export const BlogCard = ({ title, description, image, url }: Blog) => {
   return (
     <a href={url} target="_blank">
       <div className="group relative my-2 h-60 w-full  cursor-pointer overflow-hidden rounded-lg shadow-md">
         <div className="absolute left-0 top-0 h-full w-full  transition-all duration-300 ease-in-out group-hover:-top-96">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
           <RemoteImage
             className="h-4/6 w-full object-cover"
             src={image}

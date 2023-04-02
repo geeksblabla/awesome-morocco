@@ -17,7 +17,6 @@ model Blog {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     lastRSSUpdatedAt DateTime
-    lastArticlePublishedAt DateTime
     title     String
     description   String @db.Text
     url       String   @unique
@@ -26,8 +25,24 @@ model Blog {
     user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
     userId  String
     draft   Boolean @default(true)
+    articles Article[]
 
     @@index([userId])
+}
+
+model Article {
+    id        String   @id @default(cuid())
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+    title     String
+    description   String @db.Text
+    url       String   @unique
+    image    String @db.Text
+    publishedAt DateTime
+    blog      Blog     @relation(fields: [blogId], references: [id], onDelete: Cascade)
+    blogId    String
+
+    @@index([blogId])
 }
 
 model GithubRepo {
