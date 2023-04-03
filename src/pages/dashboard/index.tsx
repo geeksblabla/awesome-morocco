@@ -1,9 +1,11 @@
 import { type NextPage } from "next";
+import { useSession } from "next-auth/react";
 import Head from "next/head";
 import { DashboardLayout, NavBar, OSProjectCard } from "~/components";
 import { api } from "~/utils/api";
 
 const Dashboard: NextPage = () => {
+  const { data } = useSession();
   return (
     <>
       <Head>
@@ -14,29 +16,15 @@ const Dashboard: NextPage = () => {
       <NavBar />
       <DashboardLayout activePage="Home">
         <div className="pt-4">
-          <h1 className="py-2 text-2xl font-semibold">Your Submissions </h1>
+          <h1 className="py-2 text-2xl font-semibold">
+            Welcome {data?.user.name}{" "}
+          </h1>
         </div>
         <hr className="mt-4 mb-8" />
-        <Repos />
+        <p> show option here </p>
       </DashboardLayout>
     </>
   );
 };
 
 export default Dashboard;
-
-const Repos: React.FC = () => {
-  const { data, isLoading } = api.github.my_repos.useQuery();
-
-  if (isLoading) {
-    return <p>Loading...</p>;
-  }
-
-  return (
-    <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
-      {data?.map((repo) => (
-        <OSProjectCard key={repo.id} project={repo} />
-      ))}
-    </div>
-  );
-};

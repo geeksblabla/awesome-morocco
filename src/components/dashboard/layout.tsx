@@ -66,7 +66,7 @@ export const DashboardLayout = ({
             </ul>
           </div>
 
-          <div className="col-span-8 overflow-hidden rounded-xl bg-gray-50 px-8 shadow">
+          <div className="col-span-8 overflow-hidden rounded-xl bg-gray-50 px-8 pb-8 shadow">
             {children}
           </div>
         </div>

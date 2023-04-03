@@ -11,10 +11,38 @@ datasource db {
   relationMode = "prisma"
 }
 
-model Example {
+
+model Blog {
     id        String   @id @default(cuid())
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
+    lastRSSUpdatedAt DateTime
+    title     String
+    description   String @db.Text
+    url       String   @unique
+    rss       String
+    image    String @db.Text
+    user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+    userId  String
+    draft   Boolean @default(true)
+    articles Article[]
+
+    @@index([userId])
+}
+
+model Article {
+    id        String   @id @default(cuid())
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+    title     String
+    description   String @db.Text
+    url       String   @unique
+    image    String @db.Text
+    publishedAt DateTime
+    blog      Blog     @relation(fields: [blogId], references: [id], onDelete: Cascade)
+    blogId    String
+
+    @@index([blogId])
 }
 
 model GithubRepo {
@@ -22,7 +50,7 @@ model GithubRepo {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
     name      String
-    description String
+    description String @db.Text
     url       String   @unique
     owner     String
     stars     Int
@@ -32,6 +60,9 @@ model GithubRepo {
     topics    String
     user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
     userId    String
+    draft     Boolean @default(true)
+
+    @@index([userId])
 }
 
 // Necessary for Next auth
@@ -52,6 +83,7 @@ model Account {
     user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
     @@unique([provider, providerAccountId])
+    @@index([userId])
 }
 
 model Session {
@@ -60,6 +92,7 @@ model Session {
     userId       String
     expires      DateTime
     user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+    @@index([userId])
 }
 
 model User {
@@ -68,9 +101,11 @@ model User {
     email         String?   @unique
     emailVerified DateTime?
     image         String?
+    isAdmin       Boolean   @default(false)
     accounts      Account[]
     sessions      Session[]
     githubRepos   GithubRepo[]
+    blogs         Blog[]
 }
 
 model VerificationToken {

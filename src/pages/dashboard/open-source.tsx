@@ -1,6 +1,14 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { DashboardLayout, NavBar, NewOpenSourceProject } from "~/components";
+import {
+  DashboardLayout,
+  Divider,
+  NavBar,
+  NewOpenSourceProject,
+  OSProjectCard,
+  Spinner,
+} from "~/components";
+import { api } from "~/utils/api";
 
 const Index: NextPage = () => {
   return (
@@ -13,9 +21,33 @@ const Index: NextPage = () => {
       <NavBar />
       <DashboardLayout activePage="Open Source Projects">
         <NewOpenSourceProject />
+        <Divider />
+        <Repos />
       </DashboardLayout>
     </>
   );
 };
 
 export default Index;
+
+const Repos: React.FC = () => {
+  const { data, isLoading } = api.github.my_repos.useQuery();
+
+  if (isLoading) {
+    return <Spinner />;
+  }
+
+  return (
+    <>
+      <div className="pt-10">
+        <h1 className="py-2 text-2xl font-semibold">📚 My Projects</h1>
+      </div>
+      <hr className="mt-4 mb-8" />
+      <div className="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16">
+        {data?.map((repo) => (
+          <OSProjectCard key={repo.id} project={repo} />
+        ))}
+      </div>
+    </>
+  );
+};
