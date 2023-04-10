@@ -258,6 +258,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 #### Flutter
 
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
+- [My-Todo](https://github.com/OmarJ9/my-todo) - An open source app to manage your tasks,built with Flutter and Firebase Back-end. by [@OmarJ9](https://github.com/OmarJ9)
 
 #### AI
 
