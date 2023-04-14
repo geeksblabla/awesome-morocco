@@ -51,6 +51,7 @@
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
 - [JavaScript Morocco](https://twitter.com/JSMorocco) - The Moroccan JavaScript Community.
+- [MoroccoAI](https://morocco.ai) - The largest AI Community in Morocco.
 
 ---
 
@@ -59,6 +60,7 @@
 - [Devoxx Morocco](https://devoxx.ma/)
 - [ForLoop Morocco](https://twitter.com/forloopmorocco)
 - [Blabla Conf](https://blablaconf.com/)
+- [MoroccoAI Conf](https://morocco.ai/conference/)
 
 ---
 
@@ -101,6 +103,7 @@
   - [Ihssane Hatim](https://brightshine.io/tag/web_development/) - Web dev ....
   - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
   - [Mounaim Zaryouhi](https://www.techandlifetips.com/) - Linux, WSL, Java, Hiking and other things...
+  - [Ahmed Kachkach](https://kachkach.com) - Machine Learning & Deep Learning, Computer Vision, Recommender Systems and many more...
 
 ---
 
@@ -134,6 +137,7 @@
 - [ARS LONGA VITA BREVIS](https://www.youtube.com/channel/UCFkWVr33NMrcfYZWXOJvKsw) - Competitive Programming - Dynamic Programming - C/C++ ...
 - [CNCG Casablanca](https://www.youtube.com/channel/UC6HawQwd4jthXt1orvMIscg) - Cloud, Tech, Kubernetes, Dev-Ops...
 - [Mouradouchane](https://www.youtube.com/c/undefinedprogramming/videos) - Javascript, HTML, CSS...
+- [MoroccoAI](https://www.youtube.com/@MoroccoAI) - Data science and AI in general
 
 ---
 
@@ -266,6 +270,8 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 - [CNN age gender](https://github.com/ChibaniMohamed/cnn_age_gender) - Age and Gender prediction using Keras by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [Polaris](https://github.com/ChibaniMohamed/Polaris) - Face recognition system with Futuristic UI design by [@XN3UR0N](https://github.com/ChibaniMohamed)
 - [ODC-World-Cup-2022-Predictions](https://github.com/Omaraitbenhaddi/ODC-World-Cup-2022-Predictions) - Prediction of the winner of an international matches Prediction results are "Win / Lose / Draw" and Apply the model to predict the result of FIFA world cup 2022 by [@Omaraitbenhaddi](https://github.com/Omaraitbenhaddi)
+- [Light_Dense_Neural_Network](https://github.com/alielfilali01/Neural-Networks/blob/main/Light_Dense_Neural_Network.ipynb) - Building deep / resources demanding networks is not always the go-to strategy in deep learning, in this notebook i show that we can train a small DenseNet to perform nearlly SOTA performance on a classical image classification benchmark (aka MNIST) **NOTE that the performance can get better with the right HP tuning** by [@alielfilali01](https://github.com/alielfilali01)
+- [Alpaca-LoRA-4-Arabic](https://huggingface.co/spaces/Ali-C137/Alpaca-LoRA-4-Arabic) - Alpaca-LoRA is a 7B-parameter LLaMA model trained to follow instructions. It is finetuned on the Arabic equivalent of Stanford's Alpaca dataset [link](https://huggingface.co/datasets/Yasbok/Alpaca_arabic_instruct) by [Yassine-Boukhari](https://github.com/Yassine-Boukhari) and makes use of the Huggingface LLaMA implementation. For more information, please visit [the project’s page](https://github.com/tloen/alpaca-lora). **NOTE : currently the space is not working duo to memory limits of HuggingFace's free CPUs** by [@alielfilali01](https://github.com/alielfilali01)
 
 #### Others
 
