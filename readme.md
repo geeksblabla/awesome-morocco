@@ -184,6 +184,7 @@
 - [Ryo.js](https://github.com/marvelbark2/ryo-js) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2)
 - [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403)
 - [next-salat](https://github.com/ayoubsousali/next-salat) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali)
+- [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
 
 #### Java
 
