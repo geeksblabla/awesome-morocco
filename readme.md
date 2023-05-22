@@ -184,6 +184,7 @@
 - [Ryo.js](https://github.com/marvelbark2/ryo-js) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2)
 - [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403)
 - [next-salat](https://github.com/ayoubsousali/next-salat) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali)
+- [create-react-app-offline](https://github.com/Baronsindo/create-react-app-offline) CRAO - Create React apps with no build configuration, offline. by [@baronsindo](https://github.com/baronsindo)
 
 #### Java
 
@@ -258,6 +259,7 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 #### Flutter
 
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur)
+- [pretty_logger]([https://github.com/aminejafur/corona-shield](https://github.com/Baronsindo/pretty_logger)) - A flutter package that let developers have pretty logs instead just printing everything like a newbie. by [@baronsindo](https://github.com/baronsindo)
 
 #### AI
 
