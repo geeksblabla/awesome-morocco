@@ -292,4 +292,4 @@ With Symfony and Laravel implementations. by [@yoeunes](https://github.com/yoeun
 
 ### Contributing
 
-- Check all information here at [Contributing.md](https://github.com/DevC-Casa/awesome-morocco/blob/master/contributing.md) to understand to how to contribute.
+- Check all information here at [Contributing.md](https://github.com/DevC-Casa/awesome-morocco/blob/master/contributing.md) to understand how to contribute.
