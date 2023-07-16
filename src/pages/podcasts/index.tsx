@@ -1,9 +1,8 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import { Heading } from "~/components/podcasts/heading";
-
 import { api } from "~/utils/api";
 import { NavBar, PageBanner } from "~/components";
+import { PodcastCard } from "~/components/podcast/podcast-card";
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +18,6 @@ const Home: NextPage = () => {
         description="Explore latest innovations in the Tech world New here? Check our Podcast"
       />
       <main className="flex flex-1 flex-col items-center justify-center text-center">
-        <Heading />
         <Podcasts />
       </main>
     </>
@@ -32,18 +30,18 @@ const Podcasts: React.FC = () => {
   const { data, isLoading } = api.podcast.all.useQuery();
 
   if (isLoading) {
-    return(
-      <div className="w-12 h-12 rounded-full animate-spin border-2 border-dashed border-blue-500 border-t-transparent"></div>
+    return (
+      <div className="w-12 h-12 mt-8 rounded-full animate-spin border-2 border-dashed border-blue-500 border-t-transparent"></div>
     )
   }
 
   return (
-    <div className="grid gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
+    <div className="mx-auto max-w-screen-lg grid gap-4 sm:grid-cols-2 sm:gap-8 lg:grid-cols-2 xl:grid-cols-3 xl:gap-8 m-8">
       {data?.map((podcast) => (
-        <div key={podcast.id}>
-          <span> Podcast URL : {podcast.source} </span>
-          
-        </div>
+        <PodcastCard
+          key={podcast.id}
+          {...podcast}
+        />
       ))}
     </div>
   );

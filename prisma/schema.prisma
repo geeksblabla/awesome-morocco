@@ -66,10 +66,19 @@ model GithubRepo {
 }
 
 model Podcast {
-    id        String   @id @default(cuid())
-    source    String   @unique
-    user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
-    userId    String
+    id          String   @id @default(cuid())
+    url         String   @unique
+    spotify     String?  // @db.Text
+    title       String
+    description String   @db.Text
+    image       String   @db.Text
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime 
+    draft       Boolean  @default(false)
+    userId      String
+    user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@index([userId])
 }
 
 // Necessary for Next auth

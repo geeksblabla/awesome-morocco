@@ -1,7 +1,9 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import { api } from "~/utils/api";
 import { DashboardLayout, NavBar } from "~/components";
-import NewPodcast from "~/components/dashboard/new-podcast";
+import { NewPodcast } from "~/components/dashboard/new-podcast";
+import { PodcastList } from "~/components/podcast/podcast-list";
 
 const Index: NextPage = () => {
   return (
@@ -13,10 +15,42 @@ const Index: NextPage = () => {
       </Head>
       <NavBar />
       <DashboardLayout activePage="Podcasts">
-        <NewPodcast/>
+        <NewPodcast />
+        <UserPodcast />
       </DashboardLayout>
     </>
   );
 };
 
 export default Index;
+
+
+
+const UserPodcast = () => {
+  const { data, isLoading } = api.podcast.user_podcasts.useQuery()
+  if (isLoading) {
+    return <p className="pt-10">Loading...</p>;
+  }
+
+  return (
+    <div>
+      {data &&
+        <div>
+          <div className="pt-10">
+            <h1 className="py-2 text-2xl font-semibold"> My Podcasts</h1>
+          </div>
+          <hr className="mt-4 mb-8" />
+
+          <div className="grid gap-4">
+            {data?.map((podcast) => (
+              <PodcastList
+                key={podcast.id}
+                {...podcast}
+              />
+            ))}
+          </div>
+        </div>
+      }
+    </div>
+  );
+};

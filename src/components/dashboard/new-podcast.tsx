@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import { toast } from "react-hot-toast";
 import { api } from "~/utils/api";
 
-const NewPodcast = () => {
+export const NewPodcast = () => {
   const {mutate, isLoading} = api.podcast.create.useMutation();
-  const [source, setSource] = useState("");
+  const [url, setUrl] = useState("");
+  const [spotifyURL, setSpotifyURL] = useState("");
 
   const handelSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     mutate(
-      { source },
+      { 
+        url,
+        spotify: spotifyURL.length > 0 ? spotifyURL : undefined,
+      },
       {
         onSuccess: () => {
           toast.success("Podcast added successfully");
-          setSource("");
+          setUrl("");
+          setSpotifyURL("");
         },
         onError: (error) => {
           const errorMessage = error.data?.zodError?.fieldErrors.source;
@@ -42,9 +47,18 @@ const NewPodcast = () => {
           type="url"
           placeholder="New Podcast"
           className="mt-2 h-12 w-full rounded-md bg-gray-100 px-3"
-          value={source}
+          value={url}
           onChange={(e) => {
-            setSource(e.target.value);
+            setUrl(e.target.value);
+          }}
+        />
+         <input
+          type="url"
+          placeholder="Podcast's Spotify URL"
+          className="mt-4 h-12 w-full rounded-md bg-gray-100 px-3"
+          value={spotifyURL}
+          onChange={(e) => {
+            setSpotifyURL(e.target.value);
           }}
         />
         <button className="mt-4 rounded-lg bg-blue-600 px-4 py-2 text-white">
@@ -54,5 +68,3 @@ const NewPodcast = () => {
     </div>
   );
 };
-
-export default NewPodcast;
