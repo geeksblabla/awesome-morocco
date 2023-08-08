@@ -1,0 +1,20 @@
+
+name: Updating blogs
+
+on:
+  schedule:
+    - cron: '0 */24 * * *' 
+
+jobs:
+  curl_job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Make curl request
+        env:
+          TARGET_URL: ${{ secrets.TARGET_URL }}  
+        run: |
+          curl -sSf -o /dev/null "$${{ format('{0}/{1}.{2}', secrets.TARGET_URL, '/api/trpc/blogs.fetch_articles' ) }}"
