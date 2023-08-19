@@ -186,7 +186,7 @@
 - [Ryo.js](https://github.com/marvelbark2/ryo-js) [![Stars](https://img.shields.io/github/stars/marvelbark2/ryo-js.svg?style=social)](https://github.com/marvelbark2/ryo-js/stargazers) - JS fullstack framework, blazly fast, to create API, WS, preact components... by [marvelbark2](https://github.com/marvelbark2) 
 - [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) [![Stars](https://img.shields.io/github/stars/Aziz403/MySQL_WhatsApp.svg?style=social)](https://github.com/Aziz403/MySQL_WhatsApp/stargazers) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403) 
 - [next-salat](https://github.com/ayoubsousali/next-salat) [![Stars](https://img.shields.io/github/stars/ayoubsousali/next-salat.svg?style=social)](https://github.com/ayoubsousali/next-salat/stargazers) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali) 
-- [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/ayoubsousali/next-salat.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
+- [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/mohamedfrindi/TxtAnime.js.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
 
 #### Java
 
