@@ -187,6 +187,7 @@
 - [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) [![Stars](https://img.shields.io/github/stars/Aziz403/MySQL_WhatsApp.svg?style=social)](https://github.com/Aziz403/MySQL_WhatsApp/stargazers) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403) 
 - [next-salat](https://github.com/ayoubsousali/next-salat) [![Stars](https://img.shields.io/github/stars/ayoubsousali/next-salat.svg?style=social)](https://github.com/ayoubsousali/next-salat/stargazers) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali) 
 - [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/mohamedfrindi/TxtAnime.js.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
+- [Cmi-node.js](https://github.com/aitmiloud/cmi-node) [![Stars](https://img.shields.io/github/stars/aitmiloud/cmi-node.svg?style=social)](https://github.com/aitmiloud/cmi-node) Npm package to communicate with the CMI payment plateform in Morocco. by [@aitmiloud](https://github.com/aitmiloud)
 
 #### Java
 
