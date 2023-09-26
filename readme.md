@@ -51,6 +51,10 @@
 - [Python Maroc](https://www.facebook.com/groups/pythonMaroc) - a community of Moroccan Python Developers.
 - [CNCG Casablanca](https://community.cncf.io/casablanca/) - a community of Moroccan Cloud Native Tech enthusiasts.
 - [JavaScript Morocco](https://twitter.com/JSMorocco) - The Moroccan JavaScript Community.
+- [BizTech Morocco](https://www.linkedin.com/company/biztechmorocco/) - Moroccan space for Technology And Business.
+- [SoCraTes](https://www.linkedin.com/company/moroccansoftwarecrafters/) -  Moroccan Software Crafters is a non-profit association that aims to stimulate and promote Software Craftsmanship values.
+- [WhoDesign.ma](https://www.linkedin.com/showcase/whodesign-ma/) - Home for all Moroccan designers.
+- [Blueprint](https://www.linkedin.com/company/designbleuprint/) - Empowering Moroccan designers to level up.
 
 ---
 
@@ -101,6 +105,8 @@
     - [Ihssane Hatim](https://brightshine.io/tag/web_development/) - Web dev ....
     - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
     - [Mounaim Zaryouhi](https://www.techandlifetips.com/) - Linux, WSL, Java, Hiking and other things...
+    - [Kawtar Choubari](https://choubari.com/) - Javascript, React, Next.js, NodeJS ...
+    - [Mohammed Daoudi](https://www.iduoad.com) - Linux, DevOps, Python, Tea, History ...
 
 ---
 
