@@ -283,7 +283,8 @@
 - [CSE](https://github.com/bilnash/CSE) [![Stars](https://img.shields.io/github/stars/bilnash/CSE.svg?style=social)](https://github.com/bilnash/CSE/stargazers) - R package for Casablanca Stock Exchange Data 
 - [libCplus](https://github.com/BnademOverflow/libCplus) [![Stars](https://img.shields.io/github/stars/BnademOverflow/libCplus.svg?style=social)](https://github.com/BnademOverflow/libCplus/stargazers) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow) 
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) [![Stars](https://img.shields.io/github/stars/mohouyizme/vscode-big-sur-icons.svg?style=social)](https://github.com/mohouyizme/vscode-big-sur-icons/stargazers) - Icons for VSCode based on macOS Big Sur design. 
-- [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/HIGH-TO-LOW.svg?style=social)](https://github.com/zakarialaoui10/HIGH-TO-LOW/stargazers) - Codes in C and their equivalence in MIPS Assembly. by [@zakarialaoui10](https://github.com/zakarialaoui10) 
+- [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/HIGH-TO-LOW.svg?style=social)](https://github.com/zakarialaoui10/HIGH-TO-LOW/stargazers) - Codes in C and their equivalence in MIPS Assembly. by [@zakarialaoui10](https://github.com/zakarialaoui10)
+- [ZikoMatrix](https://github.com/zakarialaoui10/ZikoMatrix) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/ZikoMatrix.svg?style=social)](https://github.com/zakarialaoui10/ZikoMatrix/stargazers) - A matrix library for arduino and its alternatives. by [@zakarialaoui10](https://github.com/zakarialaoui10)
 
 ---
 
