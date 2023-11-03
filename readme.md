@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> 
   <img width="400" src="logo.svg" alt="Awesome Morocco" />
   <hr />
   <p>
