@@ -17,7 +17,7 @@ const tables = [
       { name: "stars", type: "int" },
       { name: "forks", type: "int" },
       { name: "issues", type: "int" },
-      { name: "languages", type: "multiple" },
+      { name: "language", type: "string" },
       { name: "topics", type: "multiple" },
       {
         name: "submitted_by",

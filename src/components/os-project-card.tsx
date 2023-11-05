@@ -1,14 +1,12 @@
-import type { OsRepositories } from "~/lib/xata";
+import type { OsRepositories } from "~/xata";
 
 export const OSProjectCard = ({ project }: { project: OsRepositories }) => {
   return (
-    <div className="text-neutral-25 flex grow cursor-pointer flex-col  items-center rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C] p-6  shadow-md   sm:flex-row sm:gap-6">
+    <div className="flex grow cursor-pointer flex-col items-center  rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C] p-6 text-neutral-25  shadow-md   sm:flex-row sm:gap-6">
       <div className="flex h-full grow flex-col items-stretch text-left">
         <div className="mb-2 flex flex-col justify-between sm:flex-row sm:items-center">
           <h4 className="mb-4 sm:m-0">
-            <span className="text-xs text-neutral-200">
-              {project.languages?.[0]}
-            </span>
+            <span className="text-xs text-neutral-200">{project.language}</span>
             <br />
             <span className="text-lg font-bold">{project.name}</span>
           </h4>
@@ -96,10 +94,10 @@ export const OSProjectCard = ({ project }: { project: OsRepositories }) => {
           <p className="text-sm text-neutral-200">{project.description}</p>
         </div>
         <div className="flex flex-row flex-wrap  py-2">
-          {project.topics?.map((topic, index) => (
+          {project.topics?.slice(0, 3).map((topic, index) => (
             <span
               key={index}
-              className="bg-secondary-500/10 text-secondary-500/100 mr-2 mt-1 self-start rounded-2xl px-3 py-1 text-xs"
+              className="mr-2 mt-1 self-start rounded-2xl bg-secondary-500/10 px-3 py-1 text-xs text-secondary-500/100"
             >
               {topic}
             </span>

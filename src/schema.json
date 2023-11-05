@@ -33,8 +33,8 @@
             "type": "int"
           },
           {
-            "name": "languages",
-            "type": "multiple"
+            "name": "language",
+            "type": "string"
           },
           {
             "name": "topics",

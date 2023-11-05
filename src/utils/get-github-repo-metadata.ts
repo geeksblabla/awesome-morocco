@@ -8,9 +8,7 @@ export const getGithubRepoMetadata = async ({
   repo: string;
   owner: string;
 }) => {
-  const octokit = new Octokit({
-    auth: env.GITHUB_API_TOKEN,
-  });
+  const octokit = new Octokit({ auth: env.GITHUB_API_TOKEN });
 
   const data = await octokit.request("GET /repos/{owner}/{repo}", {
     owner,
