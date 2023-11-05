@@ -1,0 +1,57 @@
+{
+    "tables": [
+      {
+        "name": "os_repositories",
+        "columns": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "owner",
+            "type": "string"
+          },
+          {
+            "name": "stars",
+            "type": "int"
+          },
+          {
+            "name": "forks",
+            "type": "int"
+          },
+          {
+            "name": "issues",
+            "type": "int"
+          },
+          {
+            "name": "languages",
+            "type": "multiple"
+          },
+          {
+            "name": "topics",
+            "type": "multiple"
+          },
+          {
+            "name": "submitted_by",
+            "type": "string",
+            "notNull": true,
+            "defaultValue": "anonymous"
+          },
+          {
+            "name":"draft",
+            "type":"bool",
+            "defaultValue": "true"
+          }
+        ]
+      }
+    ]
+  }
