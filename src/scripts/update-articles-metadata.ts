@@ -7,7 +7,7 @@ import { getURLOpenGraphMetadata } from "~/utils/get-url-open-graph-metadata";
 /**
  * This script will go throw articles with missed metadata and try to extract the metadata from the article url and update the article table in the database.
  */
-const MAX_ARTICLES_PER_EXCUTION = 5;
+const MAX_ARTICLES_PER_EXECUTION = 5;
 
 type Article = {
   id: string;
@@ -40,7 +40,7 @@ const updateArticlesMetadata = async () => {
     .db.articles.filter({ $notExists: "title" })
     .select(["url", "id"])
     .getPaginated({
-      pagination: { size: MAX_ARTICLES_PER_EXCUTION },
+      pagination: { size: MAX_ARTICLES_PER_EXECUTION },
     });
 
   if (articles.records.length === 0) {

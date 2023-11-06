@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 
 type AlertType = "success" | "error" | "warning" | "info";
 
@@ -57,7 +57,6 @@ export const Alert = ({ description, type = "info" }: AlertProps) => {
         >
           <path
             stroke="currentColor"
-            strokeLinejoin="round"
             strokeLinejoin="round"
             strokeWidth="2"
             d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"

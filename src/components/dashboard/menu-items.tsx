@@ -33,15 +33,6 @@ const Items = [
   },
 ];
 
-type Page =
-  | "Home"
-  | "Open Source Projects"
-  | "Blogs"
-  | "Communities"
-  | "Events"
-  | "Podcasts"
-  | "Mentors";
-
 export const MenuItems = () => {
   const pathname = usePathname();
   return (
@@ -75,9 +66,9 @@ const MenuItem = ({
     <li
       className={`mt-5 cursor-pointer border-l-2 ${
         active
-          ? "text-neutral-10 border-l-blue-700"
+          ? "border-l-blue-700 text-neutral-10"
           : "border-transparent text-neutral-200"
-      }  text-neutral-10 px-2 py-2 font-semibold transition hover:border-l-blue-700`}
+      }  px-2 py-2 font-semibold text-neutral-10 transition hover:border-l-blue-700`}
     >
       <Link href={href}>{label}</Link>
     </li>
