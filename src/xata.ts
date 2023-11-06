@@ -45,7 +45,6 @@ const tables = [
       { name: "last_rss_retrieved_at", type: "datetime" },
       { name: "rss", type: "string" },
     ],
-    revLinks: [{ column: "blog", table: "articles" }],
   },
   {
     name: "articles",
@@ -56,7 +55,6 @@ const tables = [
       { name: "published_at", type: "datetime" },
       { name: "image", type: "string" },
       { name: "open_graph_retrieved_count", type: "int", defaultValue: "0" },
-      { name: "blog", type: "link", link: { table: "blogs" } },
     ],
   },
 ] as const;

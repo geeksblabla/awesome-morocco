@@ -122,13 +122,6 @@
             "name": "open_graph_retrieved_count",
             "type": "int",
             "defaultValue": "0"
-          },
-          {
-            "name": "blog",
-            "type": "link",
-            "link": {
-              "table": "blogs"
-            }
           }
         ]
       }
