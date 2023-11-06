@@ -1,35 +1,44 @@
-import type { Article } from "@prisma/client";
 import { RemoteImage } from "./remote-image";
+import { type Articles } from "~/xata";
 
-export const ArticleCard = ({
-  image,
-  title,
-  description,
-  publishedAt,
-  url,
-}: Article) => {
+type ArticleCardProps = {
+  article: Articles;
+};
+
+export const ArticleCard = ({ article }: ArticleCardProps) => {
+  const articleUrl = article.url ?? "#";
+  const host = new URL(articleUrl).host ?? "";
   return (
-    <a href={url} target="_blank">
-      <article className="group flex h-full cursor-pointer flex-col overflow-hidden rounded-lg border-2 border-gray-200 border-opacity-60 shadow-lg">
-        <RemoteImage
-          className="w-full transform object-cover object-center transition duration-500 ease-in-out group-hover:scale-105 md:h-36 lg:h-48"
-          src={image}
-          alt="blog"
-        />
-        <div className="grow py-1 px-6">
-          <h1 className="title-font my-3 inline-block cursor-pointer text-lg font-extrabold capitalize tracking-wide text-gray-800">
-            {title}
-          </h1>
-          <p className="line-clamp-2 mb-3 cursor-pointer overflow-hidden leading-relaxed text-gray-500">
-            {description.slice(0, 80) + "..."}
-          </p>
-        </div>
-        <div className="flex flex-wrap items-center justify-between px-6 pt-1 pb-4">
-          <div className="flex flex-wrap text-sm text-gray-500">
-            <span className="mr-1">{publishedAt.toDateString()}</span>
+    <a
+      href={articleUrl}
+      target="_blank"
+      className="relative flex w-full max-w-xs cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#3a374b] text-neutral-25 shadow-md transition-all hover:border-secondary-500/75"
+    >
+      <RemoteImage
+        className="w-full object-cover md:h-36 lg:h-48"
+        src={article.image ?? undefined}
+        alt={`${article.title} website image`}
+      />
+      {/* <span className="absolute left-0 top-0 w-28 -translate-x-6 translate-y-4 -rotate-45 border bg-secondary-500/60 text-center text-sm text-white">
+        New
+      </span> */}
+      <div className="mt-4 px-5 pb-5 text-start">
+        <h5 className="text-start text-base font-semibold tracking-tight ">
+          {article.title}
+        </h5>
+
+        <div className="mt-2.5 flex flex-col">
+          <span className="mr-2 line-clamp-2 rounded text-xs text-neutral-75">
+            {article.description}
+          </span>
+          <div className="mt-3 flex items-center justify-between ">
+            <span className="text-xs text-neutral-75">
+              {article.published_at?.toDateString()}
+            </span>
+            <span className="text-xs text-neutral-75">{host}</span>
           </div>
         </div>
-      </article>
+      </div>
     </a>
   );
 };

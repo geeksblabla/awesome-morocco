@@ -10,7 +10,6 @@ export const RemoteImage = ({
   HTMLImageElement
 >) => {
   const imageSrc = src === "" ? "/images/placeholder.png" : src;
-  console.log(imageSrc);
   return (
     // eslint-disable-next-line @next/next/no-img-element, jsx-a11y/alt-text
     <img

@@ -22,7 +22,7 @@ export const BlogCard = ({ blog }: BlogCardProps) => {
         New
       </span>
       <div className="mt-4 px-5 pb-5 text-start">
-        <h5 className="text-start text-xl font-semibold tracking-tight ">
+        <h5 className="line-clamp-1 text-start text-xl font-semibold tracking-tight">
           {blog.title}
         </h5>
 
