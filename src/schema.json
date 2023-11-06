@@ -52,6 +52,85 @@
             "defaultValue": "true"
           }
         ]
+      },
+      {
+        "name": "blogs",
+        "columns": [
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "rss",
+            "type": "string"
+          },
+          {
+            "name": "image",
+            "type": "string"
+          },
+          {
+            "name": "last_rss_retrieved_at",
+            "type": "datetime"
+          },
+          {
+            "name": "submitted_by",
+            "type": "string",
+            "notNull": true,
+            "defaultValue": "anonymous"
+          },
+          {
+            "name":"draft",
+            "type":"bool",
+            "defaultValue": "true"
+          }
+        ]
+      },
+      {
+        "name": "articles",
+        "columns": [
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "published_at",
+            "type": "datetime"
+          },
+          {
+            "name": "image",
+            "type": "string"
+          },
+          {
+            "name": "open_graph_retrieved_count",
+            "type": "int",
+            "defaultValue": "0"
+          },
+          {
+            "name": "blog",
+            "type": "link",
+            "link": {
+              "table": "blogs"
+            }
+          }
+        ]
       }
     ]
   }

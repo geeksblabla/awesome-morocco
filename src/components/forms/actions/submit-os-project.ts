@@ -56,9 +56,10 @@ export async function submitOSProject(
       language: data.data.language,
       topics: data.data.topics,
       draft: user.privateMetadata?.isAdmin ? false : true,
+      submitted_by: user.id,
     });
-    return createSuccessState("Successfully created");
+    return createSuccessState("Repo added successfully");
   } catch (e) {
-    return createErrorState("Failed to create");
+    return createErrorState("Failed to add your repo, please try again");
   }
 }

@@ -19,7 +19,7 @@ const routes = [
     label: "Events",
   },
   {
-    link: "/blog",
+    link: "/blogs",
     label: "Blogs",
   },
   {
@@ -65,7 +65,7 @@ export const NavBar = () => {
             {routes.map((route, index) => (
               <li className="" key={`item-${index}`}>
                 <Link
-                  className={`text-neutral-10 border-b-2 pb-2  font-[400] hover:text-neutral-200  ${
+                  className={`border-b-2 pb-2 font-[400]  text-neutral-10 hover:text-neutral-200  ${
                     pathname.includes(route.link)
                       ? "border-primary-500 text-neutral-10"
                       : "border-transparent  text-neutral-200"

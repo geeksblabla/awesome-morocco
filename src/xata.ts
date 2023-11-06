@@ -28,6 +28,37 @@ const tables = [
       { name: "draft", type: "bool", defaultValue: "true" },
     ],
   },
+  {
+    name: "blogs",
+    columns: [
+      { name: "title", type: "string" },
+      { name: "description", type: "text" },
+      { name: "url", type: "string", unique: true },
+      { name: "image", type: "string" },
+      {
+        name: "submitted_by",
+        type: "string",
+        notNull: true,
+        defaultValue: "anonymous",
+      },
+      { name: "draft", type: "bool", defaultValue: "true" },
+      { name: "last_rss_retrieved_at", type: "datetime" },
+      { name: "rss", type: "string" },
+    ],
+    revLinks: [{ column: "blog", table: "articles" }],
+  },
+  {
+    name: "articles",
+    columns: [
+      { name: "title", type: "string" },
+      { name: "description", type: "text" },
+      { name: "url", type: "string", unique: true },
+      { name: "published_at", type: "datetime" },
+      { name: "image", type: "string" },
+      { name: "open_graph_retrieved_count", type: "int", defaultValue: "0" },
+      { name: "blog", type: "link", link: { table: "blogs" } },
+    ],
+  },
 ] as const;
 
 export type SchemaTables = typeof tables;
@@ -36,8 +67,16 @@ export type InferredTypes = SchemaInference<SchemaTables>;
 export type OsRepositories = InferredTypes["os_repositories"];
 export type OsRepositoriesRecord = OsRepositories & XataRecord;
 
+export type Blogs = InferredTypes["blogs"];
+export type BlogsRecord = Blogs & XataRecord;
+
+export type Articles = InferredTypes["articles"];
+export type ArticlesRecord = Articles & XataRecord;
+
 export type DatabaseSchema = {
   os_repositories: OsRepositoriesRecord;
+  blogs: BlogsRecord;
+  articles: ArticlesRecord;
 };
 
 const DatabaseClient = buildClient();

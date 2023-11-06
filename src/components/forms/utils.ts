@@ -1,4 +1,4 @@
-type FormStatus = "idle" | "pending" | "success" | "error";
+type FormStatus = "idle" | "success" | "error";
 
 export type FormState = {
   message: string;
