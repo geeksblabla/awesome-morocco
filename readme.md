@@ -71,7 +71,6 @@
     - [Gemography](https://dev.to/gemography)
     - [Remote.ma](https://remote.ma/)
     - [Nimble Ways](https://blog.nimbleways.com/)
-    - [Bixat](https://bixat.dev)
 
 - Developers
 
