@@ -71,6 +71,7 @@
     - [Gemography](https://dev.to/gemography)
     - [Remote.ma](https://remote.ma/)
     - [Nimble Ways](https://blog.nimbleways.com/)
+    - [Bixat](https://bixat.dev)
 
 - Developers
 
@@ -101,6 +102,7 @@
     - [Ihssane Hatim](https://brightshine.io/tag/web_development/) - Web dev ....
     - [Yasser Tahiri](https://blog.yezz.me/) - Security, Python, APIs, ....
     - [Mounaim Zaryouhi](https://www.techandlifetips.com/) - Linux, WSL, Java, Hiking and other things...
+    - [Mohammed chahboun](https://bixat.dev) - Software engineering, cross-platform development, and other things...
 
 ---
 
@@ -262,6 +264,9 @@
 #### Flutter
 
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) [![Stars](https://img.shields.io/github/stars/aminejafur/corona-shield.svg?style=social)](https://github.com/aminejafur/corona-shield/stargazers) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur) 
+- [Flutter Rocket](https://pub.dev/packages/flutter_rocket) [![Stars](https://img.shields.io/github/stars/JahezAcademy/flutter_rocket.svg?style=social)](https://github.com/JahezAcademy/flutter_rocket/stargazers) Powerful package for state management & request. by [M97chahboun](https://github.com/m97chahboun)
+- [Github Snitch](https://pub.dev/packages/github_snitch) [![Stars](https://img.shields.io/github/stars/m97chahboun/github_snitch.svg?style=social)](https://github.com/M97Chahboun/github_snitch/stargazers) package that helps you report bugs and issues on GitHub automatically. It can also be used to submit comments on existing issues. by [M97chahboun](https://github.com/m97chahboun)
+- [Rocket Timer](https://pub.dev/packages/rocket_timer) [![Stars](https://img.shields.io/github/stars/m97chahboun/rocket_timer.svg?style=social)](https://github.com/m97chahboun/rocket_timer/stargazers) Timer package. by [M97chahboun](https://github.com/m97chahboun)
 
 #### AI
 
@@ -285,6 +290,8 @@
 - [libCplus](https://github.com/BnademOverflow/libCplus) [![Stars](https://img.shields.io/github/stars/BnademOverflow/libCplus.svg?style=social)](https://github.com/BnademOverflow/libCplus/stargazers) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow) 
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) [![Stars](https://img.shields.io/github/stars/mohouyizme/vscode-big-sur-icons.svg?style=social)](https://github.com/mohouyizme/vscode-big-sur-icons/stargazers) - Icons for VSCode based on macOS Big Sur design. 
 - [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/HIGH-TO-LOW.svg?style=social)](https://github.com/zakarialaoui10/HIGH-TO-LOW/stargazers) - Codes in C and their equivalence in MIPS Assembly. by [@zakarialaoui10](https://github.com/zakarialaoui10) 
+- [Branch Timer](https://marketplace.visualstudio.com/items?itemName=vscode-branch-timer.branch-timer) [![Stars](https://img.shields.io/github/stars/m97chahboun/vscode-branch-timer.svg?style=social)](https://github.com/M97Chahboun/vscode-branch-timer/stargazers) Extension for track your work duration on every branch. by [M97chahboun](https://github.com/m97chahboun)
+
 
 ---
 
