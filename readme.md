@@ -188,6 +188,7 @@
 - [next-salat](https://github.com/ayoubsousali/next-salat) [![Stars](https://img.shields.io/github/stars/ayoubsousali/next-salat.svg?style=social)](https://github.com/ayoubsousali/next-salat/stargazers) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali) 
 - [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/mohamedfrindi/TxtAnime.js.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
 - [Cmi-node.js](https://github.com/aitmiloud/cmi-node) [![Stars](https://img.shields.io/github/stars/aitmiloud/cmi-node.svg?style=social)](https://github.com/aitmiloud/cmi-node) Npm package to communicate with the CMI payment plateform in Morocco. by [@aitmiloud](https://github.com/aitmiloud)
+- [dir2tree](https://github.com/zakarialaoui10/dir2tree) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/dir2tree.svg?style=social)](https://github.com/zakarialaoui10/dir2tree) Node.js tool for creating organized json tree from a root directory . by [@zakarialaoui10](https://github.com/zakarialaoui10)
 
 #### Java
 
