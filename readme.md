@@ -290,7 +290,8 @@
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) [![Stars](https://img.shields.io/github/stars/mohouyizme/vscode-big-sur-icons.svg?style=social)](https://github.com/mohouyizme/vscode-big-sur-icons/stargazers) - Icons for VSCode based on macOS Big Sur design. 
 - [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/HIGH-TO-LOW.svg?style=social)](https://github.com/zakarialaoui10/HIGH-TO-LOW/stargazers) - Codes in C and their equivalence in MIPS Assembly. by [@zakarialaoui10](https://github.com/zakarialaoui10) 
 - [Branch Timer](https://marketplace.visualstudio.com/items?itemName=vscode-branch-timer.branch-timer) [![Stars](https://img.shields.io/github/stars/m97chahboun/vscode-branch-timer.svg?style=social)](https://github.com/M97Chahboun/vscode-branch-timer/stargazers) Extension for track your work duration on every branch. by [M97chahboun](https://github.com/m97chahboun)
-
+- [PowerMonitor](https://github.com/zakarialaoui10/PowerMonitor) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/PowerMonitor.svg?style=social)](https://github.com/zakarialaoui10/PowerMonitor/stargazers) A C++ library designed to measure the electrical characteristics of AC circuits, such as voltage, current, power, reactive power, and power factor, for Arduino and its alternatives. by [@zakarialaoui10](https://github.com/zakarialaoui10)
+- [ZikoMatrix](https://github.com/zakarialaoui10/ZikoMatrix) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/ZikoMatrix.svg?style=social)](https://github.com/zakarialaoui10/Ziko%Matrix/stargazers) Create and manipule matrices of arbitrary size and data type in arduino and its alternatives. by [@zakarialaoui10](https://github.com/zakarialaoui10)
 
 ---
 
