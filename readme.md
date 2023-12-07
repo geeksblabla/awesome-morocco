@@ -107,6 +107,7 @@
     - [Mounaim Zaryouhi](https://www.techandlifetips.com/) - Linux, WSL, Java, Hiking and other things...
     - [Kawtar Choubari](https://choubari.com/) - Javascript, React, Next.js, NodeJS ...
     - [Mohammed Daoudi](https://www.iduoad.com) - Linux, DevOps, Python, Tea, History ...
+    - [Mohammed chahboun](https://bento.me/m97chahboun) - Software engineering, cross-platform development, and other things...
 
 ---
 
@@ -193,6 +194,7 @@
 - [MySQL_WhatsApp](https://github.com/Aziz403/MySQL_WhatsApp) [![Stars](https://img.shields.io/github/stars/Aziz403/MySQL_WhatsApp.svg?style=social)](https://github.com/Aziz403/MySQL_WhatsApp/stargazers) A minimal `node.js` code allow us to run MySQL queries in your device from Whatsapp. by [@Aziz403](https://github.com/Aziz403) 
 - [next-salat](https://github.com/ayoubsousali/next-salat) [![Stars](https://img.shields.io/github/stars/ayoubsousali/next-salat.svg?style=social)](https://github.com/ayoubsousali/next-salat/stargazers) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali) 
 - [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/mohamedfrindi/TxtAnime.js.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
+- [Cmi-node.js](https://github.com/aitmiloud/cmi-node) [![Stars](https://img.shields.io/github/stars/aitmiloud/cmi-node.svg?style=social)](https://github.com/aitmiloud/cmi-node) Npm package to communicate with the CMI payment plateform in Morocco. by [@aitmiloud](https://github.com/aitmiloud)
 
 #### Java
 
@@ -267,6 +269,9 @@
 #### Flutter
 
 - [Corona-Shield](https://github.com/aminejafur/corona-shield) [![Stars](https://img.shields.io/github/stars/aminejafur/corona-shield.svg?style=social)](https://github.com/aminejafur/corona-shield/stargazers) - An open sourced Corona Tracking Mobile Application with Back-end (something like [wiqaytna](https://www.wiqaytna.ma)) made using Flutter, PHP and JS. by [@aminejafur](https://github.com/aminejafur) 
+- [Flutter Rocket](https://pub.dev/packages/flutter_rocket) [![Stars](https://img.shields.io/github/stars/JahezAcademy/flutter_rocket.svg?style=social)](https://github.com/JahezAcademy/flutter_rocket/stargazers) Powerful package for state management & request. by [M97chahboun](https://github.com/m97chahboun)
+- [Github Snitch](https://pub.dev/packages/github_snitch) [![Stars](https://img.shields.io/github/stars/m97chahboun/github_snitch.svg?style=social)](https://github.com/M97Chahboun/github_snitch/stargazers) package that helps you report bugs and issues on GitHub automatically. It can also be used to submit comments on existing issues. by [M97chahboun](https://github.com/m97chahboun)
+- [Rocket Timer](https://pub.dev/packages/rocket_timer) [![Stars](https://img.shields.io/github/stars/m97chahboun/rocket_timer.svg?style=social)](https://github.com/m97chahboun/rocket_timer/stargazers) Timer package. by [M97chahboun](https://github.com/m97chahboun)
 
 #### AI
 
@@ -290,6 +295,9 @@
 - [libCplus](https://github.com/BnademOverflow/libCplus) [![Stars](https://img.shields.io/github/stars/BnademOverflow/libCplus.svg?style=social)](https://github.com/BnademOverflow/libCplus/stargazers) - Wonderful library with lots of useful functions, algorithms and data structures in C. by [@BnademOverflow](https://github.com/BnademOverflow) 
 - [vscode-big-sur-icons](https://github.com/mohouyizme/vscode-big-sur-icons) [![Stars](https://img.shields.io/github/stars/mohouyizme/vscode-big-sur-icons.svg?style=social)](https://github.com/mohouyizme/vscode-big-sur-icons/stargazers) - Icons for VSCode based on macOS Big Sur design. 
 - [HIGH TO LOW](https://github.com/zakarialaoui10/HIGH-TO-LOW) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/HIGH-TO-LOW.svg?style=social)](https://github.com/zakarialaoui10/HIGH-TO-LOW/stargazers) - Codes in C and their equivalence in MIPS Assembly. by [@zakarialaoui10](https://github.com/zakarialaoui10) 
+- [Branch Timer](https://marketplace.visualstudio.com/items?itemName=vscode-branch-timer.branch-timer) [![Stars](https://img.shields.io/github/stars/m97chahboun/vscode-branch-timer.svg?style=social)](https://github.com/M97Chahboun/vscode-branch-timer/stargazers) Extension for track your work duration on every branch. by [M97chahboun](https://github.com/m97chahboun)
+- [PowerMonitor](https://github.com/zakarialaoui10/PowerMonitor) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/PowerMonitor.svg?style=social)](https://github.com/zakarialaoui10/PowerMonitor/stargazers) A C++ library designed to measure the electrical characteristics of AC circuits, such as voltage, current, power, reactive power, and power factor, for Arduino and its alternatives. by [@zakarialaoui10](https://github.com/zakarialaoui10)
+- [ZikoMatrix](https://github.com/zakarialaoui10/ZikoMatrix) [![Stars](https://img.shields.io/github/stars/zakarialaoui10/ZikoMatrix.svg?style=social)](https://github.com/zakarialaoui10/Ziko%Matrix/stargazers) Create and manipule matrices of arbitrary size and data type in arduino and its alternatives. by [@zakarialaoui10](https://github.com/zakarialaoui10)
 
 ---
 
