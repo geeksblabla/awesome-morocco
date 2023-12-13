@@ -8,14 +8,26 @@ export type GithubUser = {
   followers: number;
   privateContributions: number;
   publicContributions: number;
+  stars: number;
 };
 
 export const getTopUser = async () => {
   const data = await fetch(
-    "https://raw.githubusercontent.com/gayanvoice/top-github-users/main/cache/morocco.json",
+    "https://raw.githubusercontent.com/geeksblabla/lmqadem/main/cache/morocco-shiny.json",
   );
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-  const users: GithubUser[] = await data.json();
+  const users: { users: GithubUser[] } = await data.json();
+  const sortedUsers = users.users
+    .filter((u) => u.stars !== undefined)
+    .sort((a, b) => {
+      return b.stars - a.stars;
+    });
+  return sortedUsers;
+};
 
-  return users;
+export const numberToShortString = (number: number) => {
+  if (number < 1000) {
+    return number.toString();
+  }
+  return `${(Math.round(number / 100) / 10).toFixed(1)}k`;
 };

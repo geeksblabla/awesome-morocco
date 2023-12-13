@@ -1,3 +1,5 @@
+import { useParams } from "next/navigation";
+import { LanguagesTags } from "~/components/languages-tags";
 import { OSProjectCard } from "~/components/os-project-card";
 import { getXataClient } from "~/xata";
 
@@ -7,10 +9,13 @@ export default async function Page() {
     .getAll();
 
   return (
-    <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
-      {repositories.map((repo) => {
-        return <OSProjectCard key={repo.id} project={repo} />;
-      })}
-    </div>
+    <>
+      <LanguagesTags />
+      <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
+        {repositories.map((repo) => {
+          return <OSProjectCard key={repo.id} project={repo} />;
+        })}
+      </div>
+    </>
   );
 }
