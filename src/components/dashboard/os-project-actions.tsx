@@ -3,7 +3,7 @@ import { useTransition } from "react";
 import { removeRepo, validateRepo } from "../forms/actions/utils";
 
 const ValidateRepo = ({ id }: { id: string }) => {
-  let [isPending, startTransition] = useTransition();
+  const [isPending, startTransition] = useTransition();
   return (
     <button
       onClick={() => startTransition(() => validateRepo(id))}
@@ -15,7 +15,7 @@ const ValidateRepo = ({ id }: { id: string }) => {
 };
 
 const RemoveRepo = ({ id }: { id: string }) => {
-  let [isPending, startTransition] = useTransition();
+  const [isPending, startTransition] = useTransition();
   return (
     <button
       onClick={() => startTransition(() => removeRepo(id))}
