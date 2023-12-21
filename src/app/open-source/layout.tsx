@@ -10,9 +10,9 @@ export default function RootLayout({
     <>
       <PageBanner
         title="Open Source"
-        description="Explore latest innovations in the Tech world New here? Check our Tutorial on Open Source"
+        description="Explore latest open source projects from Morocco Developers and Get started with your first contribution"
       />
-      <main className="mx-auto flex  max-w-screen-lg flex-1 flex-col items-center justify-center  text-center">
+      <main className="sm:px-none mx-auto  flex max-w-screen-lg flex-1 flex-col items-center  justify-center px-4 text-center">
         <TabsList
           routes={[
             { name: "Projects", link: "/open-source" },

@@ -1,10 +1,11 @@
+import { numberToShortString } from "~/utils/utils";
 import type { OsRepositories } from "~/xata";
 
 export const OSProjectCard = ({ project }: { project: OsRepositories }) => {
   return (
     <div className="flex grow cursor-pointer flex-col items-center  rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C] p-6 text-neutral-25  shadow-md   sm:flex-row sm:gap-6">
       <div className="flex h-full grow flex-col items-stretch text-left">
-        <div className="mb-2 flex flex-col justify-between sm:flex-row sm:items-center">
+        <div className="mb-2 flex flex-row items-center justify-between ">
           <h4 className="mb-4 sm:m-0">
             <span className="text-xs text-neutral-200">{project.language}</span>
             <br />
@@ -35,7 +36,9 @@ export const OSProjectCard = ({ project }: { project: OsRepositories }) => {
                   />
                 </svg>
               </span>
-              <span className="text-xs">{project.stars}</span>
+              <span className="text-xs">
+                {numberToShortString(project.stars ?? 0)}
+              </span>
             </div>
             <div className="flex flex-row items-center justify-center">
               <span
@@ -86,12 +89,16 @@ export const OSProjectCard = ({ project }: { project: OsRepositories }) => {
                   />
                 </svg>
               </span>
-              <span className="text-sm">{project.forks}</span>
+              <span className="text-sm">
+                {numberToShortString(project.forks ?? 0)}
+              </span>
             </div>
           </div>
         </div>
         <div className="flex-1">
-          <p className="text-sm text-neutral-200">{project.description}</p>
+          <p className="line-clamp-2 text-sm text-neutral-200">
+            {project.description}
+          </p>
         </div>
         <div className="flex flex-row flex-wrap  py-2">
           {project.topics?.slice(0, 3).map((topic, index) => (

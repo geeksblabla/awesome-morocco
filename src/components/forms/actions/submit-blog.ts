@@ -55,7 +55,7 @@ export async function submitBlog(prevState: FormState, formData: FormData) {
       image: url_metadata.ogImage?.[0]?.url,
       rss: parsed.data.rss ?? null,
       last_rss_retrieved_at: new Date("2000-01-01T00:00:00.000Z"),
-      draft: user.privateMetadata?.isAdmin ? false : true,
+      draft: user.privateMetadata?.role === "admin" ? false : true,
       submitted_by: user.id,
     });
     return createSuccessState("Blog added successfully");

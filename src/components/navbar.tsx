@@ -10,14 +10,14 @@ const routes = [
     link: "/open-source",
     label: "Open Source",
   },
-  {
-    link: "/communities",
-    label: "Communities",
-  },
-  {
-    link: "/events",
-    label: "Events",
-  },
+  // {
+  //   link: "/communities",
+  //   label: "Communities",
+  // },
+  // {
+  //   link: "/events",
+  //   label: "Events",
+  // },
   {
     link: "/blogs",
     label: "Blogs",

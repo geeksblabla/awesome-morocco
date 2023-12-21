@@ -55,7 +55,7 @@ export async function submitOSProject(
       issues: data.data.open_issues_count,
       language: data.data.language,
       topics: data.data.topics,
-      draft: user.privateMetadata?.isAdmin ? false : true,
+      draft: user.privateMetadata?.role === "admin" ? false : true,
       submitted_by: user.id,
     });
     return createSuccessState("Repo added successfully");

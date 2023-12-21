@@ -5,19 +5,29 @@ import { submitOSProject } from "./actions/submit-os-project";
 import { type FormState, initialState } from "./utils";
 import { SubmitButton } from "./submit-button";
 import { Alert } from "../alert";
+import React, { useEffect } from "react";
 
 export function NewOSProjectForm() {
   const [state, formAction] = useFormState<FormState, FormData>(
     submitOSProject,
     initialState,
   );
+
+  const formRef = React.useRef<HTMLFormElement>(null);
+
+  useEffect(() => {
+    if (state?.status === "success") {
+      formRef.current?.reset();
+    }
+  }, [state?.status]);
+
   return (
     <>
       {state.status === "idle" ? null : (
         <Alert description={state.message} type={state.status} />
       )}
 
-      <form action={formAction} className="flex flex-col">
+      <form action={formAction} className="flex flex-col" ref={formRef}>
         <label
           htmlFor="url"
           className="font-semibold leading-none text-gray-300"

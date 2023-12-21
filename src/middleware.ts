@@ -1,11 +1,13 @@
 import { authMiddleware } from "@clerk/nextjs";
 
 export default authMiddleware({
-  ignoredRoutes: [
+  publicRoutes: [
     "/",
     "/open-source/:path*",
     "/blogs/:path*",
     "/podcasts/:path*",
+    "/communities/:path*",
+    "/events/:path*",
   ],
 });
 

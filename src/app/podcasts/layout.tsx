@@ -8,14 +8,14 @@ export default function Layout({ children }: { children: ReactNode }) {
     <>
       <PageBanner
         title="Podcasts"
-        description="Listen and explore the best podcasts from moroccan developers."
+        description="Listen and explore the best podcasts from moroccan developers and listen to latest episodes"
         image={blogSrc}
       />
       <main className="mx-auto flex  max-w-screen-lg flex-1 flex-col items-center justify-center  text-center">
         <TabsList
           routes={[
-            { name: "Blogs", link: "/podcasts" },
-            { name: "Feed", link: "/podcasts/radio" },
+            { name: "Podcasts", link: "/podcasts" },
+            { name: "Radio", link: "/podcasts/radio" },
           ]}
         />
         {children}

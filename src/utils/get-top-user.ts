@@ -24,10 +24,3 @@ export const getTopUser = async () => {
     });
   return sortedUsers;
 };
-
-export const numberToShortString = (number: number) => {
-  if (number < 1000) {
-    return number.toString();
-  }
-  return `${(Math.round(number / 100) / 10).toFixed(1)}k`;
-};

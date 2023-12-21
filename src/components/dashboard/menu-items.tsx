@@ -16,20 +16,8 @@ const Items = [
     href: "/dashboard/blogs",
   },
   {
-    label: "Communities",
-    href: "/dashboard/communities",
-  },
-  {
-    label: "Events",
-    href: "/dashboard/events",
-  },
-  {
     label: "Podcasts",
     href: "/dashboard/podcasts",
-  },
-  {
-    label: "Mentors",
-    href: "/dashboard/mentors",
   },
 ];
 
