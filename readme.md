@@ -1,28 +1,44 @@
-# Create T3 App
+# Awesome Morocco 🇲🇦 Project
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This Project is a full-stack application based on Next.js to create a platform for the Moroccan community to share their awesome projects (Open Source, Blogs, etc.).
 
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+The app is built with:
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [Clerk](https://clerk.com) (Authentication)
+- [xata](https://xata.io) (Database)
+- [Tailwind CSS](https://tailwindcss.com) (Styling)
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+To get started, you need first to fork and clone the project to your local machine. Then, install the dependencies:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+```bash
+pnpm install
+```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Make sure to create a free account on [Clerk](https://clerk.com) and [xata](https://xata.io) to get your API keys.
 
-## How do I deploy this?
+Then, you need to create a `.env.local` file and add the following environment variables:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```bash
+## Clerk Configuration
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+
+# [Xata] Configuration used by the CLI and the SDK
+# Make sure your framework/tooling loads this file on startup to have it available for the SDK
+XATA_BRANCH=main
+XATA_API_KEY=
+
+## Github token to retirive github repos metadata
+GITHUB_API_TOKEN=
+```
+
+Finally, run the development server:
+
+```bash
+pnpm dev
+```
