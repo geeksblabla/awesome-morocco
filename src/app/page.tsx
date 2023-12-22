@@ -1,9 +1,13 @@
+import Link from "next/link";
+import { ArticleCard } from "~/components/article-card";
 import { CodeIcon, ZeroIcon } from "~/components/code-icon";
+import { OSProjectCard } from "~/components/os-project-card";
+import { getXataClient } from "~/xata";
 
 export default function HomePage() {
   return (
     <main className="flex min-h-screen  flex-col">
-      <div className="relative py-12 sm:py-16 lg:pt-20 xl:pb-0">
+      <div className="relative mb-24 py-12 sm:py-16 lg:pt-20 xl:pb-0">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative mx-auto hidden max-w-screen-lg bg-red-300 md:block">
             <CodeIcon className="absolute right-0 w-36" />
@@ -11,7 +15,7 @@ export default function HomePage() {
           </div>
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="mt-5 text-3xl font-light leading-snug text-white sm:text-5xl sm:leading-snug lg:text-6xl lg:leading-snug">
-              Explore the list of
+              List of awesome Moroccan things for/by{" "}
               <span className="relative inline-flex justify-center whitespace-nowrap font-bold">
                 <svg
                   className="absolute -bottom-8 hidden w-2/3 text-blue-600 sm:block"
@@ -28,7 +32,7 @@ export default function HomePage() {
                     fill="currentColor"
                   />
                 </svg>
-                developers by developers
+                developers 🇲🇦
               </span>
             </h1>
             <p className="mx-auto mt-10 max-w-md text-base leading-7 text-gray-300">
@@ -37,84 +41,107 @@ export default function HomePage() {
             </p>
           </div>
         </div>
-
-        <div className="mx-auto mb-16 mt-16 flex w-fit flex-col justify-center divide-y divide-gray-600 sm:flex-row sm:divide-x sm:divide-y-0 md:mt-20">
-          <div className="bg-secondary-500/20 px-6 py-3">
-            <p className="flex items-center space-x-3 text-2xl font-bold">
-              <span className="w-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 14"
-                >
-                  <path
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.2463 3.51912C13.2463 4.45527 12.9424 5.35308 12.4014 6.01504C11.9745 6.53735 11.4277 6.87906 10.8402 7L3.1533 6.99798C2.56945 6.87529 2.02629 6.53447 1.6018 6.01504C1.06083 5.35308 0.756917 4.45527 0.756917 3.51912L0.7569 2.02218C0.756897 1.83787 0.877987 1.67545 1.05463 1.62284C4.93503 0.467077 9.06813 0.46708 12.9485 1.62285C13.1252 1.67546 13.2463 1.83787 13.2463 2.02218V3.51912Z"
-                  ></path>
-                  <path
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M6.99622 10.2227V13.25"
-                  ></path>
-                  <path
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M4.59241 13.25H9.4001"
-                  ></path>
-                  <path
-                    fill="#D7E0FF"
-                    stroke="#2f77ff"
-                    d="M3.52159 6.59555C3.58217 8.50666 5.08952 10.2151 7.0016 10.2151C8.94734 10.2151 10.4129 8.53676 10.4799 6.59217C10.4925 6.22608 10.4993 5.85621 10.4993 5.48257C10.4993 3.96735 10.3982 2.4241 10.2328 1.05536C9.19364 0.823367 8.12497 0.75 7.0016 0.75C5.87822 0.75 4.78799 0.814457 3.77037 1.05536C3.59603 2.41834 3.50391 3.96735 3.50391 5.48257C3.50391 5.85749 3.50995 6.22845 3.52159 6.59555Z"
-                  ></path>
-                </svg>
-              </span>
-              <span className="text-gray-100">500+</span>
-            </p>
-            <p className="text-sm text-gray-400">Achievements & Awards</p>
-          </div>
-          <div className="bg-secondary-500/20 px-6 py-3">
-            <p className="flex items-center space-x-3 text-2xl font-bold">
-              <span className="w-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 14 14"
-                >
-                  <path
-                    fill="#D7E0FF"
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M7 13.25C10.4518 13.25 13.25 10.4518 13.25 7C13.25 3.54822 10.4518 0.75 7 0.75C3.54822 0.75 0.75 3.54822 0.75 7C0.75 10.4518 3.54822 13.25 7 13.25Z"
-                  ></path>
-                  <path
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M3.8269 7.96143C4.30767 9.69219 6.23075 10.7499 7.96152 10.2691C9.01921 9.8845 9.88459 9.01912 10.1731 7.96143"
-                  ></path>
-                  <path
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    d="M4.45193 5.10068L4.45193 5.80068"
-                  ></path>
-                  <path
-                    stroke="#2f77ff"
-                    strokeLinecap="round"
-                    d="M9.54813 5.10068L9.54813 5.80068"
-                  ></path>
-                </svg>
-              </span>
-              <span className="text-gray-100">100%</span>
-            </p>
-            <p className="text-sm text-gray-400">Happy Clients in 10 years</p>
-          </div>
-        </div>
       </div>
+      <OpenSourceList />
+      <PostsList />
     </main>
+  );
+}
+
+export async function OpenSourceList() {
+  const repositories = await getXataClient()
+    .db.os_repositories.filter({ draft: false })
+    .sort("last_update", "desc")
+    .getMany({ pagination: { size: 6 } });
+
+  return (
+    <div className="sm:px-none mx-auto mt-20  flex max-w-screen-lg flex-1 flex-col  px-4">
+      <h2 className="text-left text-2xl font-bold text-white sm:text-xl  lg:text-4xl  ">
+        Open Source Projects
+      </h2>
+      <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
+        Explore latest open source projects from Morocco Developers and Get
+        started with your first contribution
+      </p>
+      <div className="grid gap-3 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-4">
+        {repositories.map((repo) => {
+          return <OSProjectCard key={repo.id} project={repo} />;
+        })}
+      </div>
+      <div className="my-5 flex justify-end">
+        <Link
+          href={"/open-source"}
+          className="group flex  cursor-pointer items-center justify-center rounded-md bg-secondary-500 px-6 py-2 text-gray-300 transition"
+        >
+          <span className="group flex  items-center justify-center rounded py-1 text-center font-bold">
+            See More
+          </span>
+          <svg
+            className="flex-0 ml-4 h-6 w-6 transition-all group-hover:translate-x-2"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+export async function PostsList() {
+  const articles = await getXataClient()
+    .db.articles.filter({ $all: [{ $exists: "title" }] })
+    .sort("published_at", "desc")
+    .getMany({
+      pagination: { size: 6 },
+    });
+
+  return (
+    <div className="sm:px-none mx-auto mt-20  flex max-w-screen-lg flex-1 flex-col  px-4">
+      <h2 className="text-left text-2xl font-bold text-white sm:text-xl  lg:text-4xl  ">
+        Latest Articles
+      </h2>
+      <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
+        Latest articles from Morocco Developers collected from all over the
+        internet
+      </p>
+      <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
+        {articles.map((article) => {
+          return <ArticleCard key={article.id} article={article} />;
+        })}
+      </div>
+      <div className="my-5 flex justify-end">
+        <Link
+          href={"/blogs/feed"}
+          className="group flex  cursor-pointer items-center justify-center rounded-md bg-secondary-500 px-6 py-2 text-gray-300 transition"
+        >
+          <span className="group flex  items-center justify-center rounded py-1 text-center font-bold">
+            See More
+          </span>
+          <svg
+            className="flex-0 ml-4 h-6 w-6 transition-all group-hover:translate-x-2"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg>
+        </Link>
+      </div>
+    </div>
   );
 }
