@@ -20,7 +20,7 @@ export const PageBanner = ({
           <p className="mt-4 text-2xl text-neutral-200">{description}</p>
         </div>
         <div className="hidden w-1/2 flex-shrink-0 justify-center lg:flex">
-          <Image src={image} alt="open source" />
+          <Image src={image} alt="open source" priority />
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import "~/styles/globals.css";
 
 import { Poppins } from "next/font/google";
 import { NavBar } from "~/components/navbar";
+import { Footer } from "~/components/footer";
 
 const poppins = Poppins({
   weight: ["300", "400", "500", "600", "700"],
@@ -21,6 +22,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="page">
           <NavBar />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

@@ -6,12 +6,11 @@ type BlogCardProps = {
 };
 
 export const BlogCard = ({ blog }: BlogCardProps) => {
-  const blogUrl = blog.url ?? "#";
   return (
     <a
-      href={blogUrl}
+      href={blog.url ?? "#"}
       target="_blank"
-      className="relative flex w-full max-w-xs cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#3a374b] text-neutral-25 shadow-md transition-all hover:border-secondary-500/75"
+      className="relative flex w-full max-w-xs cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#3a374b] text-neutral-25 shadow-md transition-all hover:scale-105 hover:border-secondary-500/75"
     >
       <RemoteImage
         className="w-full object-cover md:h-36 lg:h-48"
@@ -35,21 +34,3 @@ export const BlogCard = ({ blog }: BlogCardProps) => {
     </a>
   );
 };
-
-// <a
-//   href={blogUrl}
-//   target="_blank"
-//   className="flex grow cursor-pointer flex-col rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C]  text-neutral-25  shadow-md  sm:flex-row sm:gap-6"
-// >
-//   <RemoteImage
-//     className="h-4/6 w-full object-cover"
-//     src={blog.image}
-//     alt={`${blog.title} website image`}
-//   />
-//   <div className="group relative my-2 h-60 w-full  cursor-pointer overflow-hidden rounded-lg shadow-md">
-//     <h1 className="mb-2 px-8 text-center font-serif text-xl font-semibold ">
-//       {blog.title}
-//     </h1>
-//     <p className="px-8 text-center">{blog.description}</p>
-//   </div>
-// </a>

@@ -44,9 +44,7 @@ const TableRow = ({ user, index }: { user: GithubUser; index: number }) => {
               <p className="text-xl font-bold text-neutral-25 sm:text-2xl">
                 {user.name}
               </p>
-              <a className="" href={`https://github.com/${user.login}`}>
-                @{user.login}
-              </a>
+              @{user.login}
             </div>
           </div>
         </div>
