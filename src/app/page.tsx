@@ -48,7 +48,7 @@ export default function HomePage() {
   );
 }
 
-export async function OpenSourceList() {
+async function OpenSourceList() {
   const repositories = await getXataClient()
     .db.os_repositories.filter({ draft: false })
     .sort("last_update", "desc")
@@ -96,7 +96,7 @@ export async function OpenSourceList() {
   );
 }
 
-export async function PostsList() {
+async function PostsList() {
   const articles = await getXataClient()
     .db.articles.filter({ $all: [{ $exists: "title" }] })
     .sort("published_at", "desc")
