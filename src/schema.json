@@ -47,6 +47,10 @@
             "defaultValue": "anonymous"
           },
           {
+            "name":"last_update",
+            "type":"datetime"
+          },
+          {
             "name":"draft",
             "type":"bool",
             "defaultValue": "true"

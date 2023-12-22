@@ -26,6 +26,7 @@ const tables = [
         defaultValue: "anonymous",
       },
       { name: "draft", type: "bool", defaultValue: "true" },
+      { name: "last_update", type: "datetime" },
     ],
   },
   {
