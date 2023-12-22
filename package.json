@@ -33,6 +33,7 @@
     "eslint": "^8.47.0",
     "eslint-config-next": "^13.5.4",
     "eslint-plugin-unicorn": "^49.0.0",
+    "husky": "^8.0.3",
     "postcss": "^8.4.27",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.5.1",
