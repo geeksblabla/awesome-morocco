@@ -57,6 +57,7 @@ export async function submitOSProject(
       topics: data.data.topics,
       draft: user.privateMetadata?.role === "admin" ? false : true,
       submitted_by: user.id,
+      last_update: data.data.updated_at,
     });
     return createSuccessState("Repo added successfully");
   } catch (e) {
