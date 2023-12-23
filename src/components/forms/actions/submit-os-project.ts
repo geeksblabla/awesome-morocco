@@ -55,7 +55,7 @@ export async function submitOSProject(
       issues: data.data.open_issues_count,
       language: data.data.language,
       topics: data.data.topics,
-      draft: user.privateMetadata?.role === "admin" ? false : true,
+      draft: true,
       submitted_by: user.id,
       last_update: data.data.updated_at,
     });

@@ -1,7 +1,34 @@
-export default function RadioPage() {
+import { getXataClient } from "~/xata";
+
+export default async function RadioPage() {
+  const episodes = await getXataClient()
+    .db.episodes.sort("published_at", "desc")
+    .getAll();
   return (
-    <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
-      coming soon ...
+    <div className="mx-auto w-full">
+      <div className="grid grid-cols-1 gap-4">
+        {episodes.map((episode) => (
+          <>
+            {episode.spotify_id && (
+              <Episode key={episode.id} episodeId={episode.spotify_id} />
+            )}
+          </>
+        ))}
+      </div>
     </div>
   );
 }
+
+const Episode = ({ episodeId }: { episodeId: string }) => {
+  return (
+    <iframe
+      className="mx-auto  max-w-2xl"
+      src={`https://open.spotify.com/embed/episode/${episodeId}?theme=0`}
+      width="100%"
+      height="180"
+      frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+  );
+};

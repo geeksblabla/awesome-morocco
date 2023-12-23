@@ -8,7 +8,9 @@ import { getURLOpenGraphMetadata } from "~/utils/get-url-open-graph-metadata";
 import { extractRssFeed } from "~/utils/extract-rss-feed";
 
 const new_blog_schema = z.object({
-  url: z.string().url("Invalid Blog URL format"),
+  url: z
+    .string({ required_error: "Blog url is required" })
+    .url("Invalid Blog URL format"),
   rss: z.union([z.string().url("Invalid RSS URL format"), z.literal("")]),
 });
 
@@ -36,7 +38,6 @@ export async function submitBlog(prevState: FormState, formData: FormData) {
     // if rss is provided, validate it before saving it
     if (parsed.data.rss && parsed.data.rss.length > 1) {
       const feed = await extractRssFeed(parsed.data.rss);
-      console.log("🚀 ~ file: blog.ts:41 ~ .mutation ~ feed:", feed);
 
       if (feed?.entries === undefined) {
         return createErrorState("Invalid RSS feed or feed is empty");
@@ -55,7 +56,7 @@ export async function submitBlog(prevState: FormState, formData: FormData) {
       image: url_metadata.ogImage?.[0]?.url,
       rss: parsed.data.rss ?? null,
       last_rss_retrieved_at: new Date("2000-01-01T00:00:00.000Z"),
-      draft: user.privateMetadata?.role === "admin" ? false : true,
+      draft: true,
       submitted_by: user.id,
     });
     return createSuccessState("Blog added successfully");

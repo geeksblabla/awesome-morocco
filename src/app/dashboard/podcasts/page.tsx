@@ -14,6 +14,7 @@ export default function BlogsPage() {
         criteria:
       </p>
       <ul className="py-2 text-base">
+        <Rule>You podcast should be hosted on spotify</Rule>
         <Rule>
           If you don&apos;t have a podcast website please use spotify link
         </Rule>

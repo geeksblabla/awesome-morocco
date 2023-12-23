@@ -3,13 +3,13 @@
 import { useFormState } from "react-dom";
 import { type FormState, initialState } from "./utils";
 import { SubmitButton } from "./submit-button";
-import { submitBlog } from "./actions/submit-blog";
+import { submitPodcast } from "./actions/submit-podcast";
 import React, { useEffect } from "react";
 import { Alert } from "../alert";
 
 export function NewPodcastForm() {
   const [state, formAction] = useFormState<FormState, FormData>(
-    submitBlog,
+    submitPodcast,
     initialState,
   );
   const formRef = React.useRef<HTMLFormElement>(null);
@@ -42,7 +42,7 @@ export function NewPodcastForm() {
           className=" mt-4 flex-1 rounded-lg border border-secondary-500/60 bg-secondary-500 p-3 leading-none text-gray-50 focus:border-secondary-500/100 focus:outline-none"
         />
         <label
-          htmlFor="spotify"
+          htmlFor="spotify_url"
           className="mt-4 font-semibold leading-none text-gray-300"
         >
           Spotify URL:
@@ -50,8 +50,9 @@ export function NewPodcastForm() {
 
         <input
           type="text"
-          id="spotify"
-          name="spotify"
+          id="spotify_url"
+          name="spotify_url"
+          required
           className=" mt-4 flex-1 rounded-lg border border-secondary-500/60 bg-secondary-500 p-3 leading-none text-gray-50 focus:border-secondary-500/100 focus:outline-none"
         />
         <SubmitButton />

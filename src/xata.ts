@@ -58,6 +58,35 @@ const tables = [
       { name: "open_graph_retrieved_count", type: "int", defaultValue: "0" },
     ],
   },
+  {
+    name: "podcasts",
+    columns: [
+      { name: "title", type: "string" },
+      { name: "description", type: "text" },
+      { name: "url", type: "string", unique: true },
+      { name: "image", type: "string" },
+      { name: "last_rss_retrieved_at", type: "datetime" },
+      {
+        name: "submitted_by",
+        type: "string",
+        notNull: true,
+        defaultValue: "anonymous",
+      },
+      { name: "draft", type: "bool", defaultValue: "true" },
+      { name: "spotify_url", type: "string" },
+      { name: "total_episodes", type: "int" },
+    ],
+  },
+  {
+    name: "episodes",
+    columns: [
+      { name: "title", type: "string" },
+      { name: "description", type: "text" },
+      { name: "published_at", type: "datetime" },
+      { name: "image", type: "string" },
+      { name: "spotify_id", type: "string", unique: true },
+    ],
+  },
 ] as const;
 
 export type SchemaTables = typeof tables;
@@ -72,10 +101,18 @@ export type BlogsRecord = Blogs & XataRecord;
 export type Articles = InferredTypes["articles"];
 export type ArticlesRecord = Articles & XataRecord;
 
+export type Podcasts = InferredTypes["podcasts"];
+export type PodcastsRecord = Podcasts & XataRecord;
+
+export type Episodes = InferredTypes["episodes"];
+export type EpisodesRecord = Episodes & XataRecord;
+
 export type DatabaseSchema = {
   os_repositories: OsRepositoriesRecord;
   blogs: BlogsRecord;
   articles: ArticlesRecord;
+  podcasts: PodcastsRecord;
+  episodes: EpisodesRecord;
 };
 
 const DatabaseClient = buildClient();
