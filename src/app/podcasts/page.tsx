@@ -1,6 +1,9 @@
 import { PodcastCard } from "~/components/podcast-card";
 import { getXataClient } from "~/xata";
 
+// ReGenerate the page every 24 hours
+export const revalidate = 86400;
+
 export default async function PodcastsPage() {
   const podcasts = await getXataClient()
     .db.podcasts.filter({ draft: false })

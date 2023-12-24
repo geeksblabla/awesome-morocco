@@ -4,6 +4,9 @@ import { CodeIcon, ZeroIcon } from "~/components/code-icon";
 import { OSProjectCard } from "~/components/os-project-card";
 import { getXataClient } from "~/xata";
 
+// ReGenerate the page every 24 hours
+export const revalidate = 86400;
+
 export default function HomePage() {
   return (
     <main className="flex min-h-screen  flex-col">

@@ -1,6 +1,9 @@
 import { BlogCard } from "~/components/blog-card";
 import { getXataClient } from "~/xata";
 
+// ReGenerate the page every 24 hours
+export const revalidate = 86400;
+
 export default async function BlogsPage() {
   const blogs = await getXataClient()
     .db.blogs.filter({ draft: false })
