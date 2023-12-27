@@ -13,6 +13,7 @@
     "@clerk/nextjs": "^4.26.2",
     "@clerk/themes": "^1.7.9",
     "@extractus/feed-extractor": "^7.0.6",
+    "@headlessui/react": "^1.7.17",
     "@t3-oss/env-nextjs": "^0.7.0",
     "@xata.io/client": "^0.26.9",
     "next": "14.0.1",

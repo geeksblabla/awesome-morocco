@@ -26,7 +26,7 @@ export const BlogCard = ({ blog }: BlogCardProps) => {
         </h5>
 
         <div className="mb-4 mt-2.5 flex items-center">
-          <span className="mr-2 line-clamp-2 rounded text-xs">
+          <span className="mr-2 line-clamp-2 rounded text-xs text-neutral-200">
             {blog.description}
           </span>
         </div>
