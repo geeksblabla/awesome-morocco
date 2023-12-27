@@ -10,7 +10,7 @@ export const BlogCard = ({ blog }: BlogCardProps) => {
     <a
       href={blog.url ?? "#"}
       target="_blank"
-      className="relative flex w-full max-w-xs cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#3a374b] text-neutral-25 shadow-md transition-all hover:scale-105 hover:border-secondary-500/75"
+      className="relative flex w-full max-w-xs cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C] text-neutral-25 shadow-md transition-all hover:scale-105 hover:border-secondary-500/75"
     >
       <RemoteImage
         className="aspect-[16/9] w-full object-cover"

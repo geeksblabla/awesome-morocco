@@ -7,7 +7,7 @@ export const revalidate = 86400;
 export default async function Page() {
   const repositories = await getXataClient()
     .db.os_repositories.filter({ draft: false })
-    .sort("stars", "desc")
+    .sort("last_update", "desc") // sort by with repo with the newest contributions
     .getAll();
 
   return (
