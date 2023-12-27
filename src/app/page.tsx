@@ -1,10 +1,10 @@
-import Link from "next/link";
 import { ArticleCard } from "~/components/article-card";
 import { CodeIcon, ZeroIcon } from "~/components/code-icon";
 import { OSProjectCard } from "~/components/os-project-card";
+import { SeeMoreButton } from "~/components/see-more-button";
+import { SpotifyEpisodeIframe } from "~/components/spotify-episode-iframe";
 import { getXataClient } from "~/xata";
 
-// ReGenerate the page every 24 hours
 export const revalidate = 86400;
 
 export default function HomePage() {
@@ -47,6 +47,7 @@ export default function HomePage() {
       </div>
       <OpenSourceList />
       <PostsList />
+      <PodcastList />
     </main>
   );
 }
@@ -72,28 +73,7 @@ async function OpenSourceList() {
         })}
       </div>
       <div className="my-5 flex justify-end">
-        <Link
-          href={"/open-source"}
-          className="group flex  cursor-pointer items-center justify-center rounded-md bg-secondary-500 px-6 py-2 text-gray-300 transition"
-        >
-          <span className="group flex  items-center justify-center rounded py-1 text-center font-bold">
-            See More
-          </span>
-          <svg
-            className="flex-0 ml-4 h-6 w-6 transition-all group-hover:translate-x-2"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M14 5l7 7m0 0l-7 7m7-7H3"
-            />
-          </svg>
-        </Link>
+        <SeeMoreButton href={"/open-source"} />
       </div>
     </div>
   );
@@ -122,28 +102,39 @@ async function PostsList() {
         })}
       </div>
       <div className="my-5 flex justify-end">
-        <Link
-          href={"/blogs/feed"}
-          className="group flex  cursor-pointer items-center justify-center rounded-md bg-secondary-500 px-6 py-2 text-gray-300 transition"
-        >
-          <span className="group flex  items-center justify-center rounded py-1 text-center font-bold">
-            See More
-          </span>
-          <svg
-            className="flex-0 ml-4 h-6 w-6 transition-all group-hover:translate-x-2"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M14 5l7 7m0 0l-7 7m7-7H3"
-            />
-          </svg>
-        </Link>
+        <SeeMoreButton href={"/blogs/feed"} />
+      </div>
+    </div>
+  );
+}
+
+async function PodcastList() {
+  const episodes = await getXataClient()
+    .db.episodes.sort("published_at", "desc")
+    .getMany({ pagination: { size: 6 } });
+
+  return (
+    <div className="sm:px-none mx-auto mt-20 flex  w-full max-w-screen-lg flex-1 flex-col  px-4">
+      <h2 className="text-left text-2xl font-bold text-white sm:text-xl  lg:text-4xl  ">
+        Last Episodes
+      </h2>
+      <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
+        Listen to latest episodes from Morocco Developers Podcasts
+      </p>
+      <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2  ">
+        {episodes.map((episode) => (
+          <>
+            {episode.spotify_id && (
+              <SpotifyEpisodeIframe
+                key={episode.id}
+                episodeId={episode.spotify_id}
+              />
+            )}
+          </>
+        ))}
+      </div>
+      <div className="my-5 flex justify-end">
+        <SeeMoreButton href={"/blogs/feed"} />
       </div>
     </div>
   );
