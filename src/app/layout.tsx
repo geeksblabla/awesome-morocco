@@ -1,4 +1,5 @@
 import "~/styles/globals.css";
+import "sal.js/dist/sal.css";
 
 import { Poppins } from "next/font/google";
 import { NavBar } from "~/components/navbar";

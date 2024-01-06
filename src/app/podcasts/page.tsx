@@ -2,7 +2,7 @@ import { PodcastCard } from "~/components/podcast-card";
 import { getXataClient } from "~/xata";
 
 // ReGenerate the page every 24 hours
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 export default async function PodcastsPage() {
   const podcasts = await getXataClient()
@@ -10,7 +10,7 @@ export default async function PodcastsPage() {
     .getAll();
 
   return (
-    <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
+    <div className="grid gap-4 sm:grid-cols-2 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
       {podcasts.map((podcast) => {
         return <PodcastCard key={podcast.id} podcast={podcast} />;
       })}

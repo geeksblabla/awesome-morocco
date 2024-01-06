@@ -3,7 +3,12 @@ import type { OsRepositories } from "~/xata";
 
 export const OSProjectCard = ({ project }: { project: OsRepositories }) => {
   return (
-    <a href={project.url ?? "#"} className=" flex" target="_blank">
+    <a
+      href={project.url ?? "#"}
+      className=" flex"
+      target="_blank"
+      data-sal="zoom-in"
+    >
       <div className="flex grow cursor-pointer flex-col items-center  rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C] p-4 text-neutral-25  shadow-md  transition-all hover:scale-105 hover:border-[rgba(203,60,172,0.80)] sm:flex-row sm:gap-6">
         <div className="flex h-full grow flex-col items-stretch text-left">
           <div className="mb-2 flex flex-row items-center justify-between ">

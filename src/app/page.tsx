@@ -5,7 +5,7 @@ import { SeeMoreButton } from "~/components/see-more-button";
 import { SpotifyEpisodeIframe } from "~/components/spotify-episode-iframe";
 import { getXataClient } from "~/xata";
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 export default function HomePage() {
   return (
@@ -134,7 +134,7 @@ async function PodcastList() {
         ))}
       </div>
       <div className="my-5 flex justify-end">
-        <SeeMoreButton href={"/blogs/feed"} />
+        <SeeMoreButton href={"/podcast/radio"} />
       </div>
     </div>
   );

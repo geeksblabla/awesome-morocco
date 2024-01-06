@@ -21,6 +21,7 @@
     "open-graph-scraper": "^6.3.2",
     "react": "^18",
     "react-dom": "^18",
+    "sal.js": "^0.8.5",
     "zod": "^3.22.4"
   },
   "devDependencies": {

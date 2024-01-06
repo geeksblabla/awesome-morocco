@@ -4,6 +4,8 @@ import Link from "next/link";
 import { Submit } from "./submit";
 import Logo from "./site-icon.svg";
 import { usePathname } from "next/navigation";
+import sal from "sal.js";
+import { useEffect } from "react";
 
 const routes = [
   {
@@ -30,6 +32,10 @@ const routes = [
 
 export const NavBar = () => {
   const pathname = usePathname();
+
+  useEffect(() => {
+    sal();
+  }, [pathname]);
 
   return (
     <header className="px-4 shadow">
