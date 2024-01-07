@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-900 text-neutral-10 font-sans
+}
+:root {
+    --purple-hsl:  300, 60%, 40%;
+    --overlay-blurple: hsla(var(--purple-hsl), 0.4);
+  }
+
+.page {
+    min-height: 100vh;
+    background: linear-gradient(215deg, var(--overlay-blurple), transparent 40vh),
+      radial-gradient(hsla(var(--purple-hsl), 0.3), transparent 40%) no-repeat -60vw -40vh /
+        105vw 200vh,
+      radial-gradient(var(--overlay-blurple), transparent 45%) no-repeat 50%
+        calc(100% + 20rem) / 60rem 30rem, radial-gradient(hsla(var(--purple-hsl), 0.1), transparent 65%) repeat 100vw 30vh/
+        105vw 200vh;
+  }

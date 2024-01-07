@@ -1,0 +1,204 @@
+{
+    "tables": [
+      {
+        "name": "os_repositories",
+        "columns": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "owner",
+            "type": "string"
+          },
+          {
+            "name": "stars",
+            "type": "int"
+          },
+          {
+            "name": "forks",
+            "type": "int"
+          },
+          {
+            "name": "issues",
+            "type": "int"
+          },
+          {
+            "name": "language",
+            "type": "string"
+          },
+          {
+            "name": "topics",
+            "type": "multiple"
+          },
+          {
+            "name": "submitted_by",
+            "type": "string",
+            "notNull": true,
+            "defaultValue": "anonymous"
+          },
+          {
+            "name":"last_update",
+            "type":"datetime"
+          },
+          {
+            "name":"draft",
+            "type":"bool",
+            "defaultValue": "true"
+          }
+        ]
+      },
+      {
+        "name": "blogs",
+        "columns": [
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "rss",
+            "type": "string"
+          },
+          {
+            "name": "image",
+            "type": "string"
+          },
+          {
+            "name": "last_rss_retrieved_at",
+            "type": "datetime"
+          },
+          {
+            "name": "submitted_by",
+            "type": "string",
+            "notNull": true,
+            "defaultValue": "anonymous"
+          },
+          {
+            "name":"draft",
+            "type":"bool",
+            "defaultValue": "true"
+          }
+        ]
+      },
+      {
+        "name": "articles",
+        "columns": [
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "published_at",
+            "type": "datetime"
+          },
+          {
+            "name": "image",
+            "type": "string"
+          },
+          {
+            "name": "open_graph_retrieved_count",
+            "type": "int",
+            "defaultValue": "0"
+          }
+        ]
+      },
+      {
+        "name": "podcasts",
+        "columns": [
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "spotify_url",
+            "type": "string"
+          },
+          {
+            "name": "image",
+            "type": "string"
+          },
+          {
+            "name": "last_rss_retrieved_at",
+            "type": "datetime"
+          },
+          {
+            "name": "total_episodes",
+            "type": "int"
+          },
+          {
+            "name": "submitted_by",
+            "type": "string",
+            "notNull": true,
+            "defaultValue": "anonymous"
+          },
+          {
+            "name":"draft",
+            "type":"bool",
+            "defaultValue": "true"
+          }
+        ]
+      },
+      {
+        "name": "episodes",
+        "columns": [
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "text"
+          },
+          {
+            "name": "spotify_id",
+            "type": "string",
+            "unique": true
+          },
+          {
+            "name": "published_at",
+            "type": "datetime"
+          },
+          {
+            "name": "image",
+            "type": "string"
+          }
+        ]
+      }
+    ]
+  }

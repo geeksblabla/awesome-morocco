@@ -1,0 +1,71 @@
+name: New event
+description: Fill this form to add your event to the website.
+title: "[New][Event]: "
+labels: ["new", "event"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us about your event.
+
+  - type: input
+    id: author
+    attributes:
+      label: Author fullname
+      placeholder: ex. John Doe
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Author contact
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: input
+    id: contact-handler
+    attributes:
+      label: Author handler
+      placeholder: https://github.com/user
+    validations:
+      required: false
+
+  - type: input
+    id: event
+    attributes:
+      label: Event name
+      description: Add a name for your event
+      placeholder: ex. Devoxx Morocco
+    validations:
+      required: false
+
+  - type: input
+    id: event-url
+    attributes:
+      label: Event URL
+      description: Add a url for your event (repository or website)
+      placeholder: ex. https://devoxx.ma
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Add a description for your event
+      placeholder: ex. My super event
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
