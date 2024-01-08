@@ -6,7 +6,7 @@ import useGithubRepoStarsCount from "../../hooks/github-stars";
 
 const Navbar = () => {
   const router = useRouter();
-  const count = useGithubRepoStarsCount('DevC-Casa/awesome-morocco')
+  const count = useGithubRepoStarsCount('geeksblabla/awesome-morocco')
 
   return (
     <div className={styles.navbar}>
@@ -112,7 +112,7 @@ const Navbar = () => {
         </Link>
 
         <div className={styles.contribute}>
-          <Link href="https://github.com/DevC-Casa/awesome-morocco" >Contribute</Link>
+          <Link href="https://github.com/geeksblabla/awesome-morocco" >Contribute</Link>
         </div>
       </div>
     </div>

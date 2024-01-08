@@ -284,8 +284,8 @@
 
 #### Others
 
-- [DevC Casa Hacktoberfest](https://github.com/DevC-Casa/devc-casa-hacktoberfest) [![Stars](https://img.shields.io/github/stars/DevC-Casa/devc-casa-hacktoberfest.svg?style=social)](https://github.com/DevC-Casa/devc-casa-hacktoberfest/stargazers) - A repository to learn about open source code contributions flow. 
-- [GeeksBlabla](https://github.com/DevC-Casa/geeksblabla.com) [![Stars](https://img.shields.io/github/stars/DevC-Casa/geeksblabla.com.svg?style=social)](https://github.com/DevC-Casa/geeksblabla.com/stargazers) - GeeksBlala website source code 
+- [DevC Casa Hacktoberfest](https://github.com/geeksblabla/devc-casa-hacktoberfest) [![Stars](https://img.shields.io/github/stars/geeksblabla/devc-casa-hacktoberfest.svg?style=social)](https://github.com/geeksblabla/devc-casa-hacktoberfest/stargazers) - A repository to learn about open source code contributions flow. 
+- [GeeksBlabla](https://github.com/geeksblabla/geeksblabla.com) [![Stars](https://img.shields.io/github/stars/geeksblabla/geeksblabla.com.svg?style=social)](https://github.com/geeksblabla/geeksblabla.com/stargazers) - GeeksBlala website source code 
 - [GeeksBlabla](https://github.com/akiyamaSM/geeksblabla) [![Stars](https://img.shields.io/github/stars/akiyamaSM/geeksblabla.svg?style=social)](https://github.com/akiyamaSM/geeksblabla/stargazers) - GeeksBlala NuxtJS version 
 - [daktilo](https://github.com/kronik3r/daktilo) [![Stars](https://img.shields.io/github/stars/kronik3r/daktilo.svg?style=social)](https://github.com/kronik3r/daktilo/stargazers) - A Jekyll theme with a minimal design inspired by typewriters. by [@kronik3r](https://github.com/kronik3r) 
 - [saferwall](https://github.com/saferwall/saferwall) [![Stars](https://img.shields.io/github/stars/saferwall/saferwall.svg?style=social)](https://github.com/saferwall/saferwall/stargazers) - A hackable malware sandbox for the 21st Century. by [@LordNoteworthy](https://github.com/LordNoteworthy) 
@@ -310,4 +310,4 @@
 
 ### Contributing
 
-- Check all information here at [Contributing.md](https://github.com/DevC-Casa/awesome-morocco/blob/master/contributing.md) to understand how to contribute.
+- Check all information here at [Contributing.md](https://github.com/geeksblabla/awesome-morocco/blob/master/contributing.md) to understand how to contribute.
