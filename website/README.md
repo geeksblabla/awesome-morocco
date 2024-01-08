@@ -9,7 +9,7 @@
 Run the following command on your local environment:
 
 ```
-git clone  https://github.com/DevC-Casa/awesome-morocco.git
+git clone  https://github.com/geeksblabla/awesome-morocco.git
 cd website
 yarn
 ```
