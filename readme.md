@@ -195,7 +195,7 @@
 - [next-salat](https://github.com/ayoubsousali/next-salat) [![Stars](https://img.shields.io/github/stars/ayoubsousali/next-salat.svg?style=social)](https://github.com/ayoubsousali/next-salat/stargazers) A simple react app to get prayer times in Morocco. by [@ayoubsousali](https://github.com/ayoubsousali) 
 - [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/mohamedfrindi/TxtAnime.js.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
 - [Cmi-node.js](https://github.com/aitmiloud/cmi-node) [![Stars](https://img.shields.io/github/stars/aitmiloud/cmi-node.svg?style=social)](https://github.com/aitmiloud/cmi-node) Npm package to communicate with the CMI payment plateform in Morocco. by [@aitmiloud](https://github.com/aitmiloud)
-
+- [Nixify](https://github.com/FxOmar/Nixify) [![Stars](https://img.shields.io/github/stars/FxOmar/nixify.svg?style=social)](https://github.com/FxOmar/Nixify) 🌴 A tiny human-friendly JavaScript HTTP client library based on the browser with no dependencies. by [@FxOmar](https://github.com/FxOmar)
 #### Java
 
 - [android-about-page](https://github.com/medyo/android-about-page) [![Stars](https://img.shields.io/github/stars/medyo/android-about-page.svg?style=social)](https://github.com/medyo/android-about-page/stargazers) - Create an awesome About Page for your Android App in 2 minutes. by [@medyo](https://github.com/medyo) 
