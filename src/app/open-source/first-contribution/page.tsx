@@ -1,18 +1,18 @@
 export default function FirstContributionPage() {
   return (
-    <div className="min-h-[300px] p-2">
+    <div className="prose prose-invert min-h-[300px] max-w-[100%] bg-red-400 p-2 px-4 py-8">
       <div className="my-2  text-left">
-        <h1 className="my-1 text-2xl font-bold">First Contribution</h1>
+        <h1>First Contribution</h1>
 
-        <p className="my-2">
+        <p>
           Hello Soldier, welcome to the first contribution page. Here you will
           learn how to contribute to open source projects. This page will guide
           you through the process of making your first contribution to an open
           source project in Github.
         </p>
 
-        <h2 className="my-2 text-xl font-bold ">What is Open Source?</h2>
-        <p className="my-2">
+        <h2>What is Open Source?</h2>
+        <p>
           Big question, right? to get more context start by watching this video:
         </p>
         <iframe
@@ -21,34 +21,29 @@ export default function FirstContributionPage() {
           height="472"
           src="https://www.youtube.com/embed/A6mR8LdPLdQ"
           title="#55 - Hacktoberfest &amp; Open source"
-          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
 
-        <h2 className="my-2 text-xl font-bold ">Before you start make sure:</h2>
+        <h2>Before you start make sure:</h2>
 
-        <ul className="list-inside list-disc">
-          <li className="my-2">
+        <ul>
+          <li>
             You have a Github account. if not, you can create one{" "}
-            <a className="font-bold" target="_tab" href="https://github.com">
+            <a target="_tab" href="https://github.com">
               here
             </a>
             .
           </li>
-          <li className="my-2 ">
+          <li>
             You have a Git client installed on your computer. more details{" "}
-            <a
-              className="font-bold"
-              target="_tab"
-              href="https://git-scm.com/downloads"
-            >
+            <a target="_tab" href="https://git-scm.com/downloads">
               here
             </a>
             .
           </li>
 
-          <li className="my-2">
+          <li>
             You have a code editor installed on your computer. more details{" "}
             <a
               className="font-bold"
@@ -59,12 +54,10 @@ export default function FirstContributionPage() {
             .
           </li>
 
-          <li className="my-2">
-            You have a basic understanding of HTML, CSS and JavaScript.
-          </li>
+          <li>You have a basic understanding of HTML, CSS and JavaScript.</li>
         </ul>
 
-        <h2 className="my-2 text-xl font-bold ">Ready? let's go:</h2>
+        <h2>Ready? let&apos;s go:</h2>
 
         <ol className="list-inside list-decimal">
           <li className="my-2">
@@ -130,7 +123,7 @@ export default function FirstContributionPage() {
           <li className="my-2">
             Commit your changes.
             <pre className="my-2 rounded-md bg-black p-2 text-green-400">
-              git add . git commit -m "add firstName_lastName.yml"
+              git add . git commit -m add firstName_lastName.yml
             </pre>
           </li>
 

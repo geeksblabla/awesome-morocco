@@ -35,7 +35,7 @@ export default function HomePage() {
                     fill="currentColor"
                   />
                 </svg>
-                developers 🇲🇦
+                Developers 🇲🇦
               </span>
             </h1>
             <p className="mx-auto mt-10 max-w-md text-base leading-7 text-gray-300">
