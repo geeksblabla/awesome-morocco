@@ -1,17 +1,17 @@
 export default function FirstContributionPage() {
   return (
-    <div className="prose prose-invert min-h-[300px] max-w-[100%] bg-red-400 p-2 px-4 py-8">
+    <div className="prose prose-invert min-h-[300px] max-w-[100%]  p-2 px-4 py-8">
       <div className="my-2  text-left">
         <h1>First Contribution</h1>
 
         <p>
-          Hello Soldier, welcome to the first contribution page. Here you will
-          learn how to contribute to open source projects. This page will guide
-          you through the process of making your first contribution to an open
-          source project in Github.
+          Hello, soldier! Welcome to the first contribution page. Here, you will
+          learn how to contribute to open-source projects. This page will guide
+          you through the process of making your first contribution to an
+          open-source project on GitHub.
         </p>
 
-        <h2>What is Open Source?</h2>
+        <h2>What is open source and why do I need to care about it?</h2>
         <p>
           Big question, right? to get more context start by watching this video:
         </p>
