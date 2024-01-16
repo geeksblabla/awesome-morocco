@@ -21,7 +21,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://geeksblabla.com"
                   target="_blank"
                 >
@@ -30,7 +30,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://stateofdev.ma"
                   target="_blank"
                 >
@@ -39,7 +39,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://github.com/geeksblabla/awesome-morocco"
                   target="_blank"
                 >
@@ -48,7 +48,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://tally.so/r/meqj6E"
                   target="_blank"
                 >
@@ -57,7 +57,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://links.geeksblabla.com"
                   target="_blank"
                 >
@@ -73,7 +73,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://www.youtube.com/c/GeeksBlaBla01"
                   target="_blank"
                 >
@@ -82,8 +82,8 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
-                  href="https://www.linkedin.com/company/geeksblabla/"
+                  className="hover:text-secondary-500/100 hover:underline"
+                  href="https://www.linkedin.com/company/geeksblabla-community/"
                   target="_blank"
                 >
                   Linkedin
@@ -91,7 +91,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://www.facebook.com/geeksblabla"
                   target="_blank"
                 >
@@ -100,7 +100,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://twitter.com/geeksblabla"
                   target="_blank"
                 >
@@ -109,7 +109,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://instagram.com/geeksblabla"
                   target="_blank"
                 >
@@ -118,7 +118,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  className="hover:text-emerald-600 hover:underline"
+                  className="hover:text-secondary-500/100 hover:underline"
                   href="https://github.com/geeksblabla"
                   target="_blank"
                 >

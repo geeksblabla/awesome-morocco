@@ -11,13 +11,13 @@ export default function Layout({ children }: { children: ReactNode }) {
         description="Listen and explore the best podcasts from moroccan developers and listen to latest episodes"
         image={blogSrc}
       />
+      <TabsList
+        routes={[
+          { name: "Podcasts", link: "/podcasts" },
+          { name: "Radio", link: "/podcasts/radio" },
+        ]}
+      />
       <main className="mx-auto flex  max-w-screen-lg flex-1 flex-col items-center justify-center  text-center">
-        <TabsList
-          routes={[
-            { name: "Podcasts", link: "/podcasts" },
-            { name: "Radio", link: "/podcasts/radio" },
-          ]}
-        />
         {children}
       </main>
     </>

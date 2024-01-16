@@ -12,15 +12,15 @@ export const TabsList = ({ routes }: { routes: Route[] }) => {
   const pathname = usePathname();
 
   return (
-    <>
-      <div className="my-10 hidden items-center justify-center rounded-md p-1 sm:inline-flex">
+    <div className="sticky left-0 right-0 top-0 z-30 mb-2 w-full  items-center justify-center sm:inline-flex md:relative md:mb-6">
+      <div className="mx-auto flex flex-row content-center items-center justify-center bg-black p-2 md:bg-transparent  ">
         {routes.map((route, index) => {
           return (
             <Link
               key={index}
               className={`text-md mx-3 inline-flex min-w-[100px]  items-center  justify-center border-b-2  py-2 font-medium transition-all  disabled:pointer-events-none   ${
                 route.link === pathname
-                  ? "border-primary-500 text-primary-500"
+                  ? "border-secondary-500/50  text-white"
                   : "border-transparent  text-neutral-200"
               }`}
               href={route.link}
@@ -30,7 +30,8 @@ export const TabsList = ({ routes }: { routes: Route[] }) => {
           );
         })}
       </div>
-      <div className="fixed bottom-0 left-0 z-50 h-12 w-full border-t  border-gray-600 bg-secondary-500/20 backdrop-blur-2xl sm:hidden">
+
+      {/* <div className="fixed bottom-0 left-0 z-50 h-12 w-full border-t  border-gray-600 bg-secondary-500/20 backdrop-blur-2xl sm:hidden">
         <div className="mx-auto grid h-full max-w-lg grid-cols-3 font-medium">
           {routes.map((route, index) => {
             return (
@@ -47,7 +48,7 @@ export const TabsList = ({ routes }: { routes: Route[] }) => {
             );
           })}
         </div>
-      </div>
-    </>
+      </div> */}
+    </div>
   );
 };

@@ -5,7 +5,7 @@ import { Submit } from "./submit";
 import Logo from "./site-icon.svg";
 import { usePathname } from "next/navigation";
 import sal from "sal.js";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 const routes = [
   {
@@ -32,19 +32,28 @@ const routes = [
 
 export const NavBar = () => {
   const pathname = usePathname();
+  const ref = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     sal();
+    if (ref.current?.checked) {
+      ref.current.checked = false;
+    }
   }, [pathname]);
 
   return (
-    <header className="px-4 shadow">
+    <header className="p-4 shadow">
       <div className="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center sm:justify-between">
         <Link className="flex items-center text-2xl font-black" href="/">
           {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
           <Image src={Logo} width={100} alt="awesome morocco logo" />
         </Link>
-        <input className="peer hidden" type="checkbox" id="navbar-open" />
+        <input
+          className="peer hidden"
+          type="checkbox"
+          id="navbar-open"
+          ref={ref}
+        />
         <label
           className="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden"
           htmlFor="navbar-open"
@@ -65,15 +74,15 @@ export const NavBar = () => {
         </label>
         <nav
           aria-label="Header Navigation"
-          className="hidden py-6 pl-2 peer-checked:block sm:block sm:py-0"
+          className="flex max-h-0 w-full flex-col items-center justify-between overflow-hidden transition-all peer-checked:mt-8 peer-checked:max-h-56 md:ml-24 md:max-h-full md:flex-row md:items-start"
         >
-          <ul className="flex flex-col gap-y-4 sm:flex-row sm:gap-x-8">
+          <ul className="flex flex-col items-center space-y-3 md:ml-auto md:flex-row md:space-y-0">
             {routes.map((route, index) => (
-              <li className="" key={`item-${index}`}>
+              <li className="inline-flex md:mr-6" key={`item-${index}`}>
                 <Link
                   className={`border-b-2 pb-2 font-[400]  text-neutral-10 hover:text-neutral-200  ${
                     pathname.includes(route.link)
-                      ? "border-primary-500 text-neutral-10"
+                      ? "border-secondary-500/50 text-neutral-10"
                       : "border-transparent  text-neutral-200"
                   }`}
                   href={route.link}
@@ -82,7 +91,14 @@ export const NavBar = () => {
                 </Link>
               </li>
             ))}
-            <Submit />
+            <li className="inline-flex md:mr-6">
+              <Link
+                className="px-6 pb-2 text-neutral-200  hover:text-white"
+                href="/dashboard"
+              >
+                New
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
