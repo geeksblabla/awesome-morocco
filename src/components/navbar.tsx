@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { Submit } from "./submit";
 import Logo from "./site-icon.svg";
 import { usePathname } from "next/navigation";
 import sal from "sal.js";
@@ -80,7 +79,7 @@ export const NavBar = () => {
             {routes.map((route, index) => (
               <li className="inline-flex md:mr-6" key={`item-${index}`}>
                 <Link
-                  className={`border-b-2 pb-2 font-[400]  text-neutral-10 hover:text-neutral-200  ${
+                  className={`border-b-2 pb-2 font-[400]  hover:text-neutral-10   ${
                     pathname.includes(route.link)
                       ? "border-secondary-500/50 text-neutral-10"
                       : "border-transparent  text-neutral-200"
@@ -93,7 +92,7 @@ export const NavBar = () => {
             ))}
             <li className="inline-flex md:mr-6">
               <Link
-                className="px-6 pb-2 text-neutral-200  hover:text-white"
+                className="px-6 pb-2 text-neutral-200  hover:text-neutral-10"
                 href="/dashboard"
               >
                 New

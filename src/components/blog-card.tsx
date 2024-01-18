@@ -18,9 +18,9 @@ export const BlogCard = ({ blog }: BlogCardProps) => {
         src={blog.image ?? undefined}
         alt={`${blog.title} website image`}
       />
-      <span className="absolute left-0 top-0 w-28 -translate-x-6 translate-y-4 -rotate-45 border bg-secondary-500/60 text-center text-sm text-white">
+      {/* <span className="absolute left-0 top-0 w-28 -translate-x-6 translate-y-4 -rotate-45 border bg-secondary-500/60 text-center text-sm text-white">
         New
-      </span>
+      </span> */}
       <div className="mt-4 px-5 pb-5 text-start">
         <h5 className="line-clamp-1 text-start text-xl font-semibold tracking-tight">
           {blog.title}
