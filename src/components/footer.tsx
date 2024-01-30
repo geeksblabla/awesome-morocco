@@ -8,6 +8,7 @@ export const Footer = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-10 pt-16 sm:px-20 xl:px-10">
         <div className="pb-4">
           <div className="mx-auto mb-6 flex h-10 items-center justify-center space-x-2 ">
+            {/* eslint-disable-next-line @typescript-eslint/no-unsafe-assignment */}
             <Image src={Logo} width={100} alt="awesome morocco logo" />
           </div>
           <div className=" mx-auto max-w-[360px]">
