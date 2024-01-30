@@ -32,13 +32,22 @@ const routes = [
 export const NavBar = () => {
   const pathname = usePathname();
   const ref = useRef<HTMLInputElement>(null);
+  const salRef = useRef<sal.API>();
 
   useEffect(() => {
-    sal();
+    if (salRef.current) {
+      salRef.current.update();
+    } else {
+      salRef.current = sal();
+    }
     if (ref.current?.checked) {
       ref.current.checked = false;
     }
   }, [pathname]);
+
+  useEffect(() => {
+    salRef.current = sal();
+  }, []);
 
   return (
     <header className="p-4 shadow">

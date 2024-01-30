@@ -13,7 +13,8 @@ export const ArticleCard = ({ article }: ArticleCardProps) => {
       href={articleUrl}
       target="_blank"
       className="relative mx-auto flex w-full max-w-xs cursor-pointer flex-col justify-between overflow-hidden rounded-xl border border-[rgba(203,60,172,0.30)] bg-[#110F1C] text-neutral-25 shadow-md transition-all hover:scale-105 hover:border-secondary-500/75"
-      data-sal="zoom-in"
+      data-sal="slide-up"
+      data-sal-duration="300"
     >
       <RemoteImage
         className="aspect-[16/9] w-full object-cover"

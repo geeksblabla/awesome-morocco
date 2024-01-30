@@ -84,7 +84,7 @@ export const Footer = () => {
 
             <a
               className=" hover:underline"
-              href="https://www.linkedin.com/company/geeksblabla/"
+              href="https://www.linkedin.com/company/geeksblabla-community/"
               target="_blank"
               rel="noreferrer"
             >
