@@ -33,8 +33,18 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 XATA_BRANCH=main
 XATA_API_KEY=
 
-## Github token to retirive github repos metadata
+## Github token to retrieve github repos metadata
 GITHUB_API_TOKEN=
+
+## Spotify token to retrieve spotify shows and  metadata
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
+```
+
+While creating your xata database, you can use the schema as follows:
+
+````
+xata init --schema=./src/schema.json --force
 ```
 
 Finally, run the development server:
@@ -42,3 +52,4 @@ Finally, run the development server:
 ```bash
 pnpm dev
 ```
+````

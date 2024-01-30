@@ -100,6 +100,16 @@ export const NavBar = () => {
               </li>
             ))}
             <li className="inline-flex md:mr-6">
+              <a
+                href="https://github.com/geeksblabla/awesome-morocco"
+                target="_blank"
+                className=" pb-2 font-[400] text-neutral-200  hover:text-neutral-10"
+              >
+                More
+              </a>
+            </li>
+
+            <li className="inline-flex md:mr-6">
               <Link
                 className="px-6 pb-2 text-neutral-200  hover:text-neutral-10"
                 href="/dashboard"
