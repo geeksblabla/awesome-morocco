@@ -12,6 +12,8 @@ export const env = createEnv({
     GITHUB_API_TOKEN: z.string(),
     SPOTIFY_CLIENT_ID: z.string(),
     SPOTIFY_CLIENT_SECRET: z.string(),
+    XATA_BRANCH: z.string(),
+    XATA_API_KEY: z.string(),
   },
 
   /**
@@ -42,6 +44,8 @@ export const env = createEnv({
     GITHUB_API_TOKEN: process.env.GITHUB_API_TOKEN,
     SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
     SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
+    XATA_BRANCH: process.env.XATA_BRANCH,
+    XATA_API_KEY: process.env.XATA_API_KEY,
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation.
