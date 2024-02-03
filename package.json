@@ -14,7 +14,7 @@
     "update-repos-metadata": "bun ./src/scripts/update-repos-metadata.ts"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.26.2",
+    "@clerk/nextjs": "^4.29.3",
     "@clerk/themes": "^1.7.9",
     "@extractus/feed-extractor": "^7.0.6",
     "@headlessui/react": "^1.7.17",
