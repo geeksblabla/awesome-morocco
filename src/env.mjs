@@ -8,7 +8,7 @@ export const env = createEnv({
    */
   server: {
     CLERK_SECRET_KEY: z.string(),
-    GITHUB_API_TOKEN: z.string(),
+    G_API_TOKEN: z.string(),
     SPOTIFY_CLIENT_ID: z.string(),
     SPOTIFY_CLIENT_SECRET: z.string(),
     XATA_BRANCH: z.string(),
@@ -39,7 +39,7 @@ export const env = createEnv({
       process.env.NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL,
     NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL:
       process.env.NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL,
-    GITHUB_API_TOKEN: process.env.GITHUB_API_TOKEN,
+    G_API_TOKEN: process.env.GITHUB_API_TOKEN,
     SPOTIFY_CLIENT_ID: process.env.SPOTIFY_CLIENT_ID,
     SPOTIFY_CLIENT_SECRET: process.env.SPOTIFY_CLIENT_SECRET,
     XATA_BRANCH: process.env.XATA_BRANCH,
