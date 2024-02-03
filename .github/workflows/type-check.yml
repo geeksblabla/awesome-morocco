@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
 
       - name: 📦 Setup bun + Install deps
-        uses: ./.github/actions/setup-node-pnpm-install
+        uses: ./.github/actions/setup-bun-and-install
 
       - name: 📦 Install Reviewdog
         if: github.event_name == 'pull_request'
