@@ -1,8 +1,9 @@
 #!/usr/bin/bun
 
 await import("../env.mjs");
-import { getXataClient } from "~/xata";
+import { type BlogsRecord, getXataClient } from "~/xata";
 import { extractRssFeed } from "~/utils/extract-rss-feed";
+import type { SelectedPick } from "@xata.io/client";
 
 /**
  * This script is used to fetch the RSS feed from blogs and update the article table in the database.
@@ -62,20 +63,10 @@ const addBulkArticles = async (articles: Article[]): Promise<number> => {
   }
 };
 
-const rssRefresher = async () => {
-  // only select blogs that have an rss feed and already validated by admin
-  // TODO: we should also check if last_rss_retrieved_at is older than 24h at least
-  const blog = await getXataClient()
-    .db.blogs.select(["rss", "title", "id"])
-    .filter({ draft: false, rss: { $contains: "http" } })
-    .sort("last_rss_retrieved_at", "asc")
-    .getFirst();
-
-  if (!blog) {
-    console.info("🚨 No blog found");
-    return;
-  }
-  console.log(`✅ Fetching RSS feed for ${blog.title} - ${blog.rss}`);
+const fetchRssFeed = async (
+  blog: SelectedPick<BlogsRecord, ("title" | "rss" | "id")[]>,
+) => {
+  console.log(`\n \n🚀 Fetching RSS feed for ${blog.title} - ${blog.rss} 🚀`);
   const feed = await extractRssFeed(blog.rss!);
 
   if (feed?.entries === undefined) {
@@ -115,6 +106,18 @@ const rssRefresher = async () => {
   } catch (error) {
     console.error("🚨 Error adding articles to the database", error);
     return;
+  }
+};
+
+const rssRefresher = async () => {
+  const blogs = await getXataClient()
+    .db.blogs.select(["rss", "title", "id"])
+    .filter({ draft: false, rss: { $contains: "http" } })
+    .sort("last_rss_retrieved_at", "asc")
+    .getMany();
+
+  for (const blog of blogs) {
+    await fetchRssFeed(blog);
   }
 };
 

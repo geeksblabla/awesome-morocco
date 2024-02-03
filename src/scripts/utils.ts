@@ -9,3 +9,6 @@ export const logResults = (operations: Operation[]) => {
     console.log(`${operation.isSuccess ? "✅" : "❌"} : ${operation.label}`);
   });
 };
+
+export const sleep = (ms: number) =>
+  new Promise((resolve) => setTimeout(resolve, ms));

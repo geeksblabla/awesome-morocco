@@ -1,0 +1,27 @@
+# ✍️ Description:
+# This action  will check the latest rss feed fetched  and check if there ara any new posts
+# Should be run on a schedule, e.g. every day at 1am and update the metadata for 10 repos at a time
+name: Refetch article
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  refetch-article:
+    name: Refetch article
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 📦 Setupbun + install deps
+        uses: ./.github/actions/setup-bun-and-install
+
+      - name: 🏃‍♂️ Refetch article from rss
+        run: bun run refetch-articles

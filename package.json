@@ -7,7 +7,11 @@
     "dev": "next dev",
     "lint": "SKIP_ENV_VALIDATION=1 next lint",
     "start": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "refetch-articles": "bun ./src/scripts/refetch-articles.ts",
+    "refetch-podcasts-episodes": "bun ./src/scripts/refetch-podcasts-episodes.ts",
+    "update-articles-metadata": "bun ./src/scripts/update-articles-metadata.ts",
+    "update-repos-metadata": "bun ./src/scripts/update-repos-metadata.ts"
   },
   "dependencies": {
     "@clerk/nextjs": "^4.26.2",

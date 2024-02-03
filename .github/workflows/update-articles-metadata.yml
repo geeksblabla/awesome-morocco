@@ -1,0 +1,27 @@
+# ✍️ Description:
+# This action is to add missed article metadata for fetched articles.
+# Should be run on a schedule, e.g. every day at 1am and update the metadata for 20 repos at a time
+name: Article Metadata Update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-articles-metadata:
+    name: Update Articles metadata
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 📦 Setupbun + install deps
+        uses: ./.github/actions/setup-bun-and-install
+
+      - name: 🏃‍♂️ Update Articles metadata
+        run: bun run update-articles-metadata

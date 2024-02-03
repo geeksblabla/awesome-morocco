@@ -8,7 +8,7 @@ import { type Operation, logResults } from "./utils";
 /**
  * This script will go throw articles with missed metadata and try to extract the metadata from the article url and update the article table in the database.
  */
-const MAX_ARTICLES_PER_EXECUTION = 5;
+const MAX_ARTICLES_PER_EXECUTION = 10;
 
 type Article = {
   id: string;

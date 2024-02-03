@@ -1,0 +1,27 @@
+# ✍️ Description:
+# This action is to update github repos with the latest metadata (stars, forks, etc) from the GitHub API.
+# Should be run on a schedule, e.g. every day at 1am and update the metadata for 10 repos at a time
+name: Repos Metadata Update
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-repos-metadata:
+    name: Repos Metadata Update
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 📦 Setupbun + install deps
+        uses: ./.github/actions/setup-bun-and-install
+
+      - name: 🏃‍♂️ Update Repos metadata
+        run: bun run update-repos-metadata

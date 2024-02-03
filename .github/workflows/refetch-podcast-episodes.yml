@@ -1,0 +1,26 @@
+# ✍️ Description:
+# This action  will check spotify API and check for the last podcasts episodes and add them to the database
+# Should be run on a schedule, e.g. every day at 1am and update the metadata for 10 repos at a time
+name: Refetch podcasts episodes (Spotify)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+jobs:
+  refetch-podcasts-episodes:
+    name: Refetch podcasts episodes
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 📦 Setupbun + install deps
+        uses: ./.github/actions/setup-bun-and-install
+
+      - name: 🏃‍♂️ Refetch podcasts episodes
+        run: bun run refetch-podcasts-episodes

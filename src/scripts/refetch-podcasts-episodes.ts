@@ -1,8 +1,14 @@
 #!/usr/bin/bun
 
 await import("../env.mjs");
+import type { SelectedPick } from "@xata.io/client";
 import { getShowEpisodes } from "~/utils/spotify";
-import { type EpisodesRecord, getXataClient } from "~/xata";
+import {
+  type EpisodesRecord,
+  getXataClient,
+  type PodcastsRecord,
+} from "~/xata";
+import { sleep } from "./utils";
 
 const MAX_EPISODE_PER_PODCAST = 20;
 type OPError = {
@@ -51,13 +57,9 @@ const addBulkEpisodes = async (episodes: EpisodesRecord[]): Promise<number> => {
   }
 };
 
-const podcastFetcher = async () => {
-  const podcast = await getXataClient()
-    .db.podcasts.select(["spotify_url", "id"])
-    .filter({ draft: false })
-    .sort("last_rss_retrieved_at", "asc")
-    .getFirst();
-
+const fetchPodcastEpisodes = async (
+  podcast: SelectedPick<PodcastsRecord, ("spotify_url" | "id")[]>,
+) => {
   if (!podcast || !podcast.spotify_url) {
     console.log("✅ No podcasts");
     return;
@@ -68,7 +70,7 @@ const podcastFetcher = async () => {
     return;
   }
   console.log(
-    `✅ Start refetching podcast episodes for ${podcast.spotify_url}`,
+    `\n\n🚀 Start refetching podcast episodes for ${podcast.spotify_url} 🚀`,
   );
   const data = await getShowEpisodes(showId);
   const episodes: Partial<EpisodesRecord>[] = data
@@ -101,6 +103,19 @@ const podcastFetcher = async () => {
   } catch (error) {
     console.error("🚨 Error adding episodes to the database", error);
     return;
+  }
+};
+
+const podcastFetcher = async () => {
+  const podcasts = await getXataClient()
+    .db.podcasts.select(["spotify_url", "id"])
+    .filter({ draft: false })
+    .sort("last_rss_retrieved_at", "asc")
+    .getMany();
+
+  for (const pod of podcasts) {
+    await fetchPodcastEpisodes(pod);
+    await sleep(3000); // Make sure to not exceed the rate limit for the spotify API
   }
 };
 
