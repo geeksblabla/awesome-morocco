@@ -1,0 +1,21 @@
+
+# ✍️ Description:
+# This is a composite action, which means it can be used in other actions.
+# It is used in almost all workflows to set up the environment and install dependencies.
+
+# 👀 Example usage:
+#       - name : 📦 Setup Bun + Install Dependencies
+#         uses: ./.github/actions/setup-bun-and-install
+
+name: 'Setup Bun + Install Dependencies'
+description: 'Setup Bun + Install Dependencies'
+runs:
+  using: 'composite'
+  steps:
+    - uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
+
+    - name: 📦 Install Project Dependencies
+      run: bun install --frozen-lockfile
+      shell: bash

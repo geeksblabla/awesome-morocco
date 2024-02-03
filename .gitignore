@@ -1,70 +1,42 @@
-*.gem
-*.rbc
-/.config
-/coverage/
-/InstalledFiles
-/pkg/
-/spec/reports/
-/spec/examples.txt
-/test/tmp/
-/test/version_tmp/
-/tmp/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Used by dotenv library to load environment variables.
-# .env
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Ignore Byebug command history file.
-.byebug_history
+# testing
+/coverage
 
-## Specific to RubyMotion:
-.dat*
-.repl_history
-build/
-*.bridgesupport
-build-iPhoneOS/
-build-iPhoneSimulator/
+# database
+/prisma/db.sqlite
+/prisma/db.sqlite-journal
 
-## Specific to RubyMotion (use of CocoaPods):
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# vendor/Pods/
+# next.js
+/.next/
+/out/
 
-## Documentation cache and generated files:
-/.yardoc/
-/_yardoc/
-/doc/
-/rdoc/
+# production
+/build
 
-## Environment normalization:
-/.bundle/
-/vendor/bundle
-/lib/bundler/man/
+# misc
+.DS_Store
+*.pem
 
-# for a library or gem, you might want to ignore these files since the code is
-# intended to run in multiple environments; otherwise, check them in:
-Gemfile.lock
-# .ruby-version
-# .ruby-gemset
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+# local env files
+# do not commit any .env files to git, except for the .env.example file. https://create.t3.gg/en/usage/env-variables#using-environment-variables
+.env
+.env*.local
 
-# Used by RuboCop. Remote config files pulled in from inherit_from directive.
-# .rubocop-https?--*
+# vercel
+.vercel
 
-.cache
-.jekyll-cache/
-.jekyll-metadata
-.sass-cache/
-.vendor/
-_site/
-assets/development.css
-build
-dist
-node_modules
-package-lock.json
-
-.next
+# typescript
+*.tsbuildinfo
+.xata

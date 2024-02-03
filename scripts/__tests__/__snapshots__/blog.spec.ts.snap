@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Blog posts generation from rss feeds  reporting should return the correct message 1`] = `
-"
-✅ 30 blog posts has been collected from 4 RSS feeds
-❌ Error message 1
-❌ Error message 2
-      "
-`;

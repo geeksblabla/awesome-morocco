@@ -1,10 +1,55 @@
-# 🧐 Want to contribute ?
+# Awesome Morocco 🇲🇦 Project
 
-If you have something awesome to contribute to awesome morocco list, this is how you do it.
+This Project is a full-stack application based on Next.js to create a platform for the Moroccan community to share their awesome projects (Open Source, Blogs, etc.).
 
-You'll need a GitHub account!
+The app is built with:
 
-1. Access the awesome-morocco list GitHub page: <https://github.com/geeksblabla/awesome-morocco>
-2. Click on the readme.md file and click the edit icon.
-3. You can start editing the text of the file in the in-browser editor. Make sure your awesome thing is in the right section.
-4. submit a PR.
+- [Next.js](https://nextjs.org)
+- [Clerk](https://clerk.com) (Authentication)
+- [xata](https://xata.io) (Database)
+- [Tailwind CSS](https://tailwindcss.com) (Styling)
+
+## Getting Started
+
+To get started, you need first to fork and clone the project to your local machine. Then, install the dependencies:
+
+```bash
+pnpm install
+```
+
+Make sure to create a free account on [Clerk](https://clerk.com) and [xata](https://xata.io) to get your API keys.
+
+Then, you need to create a `.env.local` file and add the following environment variables:
+
+```bash
+## Clerk Configuration
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+
+# [Xata] Configuration used by the CLI and the SDK
+# Make sure your framework/tooling loads this file on startup to have it available for the SDK
+XATA_BRANCH=main
+XATA_API_KEY=
+
+## Github token to retrieve github repos metadata
+GITHUB_API_TOKEN=
+
+## Spotify token to retrieve spotify shows and  metadata
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
+```
+
+While creating your xata database, you can use the schema as follows:
+
+````
+xata init --schema=./src/schema.json --force
+```
+
+Finally, run the development server:
+
+```bash
+pnpm dev
+```
+````

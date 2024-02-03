@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Youssouf-EL-AZIZI-s-workspace-28d54f.eu-west-1.xata.sh/db/aw-morocco",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
