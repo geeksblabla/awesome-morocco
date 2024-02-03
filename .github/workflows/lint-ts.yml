@@ -1,0 +1,28 @@
+# ✍️ Description:
+# This action is used to run eslint checks
+# Runs on pull requests and pushes to  the main/master branches
+
+name: Lint TS (eslint, prettier)
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  lint:
+    name: Lint TS (eslint, prettier)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📦 Checkout project repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 📦 Setupbun + install deps
+        uses: ./.github/actions/setup-bun-and-install
+
+      - name: 🏃‍♂️ Run ESLint PR
+        run: bun run lint
