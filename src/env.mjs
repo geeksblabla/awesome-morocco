@@ -1,26 +1,6 @@
 import { createEnv } from "@t3-oss/env-nextjs";
 import { z } from "zod";
 
-console.log("CLERK_SECRET_KEY", process.env.CLERK_SECRET_KEY);
-console.log("G_API_TOKEN", process.env.G_API_TOKEN);
-console.log("SPOTIFY_CLIENT_ID", process.env.SPOTIFY_CLIENT_ID);
-console.log("SPOTIFY_CLIENT_SECRET", process.env.SPOTIFY_CLIENT_SECRET);
-console.log("XATA_BRANCH", process.env.XATA_BRANCH);
-console.log("XATA_API_KEY", process.env.XATA_API_KEY);
-console.log(
-  "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
-  process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
-);
-console.log(
-  "NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL",
-  process.env.NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL,
-);
-console.log(
-  "NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL",
-  process.env.NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL,
-);
-console.log("NON_ENV", process.env.NON_ENV);
-
 export const env = createEnv({
   /**
    * Specify your server-side environment variables schema here. This way you can ensure the app
