@@ -41,7 +41,7 @@ export const Footer = () => {
               <li>
                 <a
                   className="hover:underline"
-                  href="https://github.com/DevC-Casa/awesome-morocco"
+                  href="https://github.com/geeksblabla//awesome-morocco"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -169,7 +169,7 @@ export const Footer = () => {
 
             <a
               className=" hover:underline"
-              href="https://github.com/devc-casa"
+              href="https://github.com/geeksblabla/"
               target="_blank"
               rel="noreferrer"
             >
