@@ -81,6 +81,7 @@ New List: https://awesome-morocco.dev/blogs
   - [Gemography](https://dev.to/gemography)
   - [Remote.ma](https://remote.ma/)
   - [Nimble Ways](https://blog.nimbleways.com/)
+  - [Bixat.dev](https://bixat.dev/)
 
 - Developers
 
