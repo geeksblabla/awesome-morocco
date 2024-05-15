@@ -199,6 +199,7 @@ New List: https://awesome-morocco.dev/open-source
 - [TxtAnime.js](https://github.com/mohamedfrindi/TxtAnime.js) [![Stars](https://img.shields.io/github/stars/mohamedfrindi/TxtAnime.js.svg?style=social)](https://github.com/mohamedfrindi/TxtAnime.js) It is a JavaScript library, which contains many beautiful and free text effects. by [@mohamedfrindi](https://github.com/mohamedfrindi)
 - [Cmi-node.js](https://github.com/aitmiloud/cmi-node) [![Stars](https://img.shields.io/github/stars/aitmiloud/cmi-node.svg?style=social)](https://github.com/aitmiloud/cmi-node) Npm package to communicate with the CMI payment plateform in Morocco. by [@aitmiloud](https://github.com/aitmiloud)
 - [Nixify](https://github.com/FxOmar/Nixify) [![Stars](https://img.shields.io/github/stars/FxOmar/nixify.svg?style=social)](https://github.com/FxOmar/Nixify) 🌴 A tiny human-friendly JavaScript HTTP client library based on the browser with no dependencies. by [@FxOmar](https://github.com/FxOmar)
+- [Ziko.js](https://github.com/zakarialaoui10/ziko.js) [![Stars](https://img.shields.io/github/stars/aitmiloud/cmi-node.svg?style=social)](https://github.com/zakarialaoui10/ziko.js) A versatile JavaScript library offering a rich set of UI components, advanced mathematical utilities,Reactivity,animations,client side routing and graphics capabilities. by [@zakarialaoui10](https://github.com/zakarialaoui10) 
 
 #### Java
 
