@@ -10,7 +10,7 @@ export default function RootLayout({
     <>
       <PageBanner
         title="Open Source"
-        description="Explore latest open source projects from Morocco Developers and Get started with your first contribution"
+        description="Explore latest open source projects from Moroccan Developers and Get started with your first contribution"
       />
       <TabsList
         routes={[
