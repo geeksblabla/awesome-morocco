@@ -93,8 +93,7 @@ async function PostsList() {
         Latest Articles
       </h2>
       <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
-        Latest articles from Moroccan Developers collected from all over the
-        internet
+        Latest articles written by Moroccans in tech, collected from all over the Internet
       </p>
       <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
         {articles.map((article) => {

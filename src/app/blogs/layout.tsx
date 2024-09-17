@@ -11,7 +11,7 @@ export default function RootLayout({
     <>
       <PageBanner
         title="Blogs"
-        description="Explore blogs from Moroccan Developers and Get the latest blog posts in one place"
+        description="Explore latest blog posts from Moroccan developers, all in one place."
         image={blogSrc}
       />
       <TabsList
