@@ -64,7 +64,7 @@ async function OpenSourceList() {
         Open Source Projects
       </h2>
       <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
-        Explore latest open source projects from Morocco Developers and Get
+        Explore latest open source projects from Moroccan Developers and Get
         started with your first contribution
       </p>
       <div className="grid gap-3 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-4">
@@ -93,8 +93,7 @@ async function PostsList() {
         Latest Articles
       </h2>
       <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
-        Latest articles from Morocco Developers collected from all over the
-        internet
+        Latest articles written by Moroccans in tech, collected from all over the Internet
       </p>
       <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-8">
         {articles.map((article) => {
@@ -119,7 +118,7 @@ async function PodcastList() {
         Last Episodes
       </h2>
       <p className="my-2 mb-10 max-w-md text-left text-base text-gray-400">
-        Listen to latest episodes from Morocco Developers Podcasts
+        Listen to latest episodes from Moroccan Developers Podcasts
       </p>
       <div className="grid gap-4 sm:grid-cols-1 sm:gap-8 md:grid-cols-2  ">
         {episodes.map((episode) => (
