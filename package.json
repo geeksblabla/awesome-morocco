@@ -14,13 +14,13 @@
     "update-repos-metadata": "bun ./src/scripts/update-repos-metadata.ts"
   },
   "dependencies": {
-    "@clerk/nextjs": "^4.29.3",
+    "@clerk/nextjs": "^6.9.3",
     "@clerk/themes": "^1.7.9",
     "@extractus/feed-extractor": "^7.0.6",
     "@headlessui/react": "^1.7.17",
     "@t3-oss/env-nextjs": "^0.7.0",
     "@xata.io/client": "^0.26.9",
-    "next": "14.0.1",
+    "next": "^14.2.20",
     "octokit": "^3.1.1",
     "open-graph-scraper": "^6.3.2",
     "react": "^18",
