@@ -48,7 +48,7 @@ const updateReposMetadata = async () => {
   // select repo with oldest metadata
   const repos = await getXataClient()
     .db.os_repositories.select(["url", "id"])
-    .sort("xata.updatedAt", "desc")
+    .sort("xata.updatedAt", "asc")
     .getPaginated({
       pagination: { size: MAX_REPO_PER_EXECUTION },
     });
