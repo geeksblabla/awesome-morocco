@@ -323,8 +323,7 @@ New List: https://awesome-morocco.dev/open-source
 - [CNCG Casablanca](https://www.youtube.com/channel/UC6HawQwd4jthXt1orvMIscg) - Cloud, Tech, Kubernetes, Dev-Ops...
 - [Mouradouchane](https://www.youtube.com/c/undefinedprogramming/videos) - Javascript, HTML, CSS...
 - [OURABIG](https://www.youtube.com/@ourabig/videos) - Gamedev, C++, C#, Rust, Tools, Linux...
-  
-
+ 
 ---
 
 ### Books
