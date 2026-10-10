@@ -254,6 +254,7 @@ New List: https://awesome-morocco.dev/open-source
 - [FRDP](https://github.com/BnademOverflow/FRDP) [![Stars](https://img.shields.io/github/stars/BnademOverflow/FRDP.svg?style=social)](https://github.com/BnademOverflow/FRDP/stargazers) - Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin by [@yezz123](https://github.com/yezz123)
 - [Apollo](https://github.com/yezz123/Apollo) [![Stars](https://img.shields.io/github/stars/yezz123/Apollo.svg?style=social)](https://github.com/yezz123/Apollo/stargazers) - A basic Application with multiple functionalities built with FastAPI aim to help Users Buy New Items Provided using PaypalAPI by [@yezz123](https://github.com/yezz123)
 - [Cyberowl](https://github.com/karimhabush/cyberowl) [![Stars](https://img.shields.io/github/stars/karimhabush/cyberowl.svg?style=social)](https://github.com/karimhabush/cyberowl/stargazers) - A daily updated summary of security incidents being reported from different sources by [@karimhabush](https://github.com/karimhabush)
+- [maroc-public-data](https://github.com/wadifainfo/maroc-public-data) [![Stars](https://img.shields.io/github/stars/wadifainfo/maroc-public-data.svg?style=social)](https://github.com/wadifainfo/maroc-public-data/stargazers) - Moroccan public holidays (Islamic dates flagged until confirmed), school breaks, open civil-service concours and salaries by grade, in Python and JS. No API key. By [@wadifainfo](https://github.com/wadifainfo)
 
 #### Go
 
